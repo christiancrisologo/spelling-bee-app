@@ -50,7 +50,6 @@ const wrongResponse = [
 
 const SpellingBee = (props: SpellingBeeProps) => {
   const { words, playerName } = props;
-  const router = useRouter();
   const [speech, setSpeech] = useState<SpeechSynthType | undefined>();
   const [userInput, setUserInput] = useState('');
   const [gameWords, setGameWords] = useState<WordType[]>(words);
