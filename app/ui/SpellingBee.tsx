@@ -11,10 +11,11 @@ import Spinner from './Spinner';
 export type SpellingBeeProps = {
   words: any[]
   playerName: string
+  enableTimer: boolean
 }
 
 type OptButtonType = {
-  onClick: () => void,
+  onClick: () => void
   children: ReactNode
 }
 
@@ -49,7 +50,7 @@ const wrongResponse = [
 ];
 
 const SpellingBee = (props: SpellingBeeProps) => {
-  const { words, playerName } = props;
+  const { words, playerName, enableTimer } = props;
   const [speech, setSpeech] = useState<SpeechSynthType | undefined>();
   const [userInput, setUserInput] = useState('');
   const [gameWords, setGameWords] = useState<WordType[]>(words);
@@ -60,7 +61,9 @@ const SpellingBee = (props: SpellingBeeProps) => {
   const [timeLeft, setTimeLeft] = useState(10); // Adjust timer duration here
   const [gameOver, setGameOver] = useState(false);
   const [gameStatus, setGameStatus] = useState('start');
+  const [restartTimer, setRestartTimer] = useState(false);
 
+  
   useEffect( ()=> {
     if (typeof window !== undefined && !speech) {
         window.speechSynthesis.onvoiceschanged = function() {
@@ -103,28 +106,29 @@ const SpellingBee = (props: SpellingBeeProps) => {
       speakWord(wrongResponse[pickedWrongResponse]);
     }
   };
+  
 
   const nextWord = () => {
     setUserInput('');
     setTimeout(() => {
       createNewWord();
       setGameStatus('playing');
+      setRestartTimer(true);
     },1000);
+
   }
 
   const skipWord = () => {
     setGameStatus('skip-word');
     setSkippeddWords(skippedWords+1);
+    setRestartTimer(false);
     setTimeout(() => {
       nextWord();
     },3000)
   }
 
   const gameStart = () => {
-    setTimeout(() => {
-      createNewWord();
-    },1000);
-    setGameStatus('playing');
+    nextWord();
   }
 
 
@@ -141,17 +145,24 @@ const SpellingBee = (props: SpellingBeeProps) => {
     window.location.reload();
   }
 
-  // TODO: create a ready state
-  const isReady =  words.length && !!speech; 
- 
-  // TODO: 
-  // - componetize every section
-  // - handles next, start, submit, score, timer
+  const onTimerOver = () => {
+    setGameStatus('timeout');
+    setTimeout(() => {
+      setRestartTimer(false);
+      nextWord();
+    },1000);
+  }
 
+  const isReady =  words.length && !!speech; 
   const wordToSpeak = currentWord?.word;
 
   return (<div className="flex flex-col h-screen bg-gray-200 w-11/12">
-    <TopBar score={score} timeLeft={timeLeft} playerName={playerName} />
+    <TopBar
+      score={score}
+      playerName={playerName}
+      onTimerOver={onTimerOver}
+      restartTimer={restartTimer}
+      enableTimer={enableTimer}/>
 
     {
       !isReady && (<Spinner />)
@@ -181,8 +192,14 @@ const SpellingBee = (props: SpellingBeeProps) => {
                 Skip the word
             </button>)
           }
+
+          { gameStatus === 'timeout' && (<div
+              className="px-5 py-2 rounded-xl text-4xl font-bold text-center">
+                TimeOut!
+            </div>)
+          }
           {
-            gameStatus === 'skip-word' && (<div
+            (gameStatus === 'skip-word' || gameStatus === 'timeout') && (<div
               className=" px-5 py-3 rounded-xl text-2xl font-bold text-center">
                 The correct answer is <span className='text-red-500'>{currentWord?.word}</span>
             </div>)
@@ -228,6 +245,7 @@ const SpellingBee = (props: SpellingBeeProps) => {
                   </div>
                 </div>)
             }
+
         </div>
       </div>)
     }

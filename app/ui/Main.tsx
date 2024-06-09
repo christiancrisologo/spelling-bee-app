@@ -12,9 +12,11 @@ export default function Main(props: MainProps) {
   const { words } = props;
   const [playerName, setPlayerName] = useState('Chloe');
   const [gameStatus, setGameStatus] = useState('start');
+  const [enableTimer, setEnableTimer] = useState(true);
   
-  const onStart = (userInputName: string) => {
-    setPlayerName(userInputName);
+  const onStart = (userSettings: any) => {
+    setPlayerName(userSettings.userInputName);
+    setEnableTimer(userSettings.enableTimer);
     setGameStatus('game');
   }
 
@@ -26,7 +28,7 @@ export default function Main(props: MainProps) {
         gameStatus === 'start' && (<StartScreen onSubmit={onStart} isReady={isReady} />)
       }
       {
-        gameStatus === 'game' && (<SpellingBee words={words} playerName={playerName} />)
+        gameStatus === 'game' && (<SpellingBee words={words} enableTimer={enableTimer} playerName={playerName} />)
       }
     </div>
   );
