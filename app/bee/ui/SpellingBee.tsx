@@ -58,7 +58,7 @@ const wrongResponses = [
   "Hmmm... I dont think that's right"
 ];
 
-const SpellingBee = (props: SpellingBeeProps) => {
+const SpellingBeeComponent = (props: SpellingBeeProps) => {
   const { words } = props;
   const searchParams = useSearchParams()!;
   console.log(searchParams);
@@ -335,4 +335,8 @@ const SpellingBee = (props: SpellingBeeProps) => {
   </Suspense>);
 };
 
-export default SpellingBee;
+export default function SpellingBee (props:SpellingBeeProps) {
+  const { words } = props;
+
+  return <Suspense><SpellingBeeComponent  words={words}/></Suspense>
+};
