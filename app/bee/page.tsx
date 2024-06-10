@@ -15,6 +15,12 @@ export default function Page () {
         {
             isReady && <SpellingBee words={data as WordType[]} />
         }
+        data::
+        {
+            data.length && data.map((d,index)=> {
+                return <span key={index}>{JSON.stringify(d)}</span>
+            })
+        }
   
   </div>
   );
