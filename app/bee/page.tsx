@@ -7,7 +7,7 @@ import { Word  as WordType } from '../lib/definitions';
 export default function Page () {
 
     const isReady =  data?.length;
-
+    console.log('__DEBUG__: data:: ',data.length, data);
     return (<div className="flex flex-col h-screen bg-gray-200 w-full">
         {
         !isReady && (<Spinner />)
