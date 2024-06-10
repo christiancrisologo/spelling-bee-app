@@ -12,6 +12,7 @@ export type SpellingBeeProps = {
   words: any[]
   playerName: string
   enableTimer: boolean
+  totalWords: number
 }
 
 type OptButtonType = {
@@ -31,7 +32,14 @@ const OptButton = (props: OptButtonType) => {
   )
 }
 
-const correctResponse = [
+const timerOutResponses = [
+  "Sorry time is over!",
+  "Too slow, time is out",
+  "Time out",
+  "You have ran out of time"
+];
+
+const correctResponses = [
   "You are definitely Correct!",
   "Awesome! to the next one.",
   "That's correct",
@@ -40,7 +48,7 @@ const correctResponse = [
   "Correct, No way you will get that wrong"
 ];
 
-const wrongResponse = [
+const wrongResponses = [
   "Oops not this time. Try again",
   "That's incorrect",
   "No luck, try again",
@@ -50,7 +58,7 @@ const wrongResponse = [
 ];
 
 const SpellingBee = (props: SpellingBeeProps) => {
-  const { words, playerName, enableTimer } = props;
+  const { words, playerName, enableTimer, totalWords } = props;
   const [speech, setSpeech] = useState<SpeechSynthType | undefined>();
   const [userInput, setUserInput] = useState('');
   const [gameWords, setGameWords] = useState<WordType[]>(words);
@@ -58,11 +66,8 @@ const SpellingBee = (props: SpellingBeeProps) => {
   const [score, setScore] = useState(0);
   const [completedWords, setCompletedWords] = useState(0);
   const [skippedWords, setSkippeddWords] = useState(0);
-  const [timeLeft, setTimeLeft] = useState(10); // Adjust timer duration here
-  const [gameOver, setGameOver] = useState(false);
   const [gameStatus, setGameStatus] = useState('start');
   const [restartTimer, setRestartTimer] = useState(false);
-
   
   useEffect( ()=> {
     if (typeof window !== undefined && !speech) {
@@ -77,6 +82,11 @@ const SpellingBee = (props: SpellingBeeProps) => {
     speech?.speak(wordToSpeak, { pitch: 1.5, rate: 0.8});
   };
 
+  const speakRandomResponse = (responses: string[]) => {
+    const pickedResponse = getRandomInt(0, responses.length);
+    speakWord(responses[pickedResponse]);
+  }
+
   const createNewWord = () => {
     const newWord = getRandomItem(gameWords);
     setCurrentWord(newWord);
@@ -89,8 +99,7 @@ const SpellingBee = (props: SpellingBeeProps) => {
 
   const answerIsCorrect = () => {
     setGameStatus('answer-correct');
-    const pickedCorrectResponse = getRandomInt(0, correctResponse.length);
-    speakWord(correctResponse[pickedCorrectResponse]);
+    speakRandomResponse(correctResponses);
     setScore(score+10);
     setCompletedWords(completedWords+1);
     setTimeout(() => {
@@ -102,8 +111,7 @@ const SpellingBee = (props: SpellingBeeProps) => {
     if (userInput.trim().toLowerCase() === currentWord?.word!.toLowerCase()) {
       answerIsCorrect();
     } else {
-      const pickedWrongResponse = getRandomInt(0, wrongResponse.length);
-      speakWord(wrongResponse[pickedWrongResponse]);
+      speakRandomResponse(wrongResponses);
     }
   };
   
@@ -138,7 +146,7 @@ const SpellingBee = (props: SpellingBeeProps) => {
       "It start with the letter " + currentWord?.word[0],
       "It end with the letter " + currentWord?.word[currentWord?.word.length - 1],
     ];
-    speakWord(hints[getRandomInt(0, hints.length)]);
+    speakRandomResponse(hints);
   }
 
   const onQuit = () => {
@@ -147,6 +155,8 @@ const SpellingBee = (props: SpellingBeeProps) => {
 
   const onTimerOver = () => {
     setGameStatus('timeout');
+    setSkippeddWords(skippedWords+1);
+    speakRandomResponse(timerOutResponses);
     setTimeout(() => {
       setRestartTimer(false);
       nextWord();
@@ -250,7 +260,11 @@ const SpellingBee = (props: SpellingBeeProps) => {
       </div>)
     }
     
-    <BottomBar  skippedWords={skippedWords} completedWords={completedWords} onQuit={onQuit} />
+    <BottomBar
+      skippedWords={skippedWords}
+      completedWords={completedWords}
+      totalWords={totalWords}
+      onQuit={onQuit} />
   
   </div>
   );

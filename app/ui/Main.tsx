@@ -1,6 +1,6 @@
 "use client"
 
-import StartScreen from "./StartScreen";
+import StartScreen, { UserSettings } from "./StartScreen";
 import { useState } from "react";
 import SpellingBee from './SpellingBee';
 
@@ -13,10 +13,12 @@ export default function Main(props: MainProps) {
   const [playerName, setPlayerName] = useState('Chloe');
   const [gameStatus, setGameStatus] = useState('start');
   const [enableTimer, setEnableTimer] = useState(true);
+  const [totalWords, setTotalWords] = useState(20);
   
-  const onStart = (userSettings: any) => {
-    setPlayerName(userSettings.userInputName);
+  const onStart = (userSettings: UserSettings) => {
+    setPlayerName(userSettings.playerName);
     setEnableTimer(userSettings.enableTimer);
+    setTotalWords(userSettings.totalWords);
     setGameStatus('game');
   }
 
@@ -28,7 +30,12 @@ export default function Main(props: MainProps) {
         gameStatus === 'start' && (<StartScreen onSubmit={onStart} isReady={isReady} />)
       }
       {
-        gameStatus === 'game' && (<SpellingBee words={words} enableTimer={enableTimer} playerName={playerName} />)
+        gameStatus === 'game' && (<SpellingBee
+                words={words}
+                enableTimer={enableTimer}
+                playerName={playerName}
+                totalWords={totalWords}
+            />)
       }
     </div>
   );
