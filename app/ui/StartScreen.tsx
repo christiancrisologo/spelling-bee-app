@@ -1,6 +1,6 @@
 "use client"
 
-import React, {useCallback, useState } from 'react';
+import React, {useCallback, useState, Suspense } from 'react';
 import { useRouter, useSearchParams } from 'next/navigation';
 import Image from 'next/image';
 // import Spinner from './Spinner';
@@ -33,7 +33,8 @@ const StartScreen = () => {
     [enableTimer, playerName, router, searchParams, totalSeconds, totalWords],
   );
 
-  return (<div className="flex flex-col justify-center"> 
+  return (<Suspense>
+  <div className="flex flex-col justify-center"> 
       <div className="flex mt-8 justify-center flex-col md:flex-row mx-6 md:mx-4">
         <input type="text" name="word-input" id="word-input" 
           className="bg-white p-4 rounded-xl text-2xl font-bold md:me-2" 
@@ -87,7 +88,8 @@ const StartScreen = () => {
           </div>
         </div>
       </div>
-  </div>);
+  </div>
+  </Suspense>);
 };
 
 export default StartScreen;

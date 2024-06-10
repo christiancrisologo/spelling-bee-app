@@ -1,6 +1,6 @@
 "use client"
 
-import React, { ReactNode, useEffect, useState } from 'react';
+import React, { ReactNode, useEffect, useState, Suspense } from 'react';
 import { Word  as WordType } from '../../lib/definitions';
 import TopBar from './TopBar';
 import { SpeechSynthType, getSpeechSynth } from '../../lib/SpeechSynth';
@@ -201,7 +201,8 @@ const SpellingBee = (props: SpellingBeeProps) => {
   const wordToSpeak = currentWord?.word;
 
 
-  return (<div className="flex flex-col h-screen bg-gray-200 w-full">
+  return (<Suspense>
+  <div className="flex flex-col h-screen bg-gray-200 w-full">
     <TopBar
       score={score}
       playerName={playerName}
@@ -331,7 +332,7 @@ const SpellingBee = (props: SpellingBeeProps) => {
       onQuit={onQuit} />
   
   </div>
-  );
+  </Suspense>);
 };
 
 export default SpellingBee;
