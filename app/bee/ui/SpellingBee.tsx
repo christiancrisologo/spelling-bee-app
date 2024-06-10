@@ -1,18 +1,19 @@
 "use client"
 
 import React, { ReactNode, useEffect, useState } from 'react';
-import { Word  as WordType } from '../lib/definitions';
+import { Word  as WordType } from '../../lib/definitions';
 import TopBar from './TopBar';
-import { SpeechSynthType, getSpeechSynth } from '../lib/SpeechSynth';
-import { getRandomItem, getRandomInt } from '../lib/utils';
+import { SpeechSynthType, getSpeechSynth } from '../../lib/SpeechSynth';
+import { getRandomItem, getRandomInt } from '../../lib/utils';
 import BottomBar from './BottomBar';
-import Spinner from './Spinner';
+import Spinner from '../../ui/Spinner';
+import { useSearchParams } from 'next/navigation';
 
 export type SpellingBeeProps = {
-  words: any[]
-  playerName: string
-  enableTimer: boolean
-  totalWords: number
+  words: WordType[]
+  // playerName: string
+  // enableTimer: boolean
+  // totalWords: number
 }
 
 type OptButtonType = {
@@ -58,17 +59,26 @@ const wrongResponses = [
 ];
 
 const SpellingBee = (props: SpellingBeeProps) => {
-  const { words, playerName, enableTimer, totalWords } = props;
+  const { words } = props;
+  const searchParams = useSearchParams()!;
+  console.log(searchParams);
   const [speech, setSpeech] = useState<SpeechSynthType | undefined>();
-  const [userInput, setUserInput] = useState('');
+  const [userAnswerInput, setUserAnswerInput] = useState('');
   const [gameWords, setGameWords] = useState<WordType[]>(words);
   const [currentWord, setCurrentWord] = useState<WordType>();
   const [score, setScore] = useState(0);
-  const [completedWords, setCompletedWords] = useState(0);
+  const [roundCount, setRoundCount] = useState(0);
+  const [correctWords, setCorrectWords] = useState(0);
   const [skippedWords, setSkippeddWords] = useState(0);
   const [gameStatus, setGameStatus] = useState('start');
   const [restartTimer, setRestartTimer] = useState(false);
-  
+
+  // params
+  const playerName = searchParams.get('playerName') || 'no-name';
+  const enableTimer = !!searchParams.get('enableTimer') || false;
+  const totalWords = parseInt(searchParams.get('totalWords')!) || 10;
+  const totalSeconds = parseInt(searchParams.get('totalSeconds')!) || 60;
+
   useEffect( ()=> {
     if (typeof window !== undefined && !speech) {
         window.speechSynthesis.onvoiceschanged = function() {
@@ -101,28 +111,35 @@ const SpellingBee = (props: SpellingBeeProps) => {
     setGameStatus('answer-correct');
     speakRandomResponse(correctResponses);
     setScore(score+10);
-    setCompletedWords(completedWords+1);
+    setCorrectWords(correctWords+1);
     setTimeout(() => {
       nextWord();
     }, 2000)   
   }
 
   const checkSpelling = () => {
-    if (userInput.trim().toLowerCase() === currentWord?.word!.toLowerCase()) {
+    if (userAnswerInput.trim().toLowerCase() === currentWord?.word!.toLowerCase()) {
       answerIsCorrect();
     } else {
       speakRandomResponse(wrongResponses);
     }
   };
   
+  const validateIsGameOver = () => {
+    if (roundCount >= totalWords) { 
+      return true;
+    }
+    return false;
+  }
 
   const nextWord = () => {
-    setUserInput('');
+    setUserAnswerInput('');
     setTimeout(() => {
       createNewWord();
       setGameStatus('playing');
       setRestartTimer(true);
-    },1000);
+      setRoundCount(roundCount+1);
+    }, 1000);
 
   }
 
@@ -131,14 +148,17 @@ const SpellingBee = (props: SpellingBeeProps) => {
     setSkippeddWords(skippedWords+1);
     setRestartTimer(false);
     setTimeout(() => {
-      nextWord();
+      if (validateIsGameOver()) {
+        setGameStatus('game-over');
+      } else {
+        nextWord();
+      }
     },3000)
   }
 
   const gameStart = () => {
     nextWord();
   }
-
 
   const hint = () => {
     const hints = [
@@ -150,7 +170,7 @@ const SpellingBee = (props: SpellingBeeProps) => {
   }
 
   const onQuit = () => {
-    window.location.reload();
+    window.location.href = '/';
   }
 
   const onTimerOver = () => {
@@ -159,20 +179,37 @@ const SpellingBee = (props: SpellingBeeProps) => {
     speakRandomResponse(timerOutResponses);
     setTimeout(() => {
       setRestartTimer(false);
-      nextWord();
+      if (validateIsGameOver()) {
+        setGameStatus('game-over');
+      } else {
+        nextWord();
+      }
     },1000);
   }
+
+  const onWordSubmit = () => {
+    checkSpelling();
+  }
+
+  const handleKeyDown = (event: any) => {
+    if (event.keyCode === 13) {
+      onWordSubmit();
+    }
+  };
 
   const isReady =  words.length && !!speech; 
   const wordToSpeak = currentWord?.word;
 
-  return (<div className="flex flex-col h-screen bg-gray-200 w-11/12">
+
+  return (<div className="flex flex-col h-screen bg-gray-200 w-full">
     <TopBar
       score={score}
       playerName={playerName}
       onTimerOver={onTimerOver}
       restartTimer={restartTimer}
-      enableTimer={enableTimer}/>
+      enableTimer={enableTimer}
+      totalSeconds={totalSeconds}
+    />
 
     {
       !isReady && (<Spinner />)
@@ -180,12 +217,12 @@ const SpellingBee = (props: SpellingBeeProps) => {
 
     {
      isReady && (
-      <div className="p-4 w-full mt-10">
+      <div className="p-4 w-11/12 mt-10 self-center">
         <div className="flex flex-col justify-center">
           {
             gameStatus === 'start' && (<div className='flex justify-center flex-col'>
               <button
-                className="bg-white px-5 py-3 rounded-xl text-2xl font-bold" 
+                className="mt-1 p-4 bg-blue-500 text-white hover:bg-blue-700 focus:outline-none text-2xl font-bold rounded-xl disabled:bg-gray-400"
                 onClick={() => {
                   gameStart();
                 }}>
@@ -195,7 +232,7 @@ const SpellingBee = (props: SpellingBeeProps) => {
           }
           {
             gameStatus === 'playing' && (<button
-              className="bg-gray-100 p-4 mb-4 rounded-xl text-xl font-bold hover:bg-orange-200 border" 
+              className="bg-orange-100 p-4 mb-4 rounded-xl text-xl font-bold hover:bg-orange-200 border" 
               onClick={() => {
                 skipWord();
               }}>
@@ -229,13 +266,15 @@ const SpellingBee = (props: SpellingBeeProps) => {
                       <input  type="text" name="word-input" id="word-input" 
                         className="bg-white p-4 rounded-xl text-2xl font-bold" 
                         placeholder="Spell the word here!"
-                        value={userInput}
-                        onChange={(e) => setUserInput(e.target.value)}
+                        value={userAnswerInput}
+                        onChange={(e) => setUserAnswerInput(e.target.value)}
+                        onKeyDown={handleKeyDown}
                         disabled={!currentWord?.word} />
                       <button
-                        className="mt-1 p-4 bg-blue-500 text-white hover:bg-blue-700 focus:outline-none text-2xl font-bold rounded-xl"
-                        onClick={()=> checkSpelling()}
-                        disabled={!userInput.length}
+                        className="mt-1 p-4 bg-blue-500 text-white hover:bg-blue-700 focus:outline-none text-2xl font-bold rounded-xl disabled:bg-gray-400"
+                        onClick={onWordSubmit}
+                        disabled={!userAnswerInput.length}
+                        onKeyDown={handleKeyDown}
                         >
                           Submit
                       </button>
@@ -256,13 +295,38 @@ const SpellingBee = (props: SpellingBeeProps) => {
                 </div>)
             }
 
+            {
+              gameStatus === "game-over" && (
+                <div className="md:w-1/2 self-center mt-2">
+                    <h1 className="text-center mb-8 text-4xl font-extrabold">
+                      Good Job <span className="text-orange-700">{playerName} </span>!
+                    </h1>
+                    <div className="mt-4 bg-slate-100 border-gray-400 rounded-xl p-4 border-4 shadow-sm ">
+                      <h2 className="text-blue-500 text-center text-2xl font-extrabold">Your Spelling Bee Result</h2>
+                      <div className="flex-col mt-4">
+                        <div className="p-2 flex flex-row">
+                          <span className="text-gray-700 flex py-1 me-2 w-40">Total scores </span>
+                          <div className="py-1 px-2 rounded text-white bg-slate-400 font-semibold">{score}</div>
+                        </div>
+                        <div className="p-2 flex flex-row">
+                            <span className="text-gray-700 flex py-1 me-2 w-40">Wrong answers </span>
+                            <div className="py-1 px-2 rounded text-white bg-slate-400 font-semibold">{skippedWords}</div>
+                        </div>
+
+                      </div>
+                  </div>
+                </div>
+              )
+            }
+
         </div>
       </div>)
     }
     
     <BottomBar
+      roundCount={roundCount}
       skippedWords={skippedWords}
-      completedWords={completedWords}
+      correctWords={correctWords}
       totalWords={totalWords}
       onQuit={onQuit} />
   

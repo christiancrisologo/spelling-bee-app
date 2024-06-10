@@ -6,30 +6,30 @@ type TopBarProps = {
     playerName: string
     restartTimer: boolean
     enableTimer: boolean
+    totalSeconds: number
     onTimerOver: () => void
 }
 
-const START_TIME = 120;
 
 export default function TopBar(props:TopBarProps) {
-    const { score, playerName, restartTimer, onTimerOver, enableTimer } = props;
+    const { score, playerName, restartTimer, onTimerOver, enableTimer, totalSeconds } = props;
 
     const timer = useMemo(() => {
         const _timer = {
-            startTime: START_TIME,
+            startTime: totalSeconds,
             endTime: 0,
             isCountdown: true,
             start: true           
         }; 
         if (restartTimer) {
-            _timer.startTime = START_TIME;
+            _timer.startTime = totalSeconds;
              _timer.start = true;
         } else {
             // _timer.startTime = 0;
             _timer.start = false;
         }
         return _timer;
-    }, [restartTimer])
+    }, [restartTimer, totalSeconds])
     
 
     return(
