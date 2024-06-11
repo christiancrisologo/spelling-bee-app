@@ -80,7 +80,7 @@ const SpellingBeeComponent = (props: SpellingBeeProps) => {
   const totalSeconds = parseInt(searchParams.get('totalSeconds')!) || 60;
 
   useEffect( ()=> {
-    if (typeof window !== undefined && !speech) {
+    if (typeof window.speechSynthesis !== undefined && !speech) {
         window.speechSynthesis.onvoiceschanged = function() {
             setSpeech(getSpeechSynth());
         };
@@ -214,6 +214,9 @@ const SpellingBeeComponent = (props: SpellingBeeProps) => {
 
     {
       !isReady && (<Spinner />)
+    }
+    {
+      !isReady && <span>words.length: {words.length} : speech{!!speech}</span>
     }
 
     {
