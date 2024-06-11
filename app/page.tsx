@@ -2,7 +2,7 @@
 // import Main from "./ui/Main";
 // import data from './data.json';
 import Image from 'next/image';
-import StartScreen from "./ui/StartScreen";
+import HomeScreen from "./ui/HomeScreen";
 
 export default async function Main() {
 
@@ -22,7 +22,7 @@ export default async function Main() {
                   />
             </div> 
 
-            <StartScreen  />
+            <HomeScreen  />
           </div>
         </div>
       </div>

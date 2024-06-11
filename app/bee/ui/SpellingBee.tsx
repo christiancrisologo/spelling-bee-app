@@ -8,6 +8,7 @@ import { getRandomItem, getRandomInt } from '../../lib/utils';
 import BottomBar from './BottomBar';
 import Spinner from '../../ui/Spinner';
 import { useSearchParams } from 'next/navigation';
+import { GameSelection, SelectedGameOptionType } from './GameSelection';
 
 export type SpellingBeeProps = {
   words: WordType[]
@@ -61,7 +62,6 @@ const wrongResponses = [
 const SpellingBeeComponent = (props: SpellingBeeProps) => {
   const { words } = props;
   const searchParams = useSearchParams()!;
-  console.log(searchParams);
   const [speech, setSpeech] = useState<SpeechSynthType | undefined>();
   const [userAnswerInput, setUserAnswerInput] = useState('');
   const [gameWords, setGameWords] = useState<WordType[]>(words);
@@ -72,12 +72,18 @@ const SpellingBeeComponent = (props: SpellingBeeProps) => {
   const [skippedWords, setSkippeddWords] = useState(0);
   const [gameStatus, setGameStatus] = useState('start');
   const [restartTimer, setRestartTimer] = useState(false);
+  const [gameSelection, setGameSelection] = useState<SelectedGameOptionType>({
+    totalSeconds: 0,
+    totalWords: 0,
+    difficulty: 'Easy',
+    enableTimer: 'Off'
+  });
 
   // params
   const playerName = searchParams.get('playerName') || 'no-name';
-  const enableTimer = !!searchParams.get('enableTimer') || false;
-  const totalWords = parseInt(searchParams.get('totalWords')!) || 10;
-  const totalSeconds = parseInt(searchParams.get('totalSeconds')!) || 60;
+  // const enableTimer = !!searchParams.get('enableTimer') || false;
+  // const totalWords = parseInt(searchParams.get('totalWords')!) || 10;
+  // const totalSeconds = parseInt(searchParams.get('totalSeconds')!) || 60;
 
   useEffect( ()=> {
     if (typeof window.speechSynthesis !== undefined && !speech) {
@@ -126,7 +132,7 @@ const SpellingBeeComponent = (props: SpellingBeeProps) => {
   };
   
   const validateIsGameOver = () => {
-    if (roundCount >= totalWords) { 
+    if (roundCount >= gameSelection.totalWords) { 
       return true;
     }
     return false;
@@ -156,7 +162,8 @@ const SpellingBeeComponent = (props: SpellingBeeProps) => {
     },3000)
   }
 
-  const gameStart = () => {
+  const gameStart = (gameSelection: SelectedGameOptionType) => {
+    setGameSelection(gameSelection);
     nextWord();
   }
 
@@ -208,32 +215,20 @@ const SpellingBeeComponent = (props: SpellingBeeProps) => {
       playerName={playerName}
       onTimerOver={onTimerOver}
       restartTimer={restartTimer}
-      enableTimer={enableTimer}
-      totalSeconds={totalSeconds}
+      enableTimer={gameSelection.enableTimer==='On'}
+      totalSeconds={gameSelection.totalSeconds}
     />
 
     {
       !isReady && (<Spinner />)
     }
-        
-    {
-      !isReady && <span>words.length: {words.length} : speech{String(!!speech)}</span>
-    }
 
     {
      isReady && (
-      <div className="p-4 w-11/12 mt-10 self-center">
+      <div className="p-4 w-11/12 mt-4 self-center">
         <div className="flex flex-col justify-center">
           {
-            gameStatus === 'start' && (<div className='flex justify-center flex-col'>
-              <button
-                className="mt-1 p-4 bg-blue-500 text-white hover:bg-blue-700 focus:outline-none text-2xl font-bold rounded-xl disabled:bg-gray-400"
-                onClick={() => {
-                  gameStart();
-                }}>
-                Start a New Game
-              </button>
-            </div>)
+            gameStatus === 'start' && (<GameSelection onStart={gameStart} />)
           }
           {
             gameStatus === 'playing' && (<button
@@ -332,7 +327,7 @@ const SpellingBeeComponent = (props: SpellingBeeProps) => {
       roundCount={roundCount}
       skippedWords={skippedWords}
       correctWords={correctWords}
-      totalWords={totalWords}
+      totalWords={gameSelection.totalWords}
       onQuit={onQuit} />
   
   </div>

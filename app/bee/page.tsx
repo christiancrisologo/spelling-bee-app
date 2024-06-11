@@ -8,19 +8,12 @@ import { Word  as WordType } from '../lib/definitions';
 export default function Page () {
 
     const isReady =  data?.length;
-    console.log('__DEBUG__: data:: ',data.length, data);
     return (<div className="flex flex-col h-screen bg-gray-200 w-full">
         {
-        !isReady && (<Spinner />)
+            !isReady && (<Spinner />)
         }
         {
             isReady && <SpellingBee words={data as WordType[]} />
-        }
-        data:: { data.length}
-        {
-            data.length && data.map((d,index)=> {
-                return <span key={index}>{JSON.stringify(d)}</span>
-            })
         }
   
   </div>
