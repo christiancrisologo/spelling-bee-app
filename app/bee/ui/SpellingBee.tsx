@@ -215,8 +215,9 @@ const SpellingBeeComponent = (props: SpellingBeeProps) => {
     {
       !isReady && (<Spinner />)
     }
+        
     {
-      !isReady && <span>words.length: {words.length} : speech{!!speech}</span>
+      !isReady && <span>words.length: {words.length} : speech{String(!!speech)}</span>
     }
 
     {
@@ -341,5 +342,7 @@ const SpellingBeeComponent = (props: SpellingBeeProps) => {
 export default function SpellingBee (props:SpellingBeeProps) {
   const { words } = props;
 
-  return <Suspense><SpellingBeeComponent  words={words}/></Suspense>
+  return <Suspense>
+    <SpellingBeeComponent  words={words}/>
+    </Suspense>
 };

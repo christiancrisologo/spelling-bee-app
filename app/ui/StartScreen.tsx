@@ -33,6 +33,7 @@ const StartScreenComponent = () => {
   );
 
   return (<div className="flex flex-col justify-center"> 
+
       <div className="flex mt-8 justify-center flex-col md:flex-row mx-6 md:mx-4">
         <input type="text" name="word-input" id="word-input" 
           className="bg-white p-4 rounded-xl text-2xl font-bold md:me-2" 
@@ -90,5 +91,7 @@ const StartScreenComponent = () => {
 };
 
 export default function StartScreen () {
-  return <Suspense><StartScreenComponent /></Suspense>
+  return <Suspense>
+    <StartScreenComponent />
+    </Suspense>
 };
