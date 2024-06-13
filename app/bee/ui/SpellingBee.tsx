@@ -98,9 +98,9 @@ const SpellingBeeComponent = (props: SpellingBeeProps) => {
     speech?.speak(wordToSpeak, { pitch: 1.5, rate: 0.8});
   };
 
-  const speakRandomResponse = (responses: string[]) => {
-    const pickedResponse = getRandomInt(0, responses.length);
-    speakWord(responses[pickedResponse]);
+  const speakRandomResponse = (responses: string[], defaulWord: string = '') => {
+    const pickedResponse = getRandomInt(0, responses.length - 1);
+    speakWord(responses[pickedResponse] || defaulWord);
   }
 
   const createNewWord = () => {
@@ -115,19 +115,19 @@ const SpellingBeeComponent = (props: SpellingBeeProps) => {
 
   const answerIsCorrect = () => {
     setGameStatus('answer-correct');
-    speakRandomResponse(correctResponses);
+    speakRandomResponse(correctResponses, 'correct!');
     setScore(score+10);
     setCorrectWords(correctWords+1);
     setTimeout(() => {
       nextWord();
-    }, 2000)   
+    }, 3000)   
   }
 
-  const checkSpelling = () => {
+  const validateAnswer = () => {
     if (userAnswerInput.trim().toLowerCase() === currentWord?.word!.toLowerCase()) {
       answerIsCorrect();
     } else {
-      speakRandomResponse(wrongResponses);
+      speakRandomResponse(wrongResponses, 'incorrect');
     }
   };
   
@@ -141,12 +141,13 @@ const SpellingBeeComponent = (props: SpellingBeeProps) => {
   const nextWord = () => {
     setUserAnswerInput('');
     setTimeout(() => {
-      createNewWord();
       setGameStatus('playing');
       setRestartTimer(true);
       setRoundCount(roundCount+1);
     }, 1000);
-
+    setTimeout(() => {
+      createNewWord();
+    }, 2000);
   }
 
   const skipWord = () => {
@@ -164,7 +165,7 @@ const SpellingBeeComponent = (props: SpellingBeeProps) => {
 
   const gameStart = (gameSelection: SelectedGameOptionType) => {
     setGameSelection(gameSelection);
-    nextWord();
+    setTimeout(() => { nextWord(); },1000);
   }
 
   const hint = () => {
@@ -195,7 +196,7 @@ const SpellingBeeComponent = (props: SpellingBeeProps) => {
   }
 
   const onWordSubmit = () => {
-    checkSpelling();
+    validateAnswer();
   }
 
   const handleKeyDown = (event: any) => {

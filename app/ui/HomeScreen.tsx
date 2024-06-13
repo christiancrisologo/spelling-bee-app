@@ -26,6 +26,12 @@ const StartScreenComponent = () => {
     [playerName, router, searchParams],
   );
 
+  const handleKeyDown = (event: any) => {
+    if (event.keyCode === 13) {
+      onSubmit();
+    }
+};
+
   return (<div className="flex flex-col justify-center"> 
       <div className="flex mt-2 justify-center flex-col md:flex-row mx-6">
         <input type="text" name="word-input" id="word-input" 
@@ -35,7 +41,8 @@ const StartScreenComponent = () => {
           onChange={(e) => setPlayerName(e.target.value)} />
         <button
           className="mt-1 p-4 bg-blue-500 text-white hover:bg-blue-700 focus:outline-none text-xl font-bold rounded-xl disabled:bg-gray-400"
-          onClick={() => { onSubmit(); }}
+          onClick={onSubmit}
+          onKeyDown={handleKeyDown}
           disabled={!playerName.length}
           >
             Submit

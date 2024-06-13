@@ -27,12 +27,14 @@ const OptionGroup = (props: OptionGroupProps) => {
             {options.map((option, index)=> {
                 const { label } = option;
                 const className = cls(
-                    "px-4 py-2 text-sm font-medium text-gray-900 bg-slate-100 border border-blue-500 hover:bg-blue-900 hover:text-white focus:z-10 focus:ring-2 focus:ring-blue-500 focus:bg-blue-900 focus:text-white active:bg-blue-800",
+                    "px-4 py-2 text-sm font-medium border border-blue-500 hover:bg-blue-900 hover:text-white focus:z-10 focus:ring-2 focus:ring-blue-500 focus:bg-blue-900 focus:text-white active:bg-blue-800",
                     {
                         'rounded-s-lg': index === 0,
                         'rounded-e-lg': index  >= options.length-1,
                         'bg-blue-800': optionSelected === label,
-                        'text-white': optionSelected === label
+                        'text-white': optionSelected === label,
+                        'bg-slate-100': optionSelected != label,
+                        'text-gray-900': optionSelected != label,
                     });
 
                 return (<button

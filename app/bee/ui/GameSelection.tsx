@@ -44,6 +44,12 @@ export function GameSelection(props: GameSelectionProps) {
         totalWords: 10
     });
 
+    const handleKeyDown = (event: any) => {
+        if (event.keyCode === 13) {
+            onStart(gameSelection);
+        }
+    };
+
     return (
         <div className="flex justify-center flex-col">
             <div className="flex justify-center  self-center flex-col mb-4">
@@ -108,9 +114,8 @@ export function GameSelection(props: GameSelectionProps) {
 
         <button
             className="mt-2 p-4 w-auto md:w-1/2 self-center bg-blue-500 text-white hover:bg-blue-700 focus:outline-none text-xl font-bold rounded-xl disabled:bg-gray-400"
-            onClick={() => {
-                onStart && onStart(gameSelection);
-            }}
+            onClick={() => {onStart(gameSelection)}}
+            onKeyDown={handleKeyDown}
         >
             Start a New Game
         </button>
