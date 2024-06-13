@@ -1,764 +1,1686 @@
 [
-    {
-      "word": "aerobics",
-      "level": "easy",
-      "dictionary": "exercise that strengthens the heart and lungs",
-      "image_url": ""
-    },
-    {
-      "word": "Agassi",
-      "level": "medium",
-      "dictionary": "famous tennis player (Andre Agassi)",
-      "image_url": ""
-    },
-    {
-      "word": "allotment",
-      "level": "medium",
-      "dictionary": "a small plot of land for gardening",
-      "image_url": ""
-    },
-    {
-      "word": "aluminium",
-      "level": "medium",
-      "dictionary": "a lightweight metal (aluminum in US spelling)",
-      "image_url": ""
-    },
-    {
-      "word": "amateur",
-      "level": "easy",
-      "dictionary": "someone who does something for pleasure, not for money",
-      "image_url": ""
-    },
-    {
-      "word": "anchovy",
-      "level": "medium",
-      "dictionary": "a small saltwater fish",
-      "image_url": ""
-    },
-    {
-      "word": "antonym",
-      "level": "medium",
-      "dictionary": "a word with opposite meaning",
-      "image_url": ""
-    },
-    {
-      "word": "apparel",
-      "level": "medium",
-      "dictionary": "clothing",
-      "image_url": ""
-    },
-    {
-      "word": "apprentice",
-      "level": "medium",
-      "dictionary": "someone who is learning a trade from a skilled person",
-      "image_url": ""
-    },
-    {
-      "word": "artificial",
-      "level": "medium",
-      "dictionary": "made by humans, not natural",
-      "image_url": ""
-    },
-    {
-      "word": "ascertain",
-      "level": "hard",
-      "dictionary": "to find out something for sure",
-      "image_url": ""
-    },
-    {
-      "word": "asparagus",
-      "level": "medium",
-      "dictionary": "a green vegetable with long, thin stalks",
-      "image_url": ""
-    },
-    {
-      "word": "barramundi",
-      "level": "hard",
-      "dictionary": "a large, white saltwater fish",
-      "image_url": ""
-    },
-    {
-      "word": "Belarus",
-      "level": "hard",
-      "dictionary": "a country in Eastern Europe",
-      "image_url": ""
-    },
-    {
-      "word": "Belgium",
-      "level": "easy",
-      "dictionary": "a country in Western Europe",
-      "image_url": ""
-    },
-    {
-      "word": "billionaire",
-      "level": "easy",
-      "dictionary": "someone who has one billion dollars or more",
-      "image_url": ""
-    },
-    {
-      "word": "biodiversity",
-      "level": "hard",
-      "dictionary": "the variety of life on Earth",
-      "image_url": ""
-    },
-    {
-      "word": "blackcurrant",
-      "level": "medium",
-      "dictionary": "a small, dark purple berry",
-      "image_url": ""
-    },
-    {
-      "word": "boardercross",
-      "level": "hard",
-      "dictionary": "a snowboard race down a course with jumps and banks",
-      "image_url": ""
-    },
-    {
-      "word": "bocce",
-      "level": "medium",
-      "dictionary": "italian lawn bowling game",
-      "image_url": ""
-    },
-    {
-      "word": "Botswana",
-      "level": "hard",
-      "dictionary": "a country in Southern Africa",
-      "image_url": ""
-    },
-    {
-      "word": "cacao",
-      "level": "medium",
-      "dictionary": "the dried seeds of the cacao tree, used to make chocolate",
-      "image_url": ""
-    },
-    {
-      "word": "cafeteria",
-      "level": "easy",
-      "dictionary": "a large dining hall, typically at a school or institution"
-    },
-    {
-      "word": "calculus",
-      "level": "hard",
-      "dictionary": "the branch of mathematics concerned with the relationships between infinitesimals"
-    },
-    {
-      "word": "canister",
-      "level": "medium",
-      "dictionary": "a cylindrical container, typically made of metal"
-    },
-    {
-      "word": "catalyst",
-      "level": "medium",
-      "dictionary": "a substance that increases the rate of a reaction without being used up"
-    },
-    {
-      "word": "catamaran",
-      "level": "medium",
-      "dictionary": "a boat with two hulls connected by a deck"
-    },
-    {
-      "word": "champagne",
-      "level": "easy",
-      "dictionary": "a sparkling white wine produced in the Champagne region of France"
-    },
-    {
-      "word": "chipolata",
-      "level": "medium",
-      "dictionary": "a small sausage"
-    },
-    {
-      "word": "cirrus",
-      "level": "medium",
-      "dictionary": "wispy, feathery clouds, composed of ice crystals"
-    },
-    {
-      "word": "cumulus",
-      "level": "easy",
-      "dictionary": "puffy, white clouds with flat bases"
-    },
-    {
-      "word": "decompression",
-      "level": "medium",
-      "dictionary": "the reduction of pressure on a gas or liquid"
-    },
-    {
-      "word": "diffraction",
-      "level": "medium",
-      "dictionary": "the bending of light or other waves around the edges of an obstacle"
-    },
-    {
-      "word": "diffusion",
-      "level": "medium",
-      "dictionary": "the spontaneous net movement of molecules or atoms from a region of high concentration to a region of low concentration"
-    },
-    {
-      "word": "effigy",
-      "level": "medium",
-      "dictionary": "a figure, typically resembling a person, that is burned or mutilated in public as a punishment or warning"
-    },
-    {
-      "word": "eiderdown",
-      "level": "medium",
-      "dictionary": "the soft down of eider ducks, used to make quilts and pillows"
-    },
-    {
-      "word": "eloquent",
-      "level": "medium",
-      "dictionary": "fluent or persuasive in speaking or writing"
-    },
-    {
-      "word": "emancipate",
-      "level": "medium",
-      "dictionary": "to set free from legal, social, or political restriction"
-    },
-    {
-      "word": "empathetic",
-      "level": "medium",
-      "dictionary": "showing an ability to understand and share the feelings of another"
-    },
-    {
-      "word": "encapsulate",
-      "level": "medium",
-      "dictionary": "to enclose or surround completely"
-    },
-    {
-      "word": "encryption",
-      "level": "medium",
-      "dictionary": "the process of converting information or data into a form that cannot be easily understood by unauthorized people"
-    },
-    {
-      "word": "erudition",
-      "level": "hard",
-      "dictionary": "the quality of having or showing great knowledge or learning"
-    },
-    {
-      "word": "escarpment",
-      "level": "medium",
-      "dictionary": "a long, steep cliff"
-    },
-    {
-      "word": "espouse",
-      "level": "medium",
-      "dictionary": "to adopt or support (an idea or cause)"
-    },
-    {
-      "word": "excellence",
-      "level": "easy",
-      "dictionary": "the quality of being outstanding or extremely good"
-    },
-    {
-      "word": "exceptional",
-      "level": "medium",
-      "dictionary": "far above average or normal"
-    },
-    {
-      "word": "exhaustion",
-      "level": "easy",
-      "dictionary": "the state of being completely tired out"
-    },
-    {
-      "word": "expostulate",
-      "level": "hard",
-      "dictionary": "to argue strongly, typically in protest"
-    },
-    {
-      "word": "falsetto",
-      "level": "medium",
-      "dictionary": "a very high register of the voice, especially in men"
-    },
-    {
-      "word": "familiarity",
-      "level": "easy",
-      "dictionary": "the state of knowing or being known about something"
-    },
-    {
-      "word": "figurative",
-      "level": "medium",
-      "dictionary": "not meant to be taken literally"
-    },
-    {
-      "word": "finicky",
-      "level": "medium",
-      "dictionary": "very particular about what one likes or dislikes"
-    },
-    {
-      "word": "flagrant",
-      "level": "medium",
-      "dictionary": "done without any attempt to hide"
-    },
-    {
-      "word": "fluoride",
-      "level": "medium",
-      "dictionary": "a compound containing fluorine, used in toothpaste to prevent tooth decay"
-    },
-    {
-      "word": "forage",
-      "level": "medium",
-      "dictionary": "to search for food or provisions"
-    },
-    {
-      "word": "fracas",
-      "level": "hard",
-      "dictionary": "a noisy argument or fight"
-    },
-    {
-      "word": "fragmentary",
-      "level": "medium",
-      "dictionary": "existing in fragments or incomplete parts"
-    },
-    {
-      "word": "frivolity",
-      "level": "medium",
-      "dictionary": "lack of seriousness or importance"
-    },
-    {
-      "word": "gauze",
-      "level": "easy",
-      "dictionary": "a thin, loose fabric used for bandages and dressings"
-    },
-    {
-      "word": "gazetteer",
-      "level": "hard",
-      "dictionary": "a geographical dictionary"
-    },
-    {
-      "word": "generic",
-      "level": "easy",
-      "dictionary": "relating to a general type of something rather than to a particular example"
-    },
-    {
-      "word": "generosity",
-      "level": "easy",
-      "dictionary": "the quality of being kind and generous"
-    },
-    {
-      "word": "genotype",
-      "level": "hard",
-      "dictionary": "the genetic constitution of an organism"
-    },
-    {
-      "word": "genteel",
-      "level": "hard",
-      "dictionary": "refined and polite in a way that is old-fashioned"
-    },
-    {
-      "word": "geyser",
-      "level": "easy",
-      "dictionary": "a hot spring that intermittently erupts, ejecting a column of hot water and steam"
-    },
-    {
-      "word": "gibberish",
-      "level": "easy",
-      "dictionary": "nonsense language",
-      "image_url": ""
-    },
-    {
-      "word": "glutinous",
-      "level": "medium",
-      "dictionary": "sticky or gluey",
-      "image_url": ""
-    },
-    {
-      "word": "grievance",
-      "level": "medium",
-      "dictionary": "a complaint or cause for complaint",
-      "image_url": ""
-    },
-    {
-      "word": "guava",
-      "level": "easy",
-      "dictionary": "a tropical fruit with sweet, white flesh",
-      "image_url": "[Image of Guava fruit]"
-    },
-    {
-      "word": "Gulpilil",
-      "level": "hard",
-      "dictionary": "Australian Aboriginal actor (1950-2021)",
-      "image_url": "[Image of David Gulpilil]"
-    },
-    {
-      "word": "gymnastics",
-      "level": "medium",
-      "dictionary": "physical exercises requiring strength, flexibility, and coordination",
-      "image_url": "[Image of Gymnast performing]"
-    },
-    {
-      "word": "harangue",
-      "level": "hard",
-      "dictionary": "a long, angry speech",
-      "image_url": ""
-    },
-    {
-      "word": "heavyweight",
-      "level": "easy",
-      "dictionary": "in boxing, the weight class above light heavyweight",
-      "image_url": "[Image of Heavyweight boxer]"
-    },
-    {
-      "word": "Helsinki",
-      "level": "medium",
-      "dictionary": "the capital of Finland",
-      "image_url": "[Image of Helsinki city]"
-    },
-    {
-      "word": "hereditary",
-      "level": "medium",
-      "dictionary": "passed on from a parent to their child",
-      "image_url": ""
-    },
-    {
-      "word": "hibernation",
-      "level": "easy",
-      "dictionary": "a state of dormancy in animals during winter",
-      "image_url": "[Image of Hibernating animal]"
-    },
-    {
-      "word": "hibiscus",
-      "level": "easy",
-      "dictionary": "a flowering shrub with large, showy flowers",
-      "image_url": "[Image of Hibiscus flower]"
-    },
-    {
-      "word": "Hillary",
-      "level": "easy",
-      "dictionary": "a female given name",
-      "image_url": ""
-    },
-    {
-      "word": "hominid",
-      "level": "medium",
-      "dictionary": "any member of the family Hominidae, including humans and their closest extinct relatives",
-      "image_url": "[Image of Hominid skull]"
-    },
-    {
-      "word": "Honduras",
-      "level": "medium",
-      "dictionary": "a country in Central America",
-      "image_url": "[Image of Honduras flag]"
-    },
-    {
-      "word": "horizontal",
-      "level": "easy",
-      "dictionary": "parallel to the horizon; across",
-      "image_url": ""
-    },
-    {
-      "word": "horticulture",
-      "level": "medium",
-      "dictionary": "the art or science of growing fruits, vegetables, and flowers",
-      "image_url": "[Image of Horticulture garden]"
-    },
-    {
-      "word": "hydraulic",
-      "level": "medium",
-      "dictionary": "operated by or using a liquid under pressure",
-      "image_url": ""
-    },
-    {
-      "word": "hypocrisy",
-      "level": "medium",
-      "dictionary": "the behavior of pretending to have moral standards or beliefs that one does not really hold",
-      "image_url": ""
-    },
-    {
-      "word": "igneous",
-      "level": "medium",
-      "dictionary": "formed by fire or great heat",
-      "image_url": "[Image of Igneous rock]"
-    },
-    {
-      "word": "immediately",
-      "level": "easy",
-      "dictionary": "without delay",
-      "image_url": ""
-    },
-    {
-      "word": "impropriety",
-      "level": "medium",
-      "dictionary": "unsuitableness",
-      "image_url": ""
-    },
-    {
-      "word": "incubator",
-      "level": "medium",
-      "dictionary": "apparatus for hatching eggs",
-      "image_url": ""
-    },
-    {
-      "word": "indefensible",
-      "level": "medium",
-      "dictionary": "impossible to justify",
-      "image_url": ""
-    },
-    {
-      "word": "indemnified",
-      "level": "hard",
-      "dictionary": "compensated for loss",
-      "image_url": ""
-    },
-    {
-      "word": "indigestion",
-      "level": "medium",
-      "dictionary": "discomfort after eating",
-      "image_url": ""
-    },
-    {
-      "word": "inexplicable",
-      "level": "medium",
-      "dictionary": "impossible to explain",
-      "image_url": ""
-    },
-    {
-      "word": "inflammatory",
-      "level": "medium",
-      "dictionary": "causing inflammation",
-      "image_url": ""
-    },
-    {
-      "word": "inhospitable",
-      "level": "medium",  
-      "dictionary": "not friendly or welcoming",
-      "image_url": ""
-    },
-    {
-      "word": "inoperable",
-      "level": "medium",
-      "dictionary": "not able to be operated",
-      "image_url": ""
-    },
-    {
-      "word": "insatiable",
-      "level": "medium",
-      "dictionary": "impossible to satisfy",
-      "image_url": ""
-    },
-    {
-      "word": "insolvency",
-      "level": "hard",
-      "dictionary": "inability to pay debts",
-      "image_url": ""
-    },
-    {
-      "word": "instigator",
-      "level": "medium",
-      "dictionary": "a person who causes something to happen",
-      "image_url": ""
-    },
-    {
-      "word": "insubordinate",
-      "level": "medium",
-      "dictionary": "disobedient to authority",
-      "image_url": ""
-    },
-    {
-      "word": "insufferable",
-      "level": "hard",
-      "dictionary": "unbearably unpleasant",
-      "image_url": ""
-    },
-    {
-      "word": "insurrection",
-      "level": "hard",
-      "dictionary": "a violent uprising against authority",
-      "image_url": ""
-    },
-    {
-      "word": "intelligence",
-      "level": "easy",
-      "dictionary": "the ability to acquire and apply knowledge and skills",
-      "image_url": ""
-    },
-    {
-      "word": "interference",
-      "level": "medium",
-      "dictionary": "disturbance or interruption"
-    },
-    {
-      "word": "intolerable",
-      "level": "medium",
-      "dictionary": "unbearably bad or unpleasant"
-    },
-    {
-      "word": "intractable",
-      "level": "hard",
-      "dictionary": "difficult to deal with or control"
-    },
-    {
-      "word": "intransigent",
-      "level": "hard",
-      "dictionary": "refusing to change one's mind or cooperate"
-    },
-    {
-      "word": "invariably",
-      "level": "medium",
-      "dictionary": "always; without exception"
-    },
-    {
-      "word": "investigation",
-      "level": "medium",
-      "dictionary": "a close examination or inquiry"
-    },
-    {
-      "word": "invigorate",
-      "level": "medium",
-      "dictionary": "to give strength or energy to"
-    },
-    {
-      "word": "involuntary",
-      "level": "medium",
-      "dictionary": "not done or happening by choice"
-    },
-    {
-      "word": "isometrics",
-      "level": "hard",
-      "dictionary": "muscle exercises involving static contractions"
-    },
-    {
-      "word": "itinerant",
-      "level": "medium",
-      "dictionary": "traveling from place to place"
-    },
-    {
-      "word": "jacaranda",
-      "level": "medium",
-      "dictionary": "a flowering tree with beautiful blue or violet flowers",
-      "image_url": "[jacaranda tree image]"
-    },
-    {
-      "word": "jamboree",
-      "level": "medium",
-      "dictionary": "a large and noisy celebration"
-    },
-    {
-      "word": "jeopardy",
-      "level": "medium",
-      "dictionary": "danger or risk"
-    },
-    {
-      "word": "jonquil",
-      "level": "medium",
-      "dictionary": "a small yellow bulb flower",
-      "image_url": "[jonquil flower image]"
-    },
-    {
-      "word": "judiciary",
-      "level": "hard",
-      "dictionary": "the system of courts of law in a country"
-    },
-    {
-      "word": "justifiable",
-      "level": "medium",
-      "dictionary": "able to be justified or explained"
-    },
-    {
-      "word": "Kalahari",
-      "level": "medium",
-      "dictionary": "a large desert in southern Africa",
-      "image_url": "[Kalahari desert image]"
-    },
-    {
-      "word": "Keneally",
-      "level": "hard",
-      "dictionary": "This could be a surname"
-    },
-    {
-      "word": "Kewell",
-      "level": "hard",
-      "dictionary": "This could be a surname"
-    },
-    {
-      "word": "knapsack",
-      "level": "medium",
-      "dictionary": "a backpack or rucksack"
-    },
-      {
-        "word": "kombucha",
-        "level": "medium",
-        "dictionary": "fermented tea drink",
-        "image_url": "https://www.istockphoto.com/photos/kombucha"
-      },
-      {
-        "word": "laborious",
-        "level": "hard",
-        "dictionary": "requiring a lot of effort",
-        "image_url": null
-      },
-      {
-        "word": "lacklustre",
-        "level": "medium",
-        "dictionary": "showing a lack of enthusiasm",
-        "image_url": null
-      },
-      {
-        "word": "lacrosse",
-        "level": "easy",
-        "dictionary": "team sport using a stick with a net",
-        "image_url": "https://www.istockphoto.com/photos/lacrosse"
-      },
-      {
-        "word": "lexicography",
-        "level": "hard",
-        "dictionary": "the study of words and their meanings",
-        "image_url": null
-      },
-      {
-        "word": "lichen",
-        "level": "medium",
-        "dictionary": "a fungus growing in symbiosis with algae",
-        "image_url": "https://www.istockphoto.com/photos/lichen"
-      },
-      {
-        "word": "lieutenant",
-        "level": "medium",
-        "dictionary": "military officer ranking below captain",
-        "image_url": "https://www.istockphoto.com/photos/lieutenant"
-      },
-      {
-        "word": "liquidate",
-        "level": "hard",
-        "dictionary": "to sell off assets to raise money",
-        "image_url": null
-      },
-      {
-        "word": "litany",
-        "level": "hard",
-        "dictionary": "a long, formal prayer or recitation",
-        "image_url": null
-      },
-      {
-        "word": "llama",
-        "level": "easy",
-        "dictionary": "South American domesticated relative of the alpaca",
-        "image_url": "https://unsplash.com/s/photos/llama"
-      },
-      {
-        "word": "longitude",
-        "level": "medium",
-        "dictionary": "angular distance east or west of the prime meridian",
-        "image_url": "https://www.shutterstock.com/search/longitude"
-      },
-      {
-        "word": "ludicrous",
-        "level": "medium",  
-        "dictionary": "completely absurd",
-        "image_url": null
-      },
-      {
-        "word": "mackerel",
-        "level": "easy",
-        "dictionary": "a type of oily saltwater fish",
-        "image_url": "https://www.istockphoto.com/photos/mackerel"
-      },
-      {
-        "word": "Madagascar",
-        "level": "medium",
-        "dictionary": "large island country off the southeast coast of Africa",
-        "image_url": "https://www.istockphoto.com/photos/madagascar"
-      },
-      {
-        "word": "magnificent",
-        "level": "medium",
-        "dictionary": "grand, impressive, or beautiful",
-        "image_url": null
-      }
+  {
+    "word": "android",
+    "definition": "human-like robot",
+    "difficulty": "medium",
+    "category": "other",
+    "synonyms": ["robot", "automaton"],
+    "antonyms": ["human", "organic"]
+  },
+  {
+    "word": "bionic",
+    "definition": "relating to artificial body parts",
+    "difficulty": "medium",
+    "category": "other",
+    "synonyms": ["artificial", "mechanical"],
+    "antonyms": ["natural", "organic"]
+  },
+  {
+    "word": "buffoon",
+    "definition": "ridiculous person",
+    "difficulty": "medium",
+    "category": "people",
+    "synonyms": ["clown", "jester"],
+    "antonyms": ["serious person", "dignified individual"]
+  },
+  {
+    "word": "cashew",
+    "definition": "type of nut",
+    "difficulty": "medium",
+    "category": "food",
+    "synonyms": ["nut", "kernel"],
+    "antonyms": ["fruit", "vegetable"]
+  },
+  {
+    "word": "Crowe",
+    "definition": "family name",
+    "difficulty": "easy",
+    "category": "people",
+    "synonyms": ["surname", "last name"],
+    "antonyms": []
+  },
+  {
+    "word": "decor",
+    "definition": "room furnishing and decoration",
+    "difficulty": "medium",
+    "category": "other",
+    "synonyms": ["decoration", "ornamentation"],
+    "antonyms": ["plainness", "undecorated"]
+  },
+  {
+    "word": "electron",
+    "definition": "subatomic particle",
+    "difficulty": "medium",
+    "category": "other",
+    "synonyms": ["particle", "subatomic particle"],
+    "antonyms": ["proton", "neutron"]
+  },
+  {
+    "word": "foxtrot",
+    "definition": "dance in quadruple time",
+    "difficulty": "medium",
+    "category": "other",
+    "synonyms": ["ballroom dance", "trot"],
+    "antonyms": []
+  },
+  {
+    "word": "handsome",
+    "definition": "attractive in appearance",
+    "difficulty": "easy",
+    "category": "other",
+    "synonyms": ["good-looking", "appealing"],
+    "antonyms": ["ugly", "unattractive"]
+  },
+  {
+    "word": "jockey",
+    "definition": "horse race rider",
+    "difficulty": "medium",
+    "category": "people",
+    "synonyms": ["rider", "equestrian"],
+    "antonyms": ["spectator", "bystander"]
+  },
+  {
+    "word": "Lebanon",
+    "definition": "Middle Eastern country",
+    "difficulty": "medium",
+    "category": "place or country",
+    "synonyms": ["Republic of Lebanon", "Levantine nation"],
+    "antonyms": ["non-Lebanese", "foreign country"]
+  },
+  {
+    "word": "massive",
+    "definition": "very large or heavy",
+    "difficulty": "easy",
+    "category": "other",
+    "synonyms": ["huge", "enormous"],
+    "antonyms": ["small", "tiny"]
+  },
+  {
+    "word": "notion",
+    "definition": "belief or idea",
+    "difficulty": "medium",
+    "category": "other",
+    "synonyms": ["concept", "belief"],
+    "antonyms": ["fact", "reality"]
+  },
+  {
+    "word": "presto",
+    "definition": "immediately",
+    "difficulty": "easy",
+    "category": "other",
+    "synonyms": ["instantly", "quickly"],
+    "antonyms": ["slowly", "gradually"]
+  },
+  {
+    "word": "source",
+    "definition": "origin or cause",
+    "difficulty": "medium",
+    "category": "other",
+    "synonyms": ["origin", "root"],
+    "antonyms": ["result", "consequence"]
+  },
+  {
+    "word": "starboard",
+    "definition": "right side of a ship",
+    "difficulty": "medium",
+    "category": "other",
+    "synonyms": ["right"],
+    "antonyms": ["port", "left"]
+  },
+  {
+    "word": "suture",
+    "definition": "stitch holding wound edges",
+    "difficulty": "medium",
+    "category": "other",
+    "synonyms": ["stitch", "seam"],
+    "antonyms": []
+  },
+  {
+    "word": "thirsty",
+    "definition": "needing to drink",
+    "difficulty": "easy",
+    "category": "other",
+    "synonyms": ["parched", "dehydrated"],
+    "antonyms": ["hydrated", "quenched"]
+  },
+  {
+    "word": "toothpaste",
+    "definition": "paste for cleaning teeth",
+    "difficulty": "easy",
+    "category": "other",
+    "synonyms": ["dental paste", "tooth cleaner"],
+    "antonyms": []
+  },
+  {
+    "word": "trickle",
+    "definition": "flow in small stream",
+    "difficulty": "easy",
+    "category": "other",
+    "synonyms": ["drip", "flow"],
+    "antonyms": ["gush", "torrent"]
+  },
+  {
+    "word": "tweezers",
+    "definition": "tool for plucking",
+    "difficulty": "easy",
+    "category": "other",
+    "synonyms": ["pincers", "forceps"],
+    "antonyms": []
+  },
+  {
+    "word": "veneer",
+    "definition": "thin decorative covering",
+    "difficulty": "medium",
+    "category": "other",
+    "synonyms": ["overlay", "facade"],
+    "antonyms": ["core", "essence"]
+  },
+  {
+    "word": "village",
+    "definition": "small community",
+    "difficulty": "easy",
+    "category": "place or country",
+    "synonyms": ["hamlet", "settlement"],
+    "antonyms": ["city", "metropolis"]
+  },
+  {
+    "word": "wicket",
+    "definition": "small door or gate",
+    "difficulty": "medium",
+    "category": "other",
+    "synonyms": ["gate", "door"],
+    "antonyms": []
+  },
+  {
+    "word": "wrist",
+    "definition": "joint connecting hand and arm",
+    "difficulty": "easy",
+    "category": "other",
+    "synonyms": ["joint", "carpus"],
+    "antonyms": []
+  },
+  {
+    "word": "angle",
+    "definition": "figure formed by two rays",
+    "difficulty": "easy",
+    "category": "other",
+    "synonyms": ["corner", "intersection"],
+    "antonyms": ["curve", "round"]
+  },
+  {
+    "word": "bisect",
+    "definition": "divide into two parts",
+    "difficulty": "medium",
+    "category": "other",
+    "synonyms": ["split", "cut in half"],
+    "antonyms": ["combine", "unify"]
+  },
+  {
+    "word": "bushfire",
+    "definition": "fire in the wilderness",
+    "difficulty": "medium",
+    "category": "other",
+    "synonyms": ["wildfire", "forest fire"],
+    "antonyms": ["rain", "extinguishment"]
+  },
+  {
+    "word": "climate",
+    "definition": "general weather conditions",
+    "difficulty": "easy",
+    "category": "other",
+    "synonyms": ["weather", "atmosphere"],
+    "antonyms": ["drought", "heatwave"]
+  },
+  {
+    "word": "curry",
+    "definition": "spicy dish",
+    "difficulty": "medium",
+    "category": "food",
+    "synonyms": ["Indian dish", "curried food"],
+    "antonyms": []
+  },
+  {
+    "word": "dispute",
+    "definition": "argument or controversy",
+    "difficulty": "easy",
+    "category": "other",
+    "synonyms": ["argument", "conflict"],
+    "antonyms": ["agreement", "consensus"]
+  },
+  {
+    "word": "famished",
+    "definition": "extremely hungry",
+    "difficulty": "easy",
+    "category":
+
+ "other",
+    "synonyms": ["starving", "ravenous"],
+    "antonyms": ["satiated", "full"]
+  },
+  {
+    "word": "fresco",
+    "definition": "painting on wet plaster",
+    "difficulty": "medium",
+    "category": "other",
+    "synonyms": ["mural", "wall painting"],
+    "antonyms": []
+  },
+  {
+    "word": "harmony",
+    "definition": "pleasing combination of sounds",
+    "difficulty": "easy",
+    "category": "other",
+    "synonyms": ["melody", "concord"],
+    "antonyms": ["discord", "dissonance"]
+  },
+  {
+    "word": "judge",
+    "definition": "court decision maker",
+    "difficulty": "medium",
+    "category": "people",
+    "synonyms": ["justice", "magistrate"],
+    "antonyms": ["criminal", "offender"]
+  },
+  {
+    "word": "livestock",
+    "definition": "farm animals",
+    "difficulty": "easy",
+    "category": "other",
+    "synonyms": ["cattle", "herd"],
+    "antonyms": ["wildlife", "game"]
+  },
+  {
+    "word": "mission",
+    "definition": "important assignment",
+    "difficulty": "medium",
+    "category": "other",
+    "synonyms": ["task", "assignment"],
+    "antonyms": ["inaction", "stagnation"]
+  },
+  {
+    "word": "onion",
+    "definition": "edible bulb with pungent taste",
+    "difficulty": "easy",
+    "category": "food",
+    "synonyms": ["bulb onion", "vegetable"],
+    "antonyms": ["sweet", "mild"]
+  },
+  {
+    "word": "quota",
+    "definition": "limited number or amount",
+    "difficulty": "easy",
+    "category": "other",
+    "synonyms": ["allocation", "share"],
+    "antonyms": ["unlimited", "unrestricted"]
+  },
+  {
+    "word": "spice",
+    "definition": "flavoring substance",
+    "difficulty": "easy",
+    "category": "food",
+    "synonyms": ["seasoning", "condiment"],
+    "antonyms": ["blandness", "dullness"]
+  },
+  {
+    "word": "steak",
+    "definition": "slice of meat",
+    "difficulty": "easy",
+    "category": "food",
+    "synonyms": ["beefsteak", "cutlet"],
+    "antonyms": ["vegetarian", "vegan"]
+  },
+  {
+    "word": "tantrum",
+    "definition": "uncontrolled outburst of anger",
+    "difficulty": "easy",
+    "category": "other",
+    "synonyms": ["temper tantrum", "outburst"],
+    "antonyms": ["calmness", "composure"]
+  },
+  {
+    "word": "Thorpe",
+    "definition": "family name",
+    "difficulty": "easy",
+    "category": "people",
+    "synonyms": ["surname", "last name"],
+    "antonyms": []
+  },
+  {
+    "word": "topsoil",
+    "definition": "upper layer of soil",
+    "difficulty": "easy",
+    "category": "other",
+    "synonyms": ["surface soil", "humus"],
+    "antonyms": ["subsoil", "bedrock"]
+  },
+  {
+    "word": "trinket",
+    "definition": "small ornament",
+    "difficulty": "easy",
+    "category": "other",
+    "synonyms": ["bauble", "knickknack"],
+    "antonyms": ["treasure", "heirloom"]
+  },
+  {
+    "word": "twelve",
+    "definition": "the number 12",
+    "difficulty": "easy",
+    "category": "other",
+    "synonyms": ["dozen", "duodecimal"],
+    "antonyms": []
+  },
+  {
+    "word": "vermin",
+    "definition": "wild mammals believed to be harmful",
+    "difficulty": "easy",
+    "category": "other",
+    "synonyms": ["pests", "rodents"],
+    "antonyms": ["beneficial animals", "pets"]
+  },
+  {
+    "word": "voucher",
+    "definition": "discount or exchange ticket",
+    "difficulty": "easy",
+    "category": "other",
+    "synonyms": ["coupon", "token"],
+    "antonyms": ["full price", "unpaid"]
+  },
+  {
+    "word": "windscreen",
+    "definition": "transparent screen in vehicle",
+    "difficulty": "medium",
+    "category": "other",
+    "synonyms": ["windshield"],
+    "antonyms": ["obstruction", "blockage"]
+  },
+  {
+    "word": "yesterday",
+    "definition": "day before today",
+    "difficulty": "easy",
+    "category": "other",
+    "synonyms": ["previous day", "last day"],
+    "antonyms": ["tomorrow", "future"]
+  },
+  {
+    "word": "anthem",
+    "definition": "song of national pride",
+    "difficulty": "easy",
+    "category": "other",
+    "synonyms": ["hymn", "national song"],
+    "antonyms": ["dirge", "lament"]
+  },
+  {
+    "word": "brandish",
+    "definition": "wave or flourish",
+    "difficulty": "medium",
+    "category": "other",
+    "synonyms": ["wave", "flourish"],
+    "antonyms": ["conceal", "hide"]
+  },
+  {
+    "word": "canoe",
+    "definition": "narrow boat",
+    "difficulty": "easy",
+    "category": "other",
+    "synonyms": ["kayak", "paddleboat"],
+    "antonyms": ["battleship", "cruiser"]
+  },
+  {
+    "word": "computer",
+    "definition": "electronic device",
+    "difficulty": "easy",
+    "category": "other",
+    "synonyms": ["PC", "machine"],
+    "antonyms": ["manual", "analog"]
+  },
+  {
+    "word": "cutlery",
+    "definition": "utensils for eating",
+    "difficulty": "easy",
+    "category": "other",
+    "synonyms": ["silverware", "flatware"],
+    "antonyms": ["disposable", "plasticware"]
+  },
+  {
+    "word": "Dublin",
+    "definition": "capital city of Ireland",
+    "difficulty": "easy",
+    "category": "place or country",
+    "synonyms": ["Irish capital"],
+    "antonyms": ["non-Irish city", "foreign capital"]
+  },
+  {
+    "word": "feature",
+    "definition": "prominent aspect",
+    "difficulty": "easy",
+    "category": "other",
+    "synonyms": ["characteristic", "attribute"],
+    "antonyms": ["flaw", "deficiency"]
+  },
+  {
+    "word": "fungus",
+    "definition": "type of organism",
+    "difficulty": "easy",
+    "category": "other",
+    "synonyms": ["mold", "mushroom"],
+    "antonyms": ["plant", "animal"]
+  },
+  {
+    "word": "Hawking",
+    "definition": "physicist",
+    "difficulty": "easy",
+    "category": "people",
+    "synonyms": ["scientist", "theorist"],
+    "antonyms": []
+  },
+  {
+    "word": "judo",
+    "definition": "martial art",
+    "difficulty": "easy",
+    "category": "other",
+    "synonyms": ["combat sport"],
+    "antonyms": ["non-combat", "peaceful"]
+  },
+  {
+    "word": "loose",
+    "definition": "not firmly attached",
+    "difficulty": "easy",
+    "category": "other",
+
+
+    "synonyms": ["unfastened", "unattached"],
+    "antonyms": ["tight", "secure"]
+  },
+  {
+    "word": "modem",
+    "definition": "device for internet connection",
+    "difficulty": "easy",
+    "category": "other",
+    "synonyms": ["router", "internet box"],
+    "antonyms": []
+  },
+  {
+    "word": "parboil",
+    "definition": "partially cook",
+    "difficulty": "medium",
+    "category": "food",
+    "synonyms": ["part-cook", "blanch"],
+    "antonyms": ["fully cook", "overcook"]
+  },
+  {
+    "word": "rissole",
+    "definition": "small savory cake",
+    "difficulty": "medium",
+    "category": "food",
+    "synonyms": ["croquette", "patty"],
+    "antonyms": []
+  },
+  {
+    "word": "spinach",
+    "definition": "leafy green vegetable",
+    "difficulty": "easy",
+    "category": "food",
+    "synonyms": ["green", "leafy vegetable"],
+    "antonyms": ["meat", "protein"]
+  },
+  {
+    "word": "stencil",
+    "definition": "template for drawing",
+    "difficulty": "medium",
+    "category": "other",
+    "synonyms": ["template", "pattern"],
+    "antonyms": []
+  },
+  {
+    "word": "tassel",
+    "definition": "ornamental tuft",
+    "difficulty": "easy",
+    "category": "other",
+    "synonyms": ["fringe", "pompom"],
+    "antonyms": []
+  },
+  {
+    "word": "thought",
+    "definition": "mental process",
+    "difficulty": "easy",
+    "category": "other",
+    "synonyms": ["idea", "concept"],
+    "antonyms": ["action", "deed"]
+  },
+  {
+    "word": "trance",
+    "definition": "altered state of consciousness",
+    "difficulty": "easy",
+    "category": "other",
+    "synonyms": ["hypnosis", "ecstasy"],
+    "antonyms": ["wakefulness", "alertness"]
+  },
+  {
+    "word": "trousers",
+    "definition": "garment covering legs",
+    "difficulty": "easy",
+    "category": "other",
+    "synonyms": ["pants", "slacks"],
+    "antonyms": ["skirt", "dress"]
+  },
+  {
+    "word": "udder",
+    "definition": "milk-producing organ of female mammals",
+    "difficulty": "easy",
+    "category": "other",
+    "synonyms": ["mammary gland"],
+    "antonyms": []
+  },
+  {
+    "word": "viable",
+    "definition": "capable of working successfully",
+    "difficulty": "easy",
+    "category": "other",
+    "synonyms": ["feasible", "workable"],
+    "antonyms": ["impractical", "unfeasible"]
+  },
+  {
+    "word": "Warne",
+    "definition": "family name",
+    "difficulty": "easy",
+    "category": "people",
+    "synonyms": ["surname", "last name"],
+    "antonyms": []
+  },
+  {
+    "word": "withdraw",
+    "definition": "remove or take back",
+    "difficulty": "medium",
+    "category": "other",
+    "synonyms": ["retract", "remove"],
+    "antonyms": ["deposit", "add"]
+  },
+  {
+    "word": "apparel",
+    "definition": "clothing",
+    "difficulty": "easy",
+    "category": "other",
+    "synonyms": ["clothes", "garments"],
+    "antonyms": ["nakedness", "undress"]
+  },
+  {
+    "word": "barramundi",
+    "definition": "type of fish",
+    "difficulty": "hard",
+    "category": "food",
+    "synonyms": ["Asian sea bass", "giant perch"],
+    "antonyms": []
+  },
+  {
+    "word": "blackcurrant",
+    "definition": "type of berry",
+    "difficulty": "medium",
+    "category": "food",
+    "synonyms": ["cassis", "blackberry"],
+    "antonyms": []
+  },
+  {
+    "word": "cafeteria",
+    "definition": "self-service restaurant",
+    "difficulty": "easy",
+    "category": "other",
+    "synonyms": ["canteen", "diner"],
+    "antonyms": ["fine dining", "fancy restaurant"]
+  },
+  {
+    "word": "champagne",
+    "definition": "sparkling wine",
+    "difficulty": "medium",
+    "category": "food",
+    "synonyms": ["bubbly", "sparkling wine"],
+    "antonyms": ["still wine", "non-sparkling wine"]
+  },
+  {
+    "word": "diffraction",
+    "definition": "bending of waves",
+    "difficulty": "hard",
+    "category": "other",
+    "synonyms": ["bending", "divergence"],
+    "antonyms": ["straightening", "direct path"]
+  },
+  {
+    "word": "emancipate",
+    "definition": "to set free",
+    "difficulty": "medium",
+    "category": "other",
+    "synonyms": ["liberate", "free"],
+    "antonyms": ["enslave", "imprison"]
+  },
+  {
+    "word": "escarpment",
+    "definition": "steep slope",
+    "difficulty": "hard",
+    "category": "place or country",
+    "synonyms": ["cliff", "bluff"],
+    "antonyms": ["plain", "plateau"]
+  },
+  {
+    "word": "expostulate",
+    "definition": "to argue or protest",
+    "difficulty": "hard",
+    "category": "other",
+    "synonyms": ["protest", "argue"],
+    "antonyms": ["agree", "acquiesce"]
+  },
+  {
+    "word": "flagrant",
+    "definition": "glaringly wrong",
+    "difficulty": "medium",
+    "category": "other",
+    "synonyms": ["blatant", "obvious"],
+    "antonyms": ["subtle", "hidden"]
+  },
+  {
+    "word": "frivolity",
+    "definition": "lack of seriousness",
+    "difficulty": "medium",
+    "category": "other",
+    "synonyms": ["levity", "silliness"],
+    "antonyms": ["seriousness", "gravity"]
+  },
+  {
+    "word": "genotype",
+    "definition": "genetic makeup of an organism",
+    "difficulty": "hard",
+    "category": "other",
+    "synonyms": ["genetic code", "DNA"],
+    "antonyms": ["phenotype", "physical traits"]
+  },
+  {
+    "word": "grievance",
+    "definition": "complaint",
+    "difficulty": "easy",
+    "category": "other",
+    "synonyms": ["complaint", "gripe"],
+    "antonyms": ["praise", "commendation"]
+  },
+  {
+    "word": "heavyweight",
+    "definition": "a person or thing of great weight",
+    "difficulty": "medium",
+    "category": "other",
+    "synonyms": ["bigwig", "powerhouse"],
+    "antonyms": ["lightweight", "featherweight"]
+  },
+  {
+    "word": "Hillary",
+    "definition": "family name",
+    "difficulty": "easy",
+    "category": "people",
+    "synonyms": ["surname", "last name"],
+    "antonyms": []
+  },
+  {
+    "word": "hydraulic",
+    "definition": "related to water or other liquids in motion",
+    "difficulty": "medium",
+    "category": "other",
+    "synonyms": ["fluid", "watery"],
+    "antonyms": ["mechanical", "non-fluid"]
+  },
+  {
+    "word": "impropriety",
+    "definition": "inappropriate behavior",
+    "difficulty": "medium",
+    "category": "other",
+    "synonyms": ["misconduct", "immodesty"],
+    "antonyms": ["propriety", "decorum"]
+  },
+  {
+    "word": "inexplicable",
+    "definition": "unable to be explained",
+    "difficulty": "medium",
+    "category": "other",
+    "synonyms": ["unexplainable", "mysterious"],
+    "antonyms": ["explainable", "understandable"]
+  },
+  {
+    "word": "insolvency",
+    "definition": "unable to pay debts",
+    "difficulty": "medium",
+    "category": "other",
+    "synonyms": ["bankruptcy", "default"],
+    "antonyms": ["solvent", "financially stable"]
+  },
+  {
+    "word": "intelligence",
+    "definition": "mental capacity",
+    "difficulty": "easy",
+    "category": "other",
+    "synonyms": ["intellect", "brainpower"],
+    "antonyms": ["ignorance", "stupidity"]
+  },
+  {
+    "word": "invariably",
+    "definition": "always",
+    "difficulty": "medium",
+    "category": "other",
+    "synonyms": ["always", "constantly"],
+    "antonyms": ["occasionally", "sometimes"]
+  },
+  {
+    "word": "itinerant",
+    "definition": "traveling from place to place",
+    "difficulty": "medium",
+    "category": "other",
+    "synonyms": ["wandering", "roaming"],
+    "antonyms": ["settled", "stationary"]
+  },
+  {
+    "word": "judiciary",
+    "definition": "system of courts",
+    "difficulty": "medium",
+    "category": "other",
+    "synonyms": ["court system", "legal system"],
+    "antonyms": []
+  },
+  {
+    "word": "knapsack",
+    "definition": "backpack",
+    "difficulty": "medium",
+    "category": "other",
+    "synonyms": ["rucksack", "backpack"],
+    "antonyms": ["suitcase", "duffel bag"]
+  },
+  {
+    "word": "lexicography",
+    "definition": "dictionary making",
+    "difficulty": "hard",
+    "category": "other",
+    "synonyms": ["dictionary writing", "lexicon compilation"],
+    "antonyms": []
+  },
+  {
+    "word": "llama",
+    "definition": "South American mammal",
+    "difficulty": "medium",
+    "category": "other",
+    "synonyms": ["alpaca", "camelid"],
+    "antonyms": []
+  },
+  {
+    "word": "magnificent",
+    "definition": "splendid or impressive",
+    "difficulty": "easy",
+    "category": "other",
+    "synonyms": ["grand", "imposing"],
+    "antonyms": ["ordinary", "mediocre"]
+  },
+  {
+    "word": "aluminium",
+    "definition": "metal element",
+    "difficulty": "medium",
+    "category": "other",
+    "synonyms": ["aluminum", "metallic element"],
+    "antonyms": []
+  },
+  {
+    "word": "apprentice",
+    "definition": "a person learning a trade from a skilled employer",
+    "difficulty": "easy",
+    "category": "people",
+    "synonyms": ["trainee", "intern"],
+    "antonyms": ["master", "expert"]
+  },
+  {
+    "word": "Belarus",
+    "definition": "Eastern European country",
+    "difficulty": "medium",
+    "category": "place or country",
+    "synonyms": ["Republic of Belarus", "Belorussia"],
+    "antonyms": []
+  },
+  {
+    "word": "boardercross",
+    "definition": "snowboarding race",
+    "difficulty": "hard",
+    "category": "other",
+    "synonyms": ["snowboardcross", "boarder X"],
+    "antonyms": []
+  },
+  {
+    "word": "calculus",
+    "definition": "branch of mathematics",
+    "difficulty": "medium",
+    "category": "other",
+    "synonyms": ["math", "analysis"],
+    "antonyms": []
+  },
+  {
+    "word": "chipolata",
+    "definition": "type of sausage",
+    "difficulty": "medium",
+    "category": "food",
+    "synonyms": ["sausage", "meat link"],
+    "antonyms": []
+  },
+  {
+    "word": "diffusion",
+    "definition": "spreading of particles",
+    "difficulty": "medium",
+    "category": "other",
+    "synonyms": ["dispersion", "dissemination"],
+    "antonyms": ["concentration", "accumulation"]
+  },
+  {
+    "word": "empathetic",
+    "definition": "understanding and sharing the feelings of others",
+    "difficulty": "medium",
+    "category": "other",
+    "synonyms": ["compassionate", "sympathetic"],
+    "antonyms": ["unsympathetic", "indifferent"]
+  },
+  {
+    "word": "espouse",
+    "definition": "to adopt or support",
+    "difficulty": "medium",
+    "category": "other",
+    "synonyms": ["adopt", "endorse"],
+    "antonyms": ["reject", "oppose"]
+  },
+  {
+    "word": "falsetto",
+    "definition": "high-pitched voice",
+    "difficulty": "medium",
+    "category": "other",
+    "synonyms": ["high voice", "counter tenor"],
+    "antonyms": []
+  },
+  {
+    "word": "fluoride",
+    "definition": "chemical compound",
+    "difficulty": "medium",
+    "category": "other",
+    "synonyms": ["fluorine compound"],
+    "antonyms": []
+  },
+  {
+    "word": "gauze",
+    "definition": "thin fabric",
+    "difficulty": "easy",
+    "category": "other",
+    "synonyms": ["mesh", "netting"],
+    "antonyms": ["thick fabric", "dense material"]
+  },
+  {
+    "word": "genteel",
+    "definition": "polite and refined",
+    "difficulty": "medium",
+    "category": "other",
+    "synonyms": ["refined", "cultured"],
+    "antonyms": ["crude", "uncouth"]
+  },
+  {
+    "word": "guava",
+    "definition": "tropical fruit",
+    "difficulty": "easy",
+    "category": "food",
+    "synonyms": ["tropical fruit", "pome fruit"],
+    "antonyms": []
+  },
+  {
+    "word": "Helsinki",
+    "definition": "capital city of Finland",
+    "difficulty": "medium",
+    "category": "place or country",
+    "synonyms": ["Finnish capital"],
+    "antonyms": ["non-Finnish city", "foreign capital"]
+  },
+  {
+    "word": "hominid",
+    "definition": "member of the family Hominidae",
+    "difficulty": "hard",
+    "category": "other",
+    "synonyms": ["human", "ape"],
+    "antonyms": ["non-human", "non-ape"]
+  },
+  {
+    "word": "hypocrisy",
+    "definition": "pretending to have virtues, morals, or principles that one does not actually possess",
+    "difficulty": "medium",
+    "category": "other",
+    "synonyms": ["deceit", "insincerity"],
+    "antonyms": ["sincerity", "honesty"]
+  },
+  {
+    "word": "incubator",
+    "definition": "apparatus maintaining optimal conditions for growth",
+    "difficulty": "medium",
+    "category": "other",
+    "synonyms": ["hatcher", "brooder"],
+    "antonyms": ["natural environment", "outdoors"]
+  },
+  {
+    "word": "inflammatory",
+    "definition": "provocative or causing inflammation",
+    "difficulty": "medium",
+    "category": "other",
+    "synonyms": ["inflaming", "provocative"],
+    "antonyms": ["soothing", "calming"]
+  },
+  {
+    "word": "instigator",
+    "definition": "one who initiates or provokes",
+    "difficulty": "medium",
+    "category": "other",
+    "synonyms": ["provoker", "agitator"],
+    "antonyms": ["peacemaker", "mediator"]
+  },
+  {
+    "word": "interference",
+    "definition": "intervention or hindrance",
+    "difficulty": "medium",
+    "category": "other",
+    "synonyms": ["intervention", "obstruction"],
+    "antonyms": ["assistance", "support"]
+  },
+  {
+    "word": "investigation",
+    "definition": "examination or inquiry",
+    "difficulty": "easy",
+    "category": "other",
+    "synonyms": ["inquiry", "examination"],
+    "antonyms": ["ignorance", "neglect"]
+  },
+  {
+    "word": "jacaranda",
+    "definition": "type of flowering tree",
+    "difficulty": "medium",
+    "category": "other",
+    "synonyms": ["bignonia", "purple trumpet tree"],
+    "antonyms": []
+  },
+  {
+    "word": "justifiable",
+    "definition": "able to be justified or defended",
+    "difficulty": "medium",
+    "category": "other",
+    "synonyms": ["defensible", "reasonable"],
+    "antonyms": ["unjustifiable", "indefensible"]
+  },
+  {
+    "word": "kombucha",
+    "definition": "fermented tea",
+    "difficulty": "medium",
+    "category": "food",
+    "synonyms": ["kombucha tea", "fermented drink"],
+    "antonyms": []
+  },
+  {
+    "word": "lichen",
+    "definition": "composite organism",
+    "difficulty": "medium",
+    "category": "other",
+    "synonyms": ["moss", "algae"],
+    "antonyms": []
+  },
+  {
+    "word": "longitude",
+    "definition": "angular distance east or west",
+    "difficulty": "medium",
+    "category": "other",
+    "synonyms": ["meridian", "geographic coordinates"],
+    "antonyms": ["latitude", "horizontal"]
+  },
+  {
+    "word": "amateur",
+    "definition": "non-professional",
+    "difficulty": "easy",
+    "category": "other",
+    "synonyms": ["novice", "beginner"],
+    "antonyms": ["professional", "expert"]
+  },
+  {
+    "word": "artificial",
+    "definition": "man-made",
+    "difficulty": "easy",
+    "category": "other",
+    "synonyms": ["synthetic", "manufactured"],
+    "antonyms": ["natural", "organic"]
+  },
+  {
+    "word": "Belgium",
+    "definition": "European country",
+    "difficulty": "easy",
+    "category": "place or country",
+    "synonyms": ["Kingdom of Belgium", "Benelux"],
+    "antonyms": []
+  },
+  {
+    "word": "bocce",
+    "definition": "lawn bowling game",
+    "difficulty": "medium",
+    "category": "other",
+    "synonyms": ["bocci", "boules"],
+    "antonyms": []
+  },
+  {
+    "word": "canister",
+    "definition": "container",
+    "difficulty": "medium",
+    "category": "other",
+    "synonyms": ["container", "cylinder"],
+    "antonyms": ["open", "empty"]
+  },
+  {
+    "word": "cirrus",
+    "definition": "type of cloud",
+    "difficulty": "medium",
+    "category": "other",
+    "synonyms": ["wispy cloud", "feathery cloud"],
+    "antonyms": []
+  },
+  {
+    "word": "effigy",
+    "definition": "sculpture representing a person",
+    "difficulty": "medium",
+    "category": "other",
+    "synonyms": ["representation", "figure"],
+    "antonyms": []
+  },
+  {
+    "word": "encapsulate",
+    "definition": "to enclose in a capsule",
+    "difficulty": "medium",
+    "category": "other",
+    "synonyms": ["enclose", "contain"],
+    "antonyms": ["release", "open"]
+  },
+  {
+    "word": "excellence",
+    "definition": "quality of being outstanding",
+    "difficulty": "easy",
+    "category": "other",
+    "synonyms": ["superiority", "greatness"],
+    "antonyms": ["mediocrity", "inferiority"]
+  },
+  {
+    "word": "familiarity",
+    "definition": "being well acquainted",
+    "difficulty": "easy",
+    "category": "other",
+    "synonyms": ["knowledge", "acquaintance"],
+    "antonyms": ["strangeness", "unfamiliarity"]
+  },
+  {
+    "word": "forage",
+    "definition": "to search for food",
+    "difficulty": "medium",
+    "category": "other",
+    "synonyms": ["scavenge", "hunt"],
+    "antonyms": ["hoard", "stockpile"]
+  },
+  {
+    "word": "gazetteer",
+    "definition": "geographical dictionary",
+    "difficulty": "hard",
+    "category": "other",
+    "synonyms": ["geographical dictionary", "atlas"],
+    "antonyms": []
+  },
+  {
+    "word": "geyser",
+    "definition": "hot spring that erupts",
+    "difficulty": "medium",
+    "category": "other",
+    "synonyms": ["hot spring", "volcanic spring"],
+    "antonyms": []
+  },
+  {
+    "word": "Gulpilil",
+    "definition": "Australian actor",
+    "difficulty": "medium",
+    "category": "people",
+    "synonyms": ["actor", "performer"],
+    "antonyms": []
+  },
+  {
+    "word": "hereditary",
+    "definition": "passed down through generations",
+    "difficulty": "medium",
+    "category": "other",
+    "synonyms": ["inherited", "genetic"],
+    "antonyms": ["acquired", "non-hereditary"]
+  },
+  {
+    "word": "Honduras",
+    "definition": "Central American country",
+    "difficulty": "easy",
+    "category": "place or country",
+    "synonyms": ["Republic of Honduras", "Central America"],
+    "antonyms": []
+  },
+  {
+    "word": "igneous",
+    "definition": "formed from volcanic activity",
+    "difficulty": "hard",
+    "category": "other",
+    "synonyms": ["volcanic", "molten"],
+    "antonyms": ["sedimentary", "metamorphic"]
+  },
+  {
+    "word": "indefensible",
+    "definition": "unable to be defended",
+    "difficulty": "medium",
+    "category": "other",
+    "synonyms": ["unjustifiable", "inexcusable"],
+    "antonyms": ["defensible", "justifiable"]
+  },
+  {
+    "word": "inhospitable",
+    "definition": "unwelcoming or unfavorable for life",
+    "difficulty": "medium",
+    "category": "other",
+    "synonyms": ["unfriendly", "unwelcoming"],
+    "antonyms": ["hospitable", "welcoming"]
+  },
+  {
+    "word": "insubordinate",
+    "definition": "disobedient to authority",
+    "difficulty": "medium",
+    "category": "other",
+    "synonyms": ["rebellious", "defiant"],
+    "antonyms": ["obedient", "compliant"]
+  },
+  {
+    "word": "intolerable",
+    "definition": "unbearable",
+    "difficulty": "medium",
+    "category": "other",
+    "synonyms": ["unbearable", "unendurable"],
+    "antonyms": ["bearable", "endurable"]
+  },
+  {
+    "word": "invigorate",
+    "definition": "to give energy to",
+    "difficulty": "medium",
+    "category": "other",
+    "synonyms": ["energize", "revitalize"],
+    "antonyms": ["weaken", "deplete"]
+  },
+  {
+    "word": "jamboree",
+    "definition": "large festive gathering",
+    "difficulty": "medium",
+    "category": "other",
+    "synonyms": ["festival", "celebration"],
+    "antonyms": []
+  },
+  {
+    "word": "Kalahari",
+    "definition": "African desert",
+    "difficulty": "medium",
+    "category": "place or country",
+    "synonyms": ["Kalahari Desert", "Sands of Kalahari"],
+    "antonyms": []
+  },
+  {
+    "word": "laborious",
+    "definition": "requiring much effort",
+    "difficulty": "medium",
+    "category": "other",
+    "synonyms": ["arduous", "onerous"],
+    "antonyms": ["easy", "effortless"]
+  },
+  {
+    "word": "lieutenant",
+    "definition": "military rank",
+    "difficulty": "medium",
+    "category": "other",
+    "synonyms": ["officer", "deputy"],
+    "antonyms": ["general", "captain"]
+  },
+  {
+    "word": "ludicrous",
+    "definition": "ridiculous or absurd",
+    "difficulty": "easy",
+    "category": "other",
+    "synonyms": ["ridiculous", "absurd"],
+    "antonyms": ["serious", "sensible"]
+  },
+  {
+    "word": "aerobics",
+    "definition": "physical exercise",
+    "difficulty": "easy",
+    "category": "other",
+    "synonyms": ["exercise", "workout"],
+    "antonyms": ["sedentary", "inactive"]
+  },
+  {
+    "word": "anchovy",
+    "definition": "type of fish",
+    "difficulty": "medium",
+    "category": "food",
+    "synonyms": ["small fish", "sardine"],
+    "antonyms": []
+  },
+  {
+    "word": "ascertain",
+    "definition": "to find out",
+    "difficulty": "medium",
+    "category": "other",
+    "synonyms": ["determine", "discover"],
+    "antonyms": ["ignore", "neglect"]
+  },
+  {
+    "word": "billionaire",
+    "definition": "person with a billion or more dollars",
+    "difficulty": "easy",
+    "category": "people",
+    "synonyms": ["tycoon", "magnate"],
+    "antonyms": ["pauper", "beggar"]
+  },
+  {
+    "word": "Botswana",
+    "definition": "African country",
+    "difficulty": "easy",
+    "category": "place or country",
+    "synonyms": ["Republic of Botswana", "Southern Africa"],
+    "antonyms": []
+  },
+  {
+    "word": "catalyst",
+    "definition": "agent of change",
+    "difficulty": "medium",
+    "category": "other",
+    "synonyms": ["stimulus", "impetus"],
+    "antonyms": ["inhibitor", "hindrance"]
+  },
+  {
+    "word": "cumulus",
+    "definition": "type of cloud",
+    "difficulty": "medium",
+    "category": "other",
+    "synonyms": ["puffy cloud", "heap cloud"],
+    "antonyms": []
+  },
+  {
+    "word": "eiderdown",
+    "definition": "soft quilt",
+    "difficulty": "medium",
+    "category": "other",
+    "synonyms": ["quilt", "comforter"],
+    "antonyms": []
+  },
+  {
+    "word": "encryption",
+    "definition": "process of encoding information",
+    "difficulty": "medium",
+    "category": "other",
+    "synonyms": ["coding", "scrambling"],
+    "antonyms": ["decryption", "decoding"]
+  },
+  {
+    "word": "exceptional",
+    "definition": "extraordinary",
+    "difficulty": "easy",
+    "category": "other",
+    "synonyms": ["remarkable", "outstanding"],
+    "antonyms": ["ordinary", "average"]
+  },
+  {
+    "word": "figurative",
+    "definition": "metaphorical",
+    "difficulty": "medium",
+    "category": "other",
+    "synonyms": ["symbolic", "representative"],
+    "antonyms": ["literal", "real"]
+  },
+  {
+    "word": "fracas",
+    "definition": "noisy quarrel",
+    "difficulty": "medium",
+    "category": "other",
+    "synonyms": ["brawl", "commotion"],
+    "antonyms": ["peace", "calm"]
+  },
+  {
+    "word": "generic",
+    "definition": "general or common",
+    "difficulty": "easy",
+    "category": "other",
+    "synonyms": ["typical", "standard"],
+    "antonyms": ["specific", "unique"]
+  },
+  {
+    "word": "gibberish",
+    "definition": "nonsense speech",
+    "difficulty": "easy",
+    "category": "other",
+    "synonyms": ["gobbledygook", "jargon"],
+    "antonyms": ["coherent speech", "intelligible language"]
+  },
+  {
+    "word": "gymnastics",
+    "definition": "athletic exercises",
+    "difficulty": "easy",
+    "category": "other",
+    "synonyms": ["calisthenics", "acrobatics"],
+    "antonyms": ["sedentary lifestyle", "inactivity"]
+  },
+  {
+    "word": "hibernation",
+    "definition": "state of inactivity in animals",
+    "difficulty": "medium",
+    "category": "other",
+    "synonyms": ["torpor", "dormancy"],
+    "antonyms": ["activity", "wakefulness"]
+  },
+  {
+    "word": "horizontal",
+    "definition": "parallel to the horizon",
+    "difficulty": "easy",
+    "category": "other",
+    "synonyms": ["level", "flat"],
+    "antonyms": ["vertical", "upright"]
+  },
+  {
+    "word": "imbecile",
+    "definition": "foolish or stupid person",
+    "difficulty": "medium",
+    "category": "other",
+    "synonyms": ["idiot", "moron"],
+    "antonyms": ["genius", "intellectual"]
+  },
+  {
+    "word": "indemnified",
+    "definition": "compensated for harm or loss",
+    "difficulty": "medium",
+    "category": "other",
+    "synonyms": ["compensated", "reimbursed"],
+    "antonyms": ["uncompensated", "unreimbursed"]
+  },
+  {
+    "word": "inoperable",
+    "definition": "not functioning",
+    "difficulty": "medium",
+    "category": "other",
+    "synonyms": ["nonfunctional", "disabled"],
+    "antonyms": ["functional", "operational"]
+  },
+  {
+    "word": "insufferable",
+    "definition": "unbearable",
+    "difficulty": "medium",
+    "category": "other",
+    "synonyms": ["intolerable", "unendurable"],
+    "antonyms": ["bearable", "endurable"]
+  },
+  {
+    "word": "intractable",
+    "definition": "hard to control or deal with",
+    "difficulty": "medium",
+    "category": "other",
+    "synonyms": ["stubborn", "unmanageable"],
+    "antonyms": ["manageable", "compliant"]
+  },
+  {
+    "word": "involuntary",
+    "definition": "done without will or conscious control",
+    "difficulty": "medium",
+    "category": "other",
+    "synonyms": ["unintentional", "automatic"],
+    "antonyms": ["voluntary", "conscious"]
+  },
+  {
+    "word": "jeopardy",
+    "definition": "danger of loss or harm",
+    "difficulty": "medium",
+    "category": "other",
+    "synonyms": ["risk", "peril"],
+    "antonyms": ["safety", "security"]
+  },
+  {
+    "word": "Keneally",
+    "definition": "Australian author",
+    "difficulty": "medium",
+    "category": "people",
+    "synonyms": ["author", "writer"],
+    "antonyms": []
+  },
+  {
+    "word": "lacklustre",
+    "definition": "lacking in vitality or enthusiasm",
+    "difficulty": "medium",
+    "category": "other",
+    "synonyms": ["dull", "lifeless"],
+    "antonyms": ["vibrant", "enthusiastic"]
+  },
+  {
+    "word": "liquidate",
+    "definition": "to pay off or settle",
+    "difficulty": "medium",
+    "category": "other",
+    "synonyms": ["settle", "clear"],
+    "antonyms": ["accumulate", "hoard"]
+  },
+  {
+    "word": "mackerel",
+    "definition": "type of fish",
+    "difficulty": "medium",
+    "category": "food",
+    "synonyms": ["fish", "seafood"],
+    "antonyms": []
+  },
+  {
+    "word": "antonym",
+    "definition": "word with opposite meaning to another",
+    "difficulty": "easy",
+    "category": "other",
+    "synonyms": ["opposite", "contrary"],
+    "antonyms": ["synonym", "equivalent"]
+  },
+  {
+    "word": "asparagus",
+    "definition": "vegetable with edible shoots",
+    "difficulty": "easy",
+    "category": "food",
+    "synonyms": ["spear vegetable", "stalk vegetable"],
+    "antonyms": []
+  },
+  {
+    "word": "biodiversity",
+    "definition": "variety of life in a particular habitat or ecosystem",
+    "difficulty": "medium",
+    "category": "other",
+    "synonyms": ["ecological diversity", "species diversity"],
+    "antonyms": []
+  },
+  {
+    "word": "cacao",
+    "definition": "seed of cacao tree, used to make cocoa and chocolate",
+    "difficulty": "medium",
+    "category": "food",
+    "synonyms": ["cocoa", "cocoa bean"],
+    "antonyms": []
+  },
+  {
+    "word": "catamaran",
+    "definition": "multihulled watercraft",
+    "difficulty": "medium",
+    "category": "other",
+    "synonyms": ["multihull boat", "sailboat"],
+    "antonyms": []
+  },
+  {
+    "word": "decompression",
+    "definition": "reduction of pressure",
+    "difficulty": "medium",
+    "category": "other",
+    "synonyms": ["pressure relief", "depressurization"],
+    "antonyms": []
+  },
+  {
+    "word": "eloquent",
+    "definition": "articulate and persuasive in speech",
+    "difficulty": "medium",
+    "category": "other",
+    "synonyms": ["articulate", "persuasive"],
+    "antonyms": ["inarticulate", "ineloquent"]
+  },
+  {
+    "word": "erudition",
+    "definition": "deep, extensive learning",
+    "difficulty": "medium",
+    "category": "other",
+    "synonyms": ["scholarship", "knowledge"],
+    "antonyms": ["ignorance", "illiteracy"]
+  },
+  {
+    "word": "exhaustion",
+    "definition": "state of extreme tiredness",
+    "difficulty": "easy",
+    "category": "other",
+    "synonyms": ["fatigue", "weariness"],
+    "antonyms": ["energy", "vigor"]
+  },
+  {
+    "word": "finicky",
+    "definition": "excessively particular or fastidious",
+    "difficulty": "medium",
+    "category": "other",
+    "synonyms": ["fussy", "picky"],
+    "antonyms": ["easygoing", "undemanding"]
+  },
+  {
+    "word": "fragmentary",
+    "definition": "incomplete or composed of fragments",
+    "difficulty": "medium",
+    "category": "other",
+    "synonyms": ["incomplete", "partial"],
+    "antonyms": ["whole", "complete"]
+  },
+  {
+    "word": "generosity",
+    "definition": "act of giving freely",
+    "difficulty": "easy",
+    "category": "other",
+    "synonyms": ["kindness", "liberality"],
+    "antonyms": ["stinginess", "selfishness"]
+  },
+  {
+    "word": "glutinous",
+    "definition": "sticky or adhesive",
+    "difficulty": "medium",
+    "category": "other",
+    "synonyms": ["viscous", "gummy"],
+    "antonyms": ["non-sticky", "slippery"]
+  },
+  {
+    "word": "harangue",
+    "definition": "a lengthy and aggressive speech",
+    "difficulty": "medium",
+    "category": "other",
+    "synonyms": ["diatribe", "tirade"],
+    "antonyms": []
+  },
+  {
+    "word": "hibiscus",
+    "definition": "flowering plant",
+    "difficulty": "easy",
+    "category": "other",
+    "synonyms": ["rose mallow", "flowering shrub"],
+    "antonyms": []
+  },
+  {
+    "word": "horticulture",
+    "definition": "art or practice of garden cultivation",
+    "difficulty": "medium",
+    "category": "other",
+    "synonyms": ["gardening", "cultivation"],
+    "antonyms": []
+  },
+  {
+    "word": "immediately",
+    "definition": "without delay",
+    "difficulty": "easy",
+    "category": "other",
+    "synonyms": ["instantly", "promptly"],
+    "antonyms": ["gradually", "eventually"]
+  },
+  {
+    "word": "indigestion",
+    "definition": "discomfort or pain in the stomach",
+    "difficulty": "easy",
+    "category": "other",
+    "synonyms": ["dyspepsia", "upset stomach"],
+    "antonyms": ["digestion", "easiness"]
+  },
+  {
+    "word": "insatiable",
+    "definition": "impossible to satisfy",
+    "difficulty": "medium",
+    "category": "other",
+    "synonyms": ["unquenchable", "voracious"],
+    "antonyms": ["satisfied", "content"]
+  },
+  {
+    "word": "insurrection",
+    "definition": "violent uprising against authority",
+    "difficulty": "medium",
+    "category": "other",
+    "synonyms": ["rebellion", "revolt"],
+    "antonyms": ["loyalty", "obedience"]
+  },
+  {
+    "word": "intransigent",
+    "definition": "uncompromising or refusing to change",
+    "difficulty": "medium",
+    "category": "other",
+    "synonyms": ["stubborn", "obstinate"],
+    "antonyms": ["flexible", "adaptable"]
+  },
+  {
+    "word": "isometrics",
+    "definition": "exercises involving muscular contraction",
+    "difficulty": "medium",
+    "category": "other",
+    "synonyms": ["static exercises", "resistance exercises"],
+    "antonyms": []
+  },
+  {
+    "word": "jonquil",
+    "definition": "type of flower",
+    "difficulty": "medium",
+    "category": "other",
+    "synonyms": ["daffodil", "narcissus"],
+    "antonyms": []
+  },
+  {
+    "word": "Kewell",
+    "definition": "Australian soccer player",
+    "difficulty": "medium",
+    "category": "people",
+    "synonyms": ["footballer", "athlete"],
+    "antonyms": []
+  },
+  {
+    "word": "lacrosse",
+    "definition": "team sport with a ball and stick",
+    "difficulty": "medium",
+    "category": "other",
+    "synonyms": ["lax", "stickball"],
+    "antonyms": []
+  },
+  {
+    "word": "litany",
+    "definition": "lengthy recitation or list",
+    "difficulty": "medium",
+    "category": "other",
+    "synonyms": ["catalogue", "enumeration"],
+    "antonyms": []
+  },
+  {
+    "word": "Madagascar",
+    "definition": "African island nation",
+    "difficulty": "easy",
+    "category": "place or country",
+    "synonyms": ["Republic of Madagascar", "island nation"],
+    "antonyms": []
+  }
 ]

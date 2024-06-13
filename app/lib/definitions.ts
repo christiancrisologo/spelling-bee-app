@@ -6,9 +6,10 @@ export type User = {
 };
 
 export type Word = {
-  id: string;
-  word: string;
-  dictionary: string;
-  level: string;
-  image_url: string;
+  id: string
+  word: string
+  definition: string
+  difficulty: string
+  synonyms: string []
+  antonyms: string []
 };

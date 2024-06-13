@@ -174,6 +174,9 @@ const SpellingBeeComponent = (props: SpellingBeeProps) => {
       "It start with the letter " + currentWord?.word[0],
       "It end with the letter " + currentWord?.word[currentWord?.word.length - 1],
     ];
+    if (currentWord?.synonyms?.length) {
+      hints.push("It end with the letter of " + currentWord?.synonyms.toString());
+    }
     speakRandomResponse(hints);
   }
 
@@ -288,7 +291,7 @@ const SpellingBeeComponent = (props: SpellingBeeProps) => {
                       }} > Say it again? </OptButton>
                     <OptButton
                       onClick={() => {
-                        speakWord("this word means " + currentWord?.dictionary!);
+                        speakWord("this word means " + currentWord?.definition!);
                       }} > Define the word? </OptButton>
                     <OptButton
                       onClick={hint} > Give me a hint?</OptButton>

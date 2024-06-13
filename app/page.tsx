@@ -1,6 +1,3 @@
-// import { fetchWords } from "./lib/data";
-// import Main from "./ui/Main";
-// import data from './data.json';
 import Image from 'next/image';
 import HomeScreen from "./ui/HomeScreen";
 
