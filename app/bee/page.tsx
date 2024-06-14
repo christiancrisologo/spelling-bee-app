@@ -2,18 +2,18 @@ import React, { ReactNode, useEffect, useState } from 'react';
 import Spinner from '../ui/Spinner';
 import data from '../data.json';
 import SpellingBee from './ui/SpellingBee';
-import { Word  as WordType } from '../lib/definitions';
 
 
-export default function Page () {
+export default async function Page() {
 
-    const isReady =  data?.length;
+    const words = data;
+
     return (<div className="flex flex-col h-screen bg-gray-200 w-full">
         {
-            !isReady && (<Spinner />)
+            !words.length && (<Spinner />)
         }
         {
-            isReady && <SpellingBee words={data as WordType[]} />
+            words.length && <SpellingBee words={words} />
         }
   
   </div>

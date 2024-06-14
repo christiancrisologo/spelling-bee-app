@@ -87,9 +87,14 @@ const SpellingBeeComponent = (props: SpellingBeeProps) => {
 
   useEffect( ()=> {
     if (typeof window.speechSynthesis !== undefined && !speech) {
+      if (window.speechSynthesis.onvoiceschanged) {
         window.speechSynthesis.onvoiceschanged = function() {
-            setSpeech(getSpeechSynth());
+          setSpeech(getSpeechSynth());
         };
+      } else {
+        setSpeech(getSpeechSynth());
+      }
+
     }
   },[speech]);
 
@@ -175,7 +180,13 @@ const SpellingBeeComponent = (props: SpellingBeeProps) => {
       "It end with the letter " + currentWord?.word[currentWord?.word.length - 1],
     ];
     if (currentWord?.synonyms?.length) {
-      hints.push("It end with the letter of " + currentWord?.synonyms.toString());
+      hints.push("This is with a synonyms of " + currentWord?.synonyms.toString());
+    }
+    if (currentWord?.antonyms?.length) {
+      hints.push("This is with a antonyms of " + currentWord?.antonyms.toString());
+    }
+    if (currentWord?.category && currentWord?.category != 'other') {
+      hints.push("This is categorize to a  " + currentWord?.category);
     }
     speakRandomResponse(hints);
   }
@@ -340,7 +351,7 @@ const SpellingBeeComponent = (props: SpellingBeeProps) => {
 
 export default function SpellingBee (props:SpellingBeeProps) {
   const { words } = props;
-
+  
   return <Suspense>
     <SpellingBeeComponent  words={words}/>
     </Suspense>

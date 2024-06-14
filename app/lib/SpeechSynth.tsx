@@ -47,7 +47,7 @@ export const getSpeechSynth = (): SpeechSynthType => {
         utterance.pitch = options?.pitch || 0.2;
         utterance.volume = options?.volume || 1;
         utterance.rate = options?.rate || 0.01;
-        console.log('speaking:: ', options, utterance, word);
+        // console.log('speaking:: ', options, utterance, word);
         speechSynth.speak(utterance);
     }
 
