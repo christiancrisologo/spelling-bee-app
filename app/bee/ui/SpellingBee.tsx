@@ -284,7 +284,9 @@ const SpellingBeeComponent = (props: SpellingBeeProps) => {
                         value={userAnswerInput}
                         onChange={(e) => setUserAnswerInput(e.target.value)}
                         onKeyDown={handleKeyDown}
-                        disabled={!currentWord?.word} />
+                        disabled={!currentWord?.word}
+                        autoComplete="off"
+                        spellCheck="false" />
                       <button
                         className="mt-1 p-4 bg-blue-500 text-white hover:bg-blue-700 focus:outline-none text-2xl font-bold rounded-xl disabled:bg-gray-400"
                         onClick={onWordSubmit}
@@ -351,7 +353,7 @@ const SpellingBeeComponent = (props: SpellingBeeProps) => {
 
 export default function SpellingBee (props:SpellingBeeProps) {
   const { words } = props;
-  
+
   return <Suspense>
     <SpellingBeeComponent  words={words}/>
     </Suspense>
