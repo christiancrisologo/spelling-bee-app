@@ -25,7 +25,7 @@ const difficultyOptions: OptionProps[] = [
     },{
         label: "Hard",
     },
-]; 
+];
 
 const enableTimerOptions: OptionProps[] = [
     {

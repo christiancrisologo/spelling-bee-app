@@ -2,17 +2,18 @@ import { useEffect, useMemo, useState } from "react";
 import GameTimer from "./GameTimer";
 
 type TopBarProps = {
-    score: number
+    correctAnswers: number
     playerName: string
     restartTimer: boolean
     enableTimer: boolean
     totalSeconds: number
     onTimerOver: () => void
+    level: string
 }
 
 
 export default function TopBar(props:TopBarProps) {
-    const { score, playerName, restartTimer, onTimerOver, enableTimer, totalSeconds } = props;
+    const { correctAnswers, playerName, restartTimer, onTimerOver, enableTimer, totalSeconds, level } = props;
 
     const timer = useMemo(() => {
         const _timer = {
@@ -34,7 +35,9 @@ export default function TopBar(props:TopBarProps) {
 
     return(
         <div className="flex justify-between items-center p-4 bg-white shadow-md">
-            <span>🏅 Score : {score}</span>
+            <div className="flex">
+                <span className="pr-4">🏅 Score : {correctAnswers} <span className="text-gray-400">({level})</span></span>
+            </div>
             {/* <span>Completed words: {completedWords}</span>
             <span>Skipped words: {skippedWords}</span> */}
             <span className="text-fuchsia-600 text-xl font-bold">{playerName}</span>

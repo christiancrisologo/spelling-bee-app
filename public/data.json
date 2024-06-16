@@ -2515,7 +2515,7 @@
       "word": "utensil",
       "definition": "a tool, container, or other article, especially for household use",
       "difficulty": "easy",
-      "level": "elementary",
+      "level": "junior",
       "category": "thing",
       "synonyms": ["implement", "tool"],
       "antonyms": ["finger", "hand"]
@@ -2542,7 +2542,7 @@
       "word": "wilderness",
       "definition": "an uncultivated, uninhabited, and inhospitable region",
       "difficulty": "easy",
-      "level": "elementary",
+      "level": "junior",
       "category": "places",
       "synonyms": ["wilds", "desert"],
       "antonyms": ["civilization", "urban area"]
@@ -2569,7 +2569,7 @@
       "word": "probable",
       "definition": "likely to be the case or to happen",
       "difficulty": "easy",
-      "level": "elementary",
+      "level": "junior",
       "category": "other",
       "synonyms": ["likely", "expected"],
       "antonyms": ["unlikely", "improbable"]
@@ -2596,7 +2596,7 @@
       "word": "reference",
       "definition": "the action of mentioning or alluding to something",
       "difficulty": "easy",
-      "level": "elementary",
+      "level": "junior",
       "category": "other",
       "synonyms": ["mention", "citation"],
       "antonyms": ["omission", "ignorance"]
@@ -2632,7 +2632,7 @@
       "word": "schedule",
       "definition": "a plan for carrying out a process or procedure, giving lists of intended events and times",
       "difficulty": "easy",
-      "level": "elementary",
+      "level": "junior",
       "category": "other",
       "synonyms": ["timetable", "agenda"],
       "antonyms": ["random", "unscheduled"]
@@ -2659,7 +2659,7 @@
       "word": "Singapore",
       "definition": "a sovereign city-state and island country in Southeast Asia",
       "difficulty": "easy",
-      "level": "elementary",
+      "level": "junior",
       "category": "places",
       "synonyms": ["city-state", "nation"],
       "antonyms": ["rural area", "countryside"]
@@ -2668,7 +2668,7 @@
       "word": "species",
       "definition": "a group of living organisms consisting of similar individuals capable of exchanging genes or interbreeding",
       "difficulty": "easy",
-      "level": "elementary",
+      "level": "junior",
       "category": "animals",
       "synonyms": ["type", "kind"],
       "antonyms": ["individual", "variant"]
@@ -2677,7 +2677,7 @@
       "word": "squid",
       "definition": "a sea animal with a long, soft body and many tentacles",
       "difficulty": "easy",
-      "level": "elementary",
+      "level": "junior",
       "category": "animals",
       "synonyms": ["calamari", "cephalopod"],
       "antonyms": ["land animal", "mammal"]
@@ -2686,7 +2686,7 @@
       "word": "succeed",
       "definition": "achieve the desired aim or result",
       "difficulty": "easy",
-      "level": "elementary",
+      "level": "junior",
       "category": "action",
       "synonyms": ["accomplish", "attain"],
       "antonyms": ["fail", "lose"]
@@ -2704,7 +2704,7 @@
       "word": "tomorrow",
       "definition": "on the day after today",
       "difficulty": "easy",
-      "level": "elementary",
+      "level": "junior",
       "category": "time",
       "synonyms": ["next day", "future"],
       "antonyms": ["yesterday", "past"]
@@ -2785,7 +2785,7 @@
   "word": "pyjamas",
   "definition": "a loose-fitting jacket and trousers for sleeping in, typically associated with India",
   "difficulty": "easy",
-  "level": "elementary",
+  "level": "junior",
   "category": "clothing",
   "synonyms": ["pajamas", "sleepwear"],
   "antonyms": ["daywear", "formalwear"]
@@ -2848,7 +2848,7 @@
   "word": "separate",
   "definition": "to set or keep apart; divide into parts",
   "difficulty": "easy",
-  "level": "elementary",
+  "level": "junior",
   "category": "action",
   "synonyms": ["divide", "detach"],
   "antonyms": ["join", "unite"]
@@ -2884,7 +2884,7 @@
   "word": "stability",
   "definition": "the state of being stable; firmness in position",
   "difficulty": "easy",
-  "level": "elementary",
+  "level": "junior",
   "category": "emotion",
   "synonyms": ["steadiness", "balance"],
   "antonyms": ["instability", "unsteadiness"]
@@ -2929,7 +2929,7 @@
   "word": "vertical",
   "definition": "at right angles to a horizontal plane; in a direction, or having an alignment, such that the top is directly above the bottom",
   "difficulty": "easy",
-  "level": "elementary",
+  "level": "junior",
   "category": "other",
   "synonyms": ["upright", "perpendicular"],
   "antonyms": ["horizontal", "flat"]
@@ -2983,7 +2983,7 @@
   "word": "procedure",
   "definition": "an established or official way of doing something",
   "difficulty": "easy",
-  "level": "elementary",
+  "level": "junior",
   "category": "other",
   "synonyms": ["process", "method"],
   "antonyms": ["disorder", "chaos"]
@@ -2992,7 +2992,7 @@
   "word": "qualified",
   "definition": "officially recognized as being trained to perform a particular job; certified",
   "difficulty": "easy",
-  "level": "elementary",
+  "level": "junior",
   "category": "other",
   "synonyms": ["certified", "skilled"],
   "antonyms": ["unqualified", "inexperienced"]
@@ -3001,7 +3001,7 @@
   "word": "rainforest",
   "definition": "a luxuriant, dense forest rich in biodiversity, found typically in tropical areas with consistently heavy rainfall",
   "difficulty": "easy",
-  "level": "elementary",
+  "level": "junior",
   "category": "places",
   "synonyms": ["jungle", "tropical forest"],
   "antonyms": ["desert", "tundra"]
@@ -3010,7 +3010,7 @@
   "word": "reggae",
   "definition": "a style of popular music with a strongly accented subsidiary beat, originating in Jamaica",
   "difficulty": "easy",
-  "level": "elementary",
+  "level": "junior",
   "category": "music",
   "synonyms": ["Jamaican music", "rhythm"],
   "antonyms": ["classical", "rock"]
@@ -3046,7 +3046,7 @@
   "word": "secretary",
   "definition": "a person employed by an individual or in an office to assist with correspondence, keep records, make appointments, and carry out similar tasks",
   "difficulty": "easy",
-  "level": "elementary",
+  "level": "junior",
   "category": "people",
   "synonyms": ["assistant", "clerk"],
   "antonyms": ["boss", "supervisor"]
@@ -3055,7 +3055,7 @@
   "word": "sequin",
   "definition": "a small, shiny disk sewn as one of many onto clothing for decoration",
   "difficulty": "easy",
-  "level": "elementary",
+  "level": "junior",
   "category": "clothing",
   "synonyms": ["bead", "sparkle"],
   "antonyms": ["dull", "matte"]
@@ -3082,7 +3082,7 @@
   "word": "spouse",
   "definition": "a husband or wife, considered in relation to their partner",
   "difficulty": "easy",
-  "level": "elementary",
+  "level": "junior",
   "category": "people",
   "synonyms": ["partner", "mate"],
   "antonyms": ["single", "unmarried"]
@@ -3100,7 +3100,7 @@
   "word": "supermarket",
   "definition": "a large self-service store selling foods and household goods",
   "difficulty": "easy",
-  "level": "elementary",
+  "level": "junior",
   "category": "places",
   "synonyms": ["grocery store", "market"],
   "antonyms": ["boutique", "specialty shop"]
@@ -3109,7 +3109,7 @@
   "word": "tedious",
   "definition": "too long, slow, or dull; tiresome or monotonous",
   "difficulty": "easy",
-  "level": "elementary",
+  "level": "junior",
   "category": "emotion",
   "synonyms": ["boring", "dreary"],
   "antonyms": ["interesting", "exciting"]
@@ -3118,7 +3118,7 @@
   "word": "tragedy",
   "definition": "an event causing great suffering, destruction, and distress, such as a serious accident, crime, or natural catastrophe",
   "difficulty": "easy",
-  "level": "elementary",
+  "level": "junior",
   "category": "emotion",
   "synonyms": ["disaster", "calamity"],
   "antonyms": ["comedy", "joy"]
@@ -3127,7 +3127,7 @@
   "word": "tuxedo",
   "definition": "a man's semiformal evening suit, distinguished by a satin or grosgrain jacket lapel",
   "difficulty": "easy",
-  "level": "elementary",
+  "level": "junior",
   "category": "clothing",
   "synonyms": ["dinner jacket", "formal attire"],
   "antonyms": ["casual wear", "informal dress"]
@@ -3145,7 +3145,7 @@
   "word": "vogue",
   "definition": "the prevailing fashion or style at a particular time",
   "difficulty": "easy",
-  "level": "elementary",
+  "level": "junior",
   "category": "other",
   "synonyms": ["trend", "fashion"],
   "antonyms": ["outdated", "unfashionable"]
@@ -3217,7 +3217,7 @@
   "word": "safari",
   "definition": "an expedition to observe or hunt animals in their natural habitat, especially in East Africa.",
   "difficulty": "easy",
-  "level": "elementary",
+  "level": "junior",
   "category": "animals",
   "synonyms": ["hunt", "expedition"],
   "antonyms": ["stay", "sedentary"]
@@ -3226,7 +3226,7 @@
   "word": "saunter",
   "definition": "walk in a slow, relaxed manner, without hurry or effort.",
   "difficulty": "easy",
-  "level": "elementary",
+  "level": "junior",
   "category": "action",
   "synonyms": ["stroll", "amble"],
   "antonyms": ["hurry", "rush"]
@@ -3235,7 +3235,7 @@
   "word": "sedentary",
   "definition": "tending to spend much time seated; somewhat inactive.",
   "difficulty": "easy",
-  "level": "elementary",
+  "level": "junior",
   "category": "action",
   "synonyms": ["inactive", "stationary"],
   "antonyms": ["active", "mobile"]
@@ -3253,7 +3253,7 @@
   "word": "signature",
   "definition": "a person's name written in a distinctive way as a form of identification in authorizing a check or document or concluding a letter.",
   "difficulty": "easy",
-  "level": "elementary",
+  "level": "junior",
   "category": "other",
   "synonyms": ["autograph", "mark"],
   "antonyms": ["anonymous", "unidentified"]
@@ -3347,5 +3347,455 @@
   "category": "places",
   "synonyms": ["dam", "barrier"],
   "antonyms": ["free flow", "open"]
+},
+{
+  "word": "apple",
+  "definition": "A sweet fruit that grows on trees.",
+  "difficulty": "easy",
+  "level": "elementary",
+  "category": "food",
+  "synonyms": ["fruit", "pome"],
+  "antonyms": ["vegetable", "meat"]
+},
+{
+  "word": "dog",
+  "definition": "A common pet and domesticated animal.",
+  "difficulty": "easy",
+  "level": "elementary",
+  "category": "animals",
+  "synonyms": ["canine", "puppy"],
+  "antonyms": ["cat", "fish"]
+},
+{
+  "word": "run",
+  "definition": "To move swiftly on foot.",
+  "difficulty": "easy",
+  "level": "elementary",
+  "category": "action",
+  "synonyms": ["sprint", "jog"],
+  "antonyms": ["walk", "crawl"]
+},
+{
+  "word": "happy",
+  "definition": "Feeling or showing pleasure or contentment.",
+  "difficulty": "easy",
+  "level": "elementary",
+  "category": "emotion",
+  "synonyms": ["joyful", "content"],
+  "antonyms": ["sad", "unhappy"]
+},
+{
+  "word": "book",
+  "definition": "A set of written, printed, or blank pages fastened together along one side and encased between protective covers.",
+  "difficulty": "easy",
+  "level": "elementary",
+  "category": "thing",
+  "synonyms": ["volume", "publication"],
+  "antonyms": ["e-book", "magazine"]
+},
+{
+  "word": "school",
+  "definition": "A place where children go to learn.",
+  "difficulty": "easy",
+  "level": "elementary",
+  "category": "places",
+  "synonyms": ["academy", "institution"],
+  "antonyms": ["home", "work"]
+},
+{
+  "word": "jump",
+  "definition": "To push oneself off a surface and into the air by using the muscles in one's legs and feet.",
+  "difficulty": "easy",
+  "level": "elementary",
+  "category": "action",
+  "synonyms": ["leap", "bounce"],
+  "antonyms": ["fall", "land"]
+},
+{
+  "word": "ocean",
+  "definition": "A vast body of salt water that covers almost three-quarters of the earth's surface.",
+  "difficulty": "medium",
+  "level": "junior",
+  "category": "places",
+  "synonyms": ["sea", "water"],
+  "antonyms": ["land", "desert"]
+},
+{
+  "word": "breakfast",
+  "definition": "The first meal of the day.",
+  "difficulty": "medium",
+  "level": "junior",
+  "category": "food",
+  "synonyms": ["morning meal", "brunch"],
+  "antonyms": ["dinner", "supper"]
+},
+{
+  "word": "forest",
+  "definition": "A large area covered chiefly with trees and undergrowth.",
+  "difficulty": "medium",
+  "level": "junior",
+  "category": "places",
+  "synonyms": ["woods", "jungle"],
+  "antonyms": ["desert", "prairie"]
+},
+{
+  "word": "calm",
+  "definition": "Not showing or feeling nervousness, anger, or other strong emotions.",
+  "difficulty": "easy",
+  "level": "junior",
+  "category": "emotion",
+  "synonyms": ["peaceful", "serene"],
+  "antonyms": ["agitated", "nervous"]
+},
+{
+  "word": "giraffe",
+  "definition": "A tall African mammal with a very long neck and forelegs.",
+  "difficulty": "medium",
+  "level": "junior",
+  "category": "animals",
+  "synonyms": ["mammal", "ungulate"],
+  "antonyms": ["short", "small"]
+},
+{
+  "word": "paint",
+  "definition": "A colored substance that is spread over a surface and dries to leave a thin decorative or protective coating.",
+  "difficulty": "easy",
+  "level": "elementary",
+  "category": "thing",
+  "synonyms": ["color", "dye"],
+  "antonyms": ["erase", "clean"]
+},
+{
+  "word": "basketball",
+  "definition": "A game played between two teams of five players in which goals are scored by throwing a ball through a netted hoop fixed above each end of the court.",
+  "difficulty": "medium",
+  "level": "junior",
+  "category": "sports",
+  "synonyms": ["hoops", "ballgame"],
+  "antonyms": ["soccer", "baseball"]
+},
+{
+  "word": "music",
+  "definition": "Vocal or instrumental sounds (or both) combined in such a way as to produce beauty of form, harmony, and expression of emotion.",
+  "difficulty": "easy",
+  "level": "junior",
+  "category": "thing",
+  "synonyms": ["melody", "tune"],
+  "antonyms": ["silence", "noise"]
+},
+{
+  "word": "bicycle",
+  "definition": "A vehicle composed of two wheels held in a frame one behind the other, propelled by pedals and steered with handlebars attached to the front wheel.",
+  "difficulty": "medium",
+  "level": "junior",
+  "category": "thing",
+  "synonyms": ["bike", "cycle"],
+  "antonyms": ["car", "motorcycle"]
+},
+{
+  "word": "kitten",
+  "definition": "A young cat.",
+  "difficulty": "easy",
+  "level": "elementary",
+  "category": "animals",
+  "synonyms": ["cat", "feline"],
+  "antonyms": ["puppy", "dog"]
+},
+{
+  "word": "garden",
+  "definition": "A piece of ground, often near a house, used for growing flowers, fruit, or vegetables.",
+  "difficulty": "easy",
+  "level": "elementary",
+  "category": "places",
+  "synonyms": ["yard", "plot"],
+  "antonyms": ["desert", "wilderness"]
+},
+{
+  "word": "library",
+  "definition": "A building or room containing collections of books, periodicals, and sometimes films and recorded music for people to read, borrow, or refer to.",
+  "difficulty": "medium",
+  "level": "junior",
+  "category": "places",
+  "synonyms": ["bookstore", "study"],
+  "antonyms": ["market", "gym"]
+},
+{
+  "word": "chicken",
+  "definition": "A domestic fowl kept for its eggs or meat, especially a young one.",
+  "difficulty": "easy",
+  "level": "elementary",
+  "category": "animals",
+  "synonyms": ["hen", "rooster"],
+  "antonyms": ["duck", "goose"]
+},
+{
+  "word": "river",
+  "definition": "A large natural stream of water flowing in a channel to the sea, a lake, or another such stream.",
+  "difficulty": "easy",
+  "level": "elementary",
+  "category": "places",
+  "synonyms": ["stream", "brook"],
+  "antonyms": ["desert", "mountain"]
+},
+{
+  "word": "pencil",
+  "definition": "An instrument for writing or drawing, consisting of a thin stick of graphite or a similar substance enclosed in a long thin piece of wood or fixed in a metal or plastic case.",
+  "difficulty": "easy",
+  "level": "elementary",
+  "category": "thing",
+  "synonyms": ["pen", "crayon"],
+  "antonyms": ["eraser", "ink"]
+},
+{
+  "word": "joyful",
+  "definition": "Feeling, expressing, or causing great pleasure and happiness.",
+  "difficulty": "easy",
+  "level": "elementary",
+  "category": "emotion",
+  "synonyms": ["happy", "cheerful"],
+  "antonyms": ["sad", "miserable"]
+},
+{
+  "word": "teacher",
+  "definition": "A person who teaches, especially in a school.",
+  "difficulty": "easy",
+  "level": "elementary",
+  "category": "people",
+  "synonyms": ["educator", "instructor"],
+  "antonyms": ["student", "pupil"]
+},
+{
+  "word": "football",
+  "definition": "A form of team game played in North America with an oval ball on a field marked out as a gridiron, or soccer played worldwide with a round ball.",
+  "difficulty": "medium",
+  "level": "junior",
+  "category": "sports",
+  "synonyms": ["soccer", "gridiron"],
+  "antonyms": ["basketball", "baseball"]
+},
+{
+  "word": "moon",
+  "definition": "The natural satellite of the earth, visible (chiefly at night) by reflected light from the sun.",
+  "difficulty": "easy",
+  "level": "elementary",
+  "category": "places",
+  "synonyms": ["satellite", "orb"],
+  "antonyms": ["sun", "star"]
+},
+{
+  "word": "whisper",
+  "definition": "Speak very softly using one's breath without using one's vocal cords, especially for the sake of secrecy.",
+  "difficulty": "medium",
+  "level": "junior",
+  "category": "action",
+  "synonyms": ["murmur", "mutter"],
+  "antonyms": ["shout", "yell"]
+},
+{
+  "word": "zebra",
+  "definition": "An African wild horse with black-and-white stripes and an erect mane.",
+  "difficulty": "easy",
+  "level": "elementary",
+  "category": "animals",
+  "synonyms": ["equine", "mammal"],
+  "antonyms": ["lion", "tiger"]
+},
+{
+  "word": "cake",
+  "definition": "An item of soft, sweet food made from a mixture of flour, fat, eggs, sugar, and other ingredients, baked and sometimes iced or decorated.",
+  "difficulty": "easy",
+  "level": "elementary",
+  "category": "food",
+  "synonyms": ["pastry", "dessert"],
+  "antonyms": ["vegetable", "meat"]
+},
+{
+  "word": "cloud",
+  "definition": "A visible mass of condensed water vapor floating in the atmosphere, typically high above the ground.",
+  "difficulty": "easy",
+  "level": "elementary",
+  "category": "places",
+  "synonyms": ["mist", "fog"],
+  "antonyms": ["sun", "sky"]
+},
+{
+  "word": "friend",
+  "definition": "A person whom one knows and with whom one has a bond of mutual affection, typically exclusive of sexual or family relations.",
+  "difficulty": "easy",
+  "level": "elementary",
+  "category": "people",
+  "synonyms": ["companion", "buddy"],
+  "antonyms": ["enemy", "foe"]
+},
+{
+  "word": "ball",
+  "definition": "A spherical object used in various games and sports.",
+  "difficulty": "easy",
+  "level": "elementary",
+  "category": "sports",
+  "synonyms": ["sphere", "orb"],
+  "antonyms": ["cube", "block"]
+},
+{
+  "word": "dance",
+  "definition": "Move rhythmically to music, typically following a set sequence of steps.",
+  "difficulty": "easy",
+  "level": "elementary",
+  "category": "action",
+  "synonyms": ["twirl", "spin"],
+  "antonyms": ["stillness", "rest"]
+},
+{
+  "word": "elephant",
+  "definition": "A large herbivorous mammal with a trunk, native to Africa and Asia.",
+  "difficulty": "medium",
+  "level": "junior",
+  "category": "animals",
+  "synonyms": ["pachyderm", "jumbo"],
+  "antonyms": ["mouse", "ant"]
+},
+{
+  "word": "frog",
+  "definition": "A small tailless amphibian with a short squat body, moist smooth skin, and very long hind legs for leaping.",
+  "difficulty": "easy",
+  "level": "elementary",
+  "category": "animals",
+  "synonyms": ["amphibian", "toad"],
+  "antonyms": ["bird", "mammal"]
+},
+{
+  "word": "house",
+  "definition": "A building for human habitation, especially one that is lived in by a family or small group of people.",
+  "difficulty": "easy",
+  "level": "elementary",
+  "category": "places",
+  "synonyms": ["home", "residence"],
+  "antonyms": ["office", "shop"]
+},
+{
+  "word": "jump",
+  "definition": "Push oneself off a surface and into the air by using the muscles in one's legs and feet.",
+  "difficulty": "easy",
+  "level": "elementary",
+  "category": "action",
+  "synonyms": ["leap", "hop"],
+  "antonyms": ["fall", "drop"]
+},
+{
+  "word": "kite",
+  "definition": "A toy consisting of a light frame with thin material stretched over it, flown in the wind at the end of a long string.",
+  "difficulty": "easy",
+  "level": "elementary",
+  "category": "thing",
+  "synonyms": ["glider", "soarer"],
+  "antonyms": ["rock", "stone"]
+},
+{
+  "word": "lemon",
+  "definition": "A yellow, oval citrus fruit with thick skin and fragrant, acidic juice.",
+  "difficulty": "easy",
+  "level": "elementary",
+  "category": "food",
+  "synonyms": ["citrus", "fruit"],
+  "antonyms": ["meat", "vegetable"]
+},
+{
+  "word": "mountain",
+  "definition": "A large natural elevation of the earth's surface rising abruptly from the surrounding level; a large steep hill.",
+  "difficulty": "medium",
+  "level": "junior",
+  "category": "places",
+  "synonyms": ["peak", "summit"],
+  "antonyms": ["valley", "plain"]
+},
+{
+  "word": "nest",
+  "definition": "A structure or place made or chosen by a bird for laying eggs and sheltering its young.",
+  "difficulty": "easy",
+  "level": "elementary",
+  "category": "thing",
+  "synonyms": ["home", "roost"],
+  "antonyms": ["burrow", "den"]
+},
+{
+  "word": "octopus",
+  "definition": "A sea animal that has a soft body and eight long arms.",
+  "difficulty": "medium",
+  "level": "junior",
+  "category": "animals",
+  "synonyms": ["cephalopod", "mollusk"],
+  "antonyms": ["fish", "bird"]
+},
+{
+  "word": "panda",
+  "definition": "A large bearlike mammal with characteristic black and white markings, native to certain mountain forests in China.",
+  "difficulty": "easy",
+  "level": "elementary",
+  "category": "animals",
+  "synonyms": ["bear", "mammal"],
+  "antonyms": ["lion", "tiger"]
+},
+{
+  "word": "queen",
+  "definition": "The female ruler of an independent state, especially one who inherits the position by right of birth.",
+  "difficulty": "easy",
+  "level": "elementary",
+  "category": "people",
+  "synonyms": ["monarch", "ruler"],
+  "antonyms": ["king", "commoner"]
+},
+{
+  "word": "rain",
+  "definition": "Moisture condensed from the atmosphere that falls visibly in separate drops.",
+  "difficulty": "easy",
+  "level": "elementary",
+  "category": "thing",
+  "synonyms": ["shower", "drizzle"],
+  "antonyms": ["sunshine", "drought"]
+},
+{
+  "word": "sun",
+  "definition": "The star around which the earth orbits.",
+  "difficulty": "easy",
+  "level": "elementary",
+  "category": "places",
+  "synonyms": ["star", "solar"],
+  "antonyms": ["moon", "planet"]
+},
+{
+  "word": "tree",
+  "definition": "A woody perennial plant, typically having a single stem or trunk growing to a considerable height and bearing lateral branches at some distance from the ground.",
+  "difficulty": "easy",
+  "level": "elementary",
+  "category": "places",
+  "synonyms": ["plant", "shrub"],
+  "antonyms": ["rock", "boulder"]
+},
+{
+  "word": "umbrella",
+  "definition": "A device consisting of a circular canopy of cloth on a folding metal frame supported by a central rod, used as protection against rain or sometimes sun.",
+  "difficulty": "medium",
+  "level": "junior",
+  "category": "thing",
+  "synonyms": ["parasol", "shade"],
+  "antonyms": ["raincoat", "hood"]
+},
+{
+  "word": "violin",
+  "definition": "A stringed musical instrument of treble pitch, played with a horsehair bow.",
+  "difficulty": "medium",
+  "level": "junior",
+  "category": "thing",
+  "synonyms": ["fiddle", "instrument"],
+  "antonyms": ["drum", "flute"]
+},
+{
+  "word": "water",
+  "definition": "A colorless, transparent, odorless liquid that forms the seas, lakes, rivers, and rain and is the basis of the fluids of living organisms.",
+  "difficulty": "easy",
+  "level": "elementary",
+  "category": "thing",
+  "synonyms": ["H2O", "aqua"],
+  "antonyms": ["fire", "ice"]
 }
 ]

@@ -13,15 +13,15 @@ type OptionGroupProps = {
     onChange: (value: string) => void
     selected: string
     label: string
+    className?: string
 }
 
-
 const OptionGroup = (props: OptionGroupProps) => {
-    const { options, onChange, selected, label } = props;
+    const { options, onChange, selected, label, className } = props;
     const [optionSelected, setOptionSelected] = useState(selected);
+    const containerClsName = cls("flex-col  my-2", className);
 
-
-    return (<div className="flex-col  my-2" >
+    return (<div className={containerClsName} >
         <label className="flex ms-2 self-center text-blue-900 font-medium">{label}</label>
         <div className="inline-flex  mt-2" role="group">
             {options.map((option, index)=> {

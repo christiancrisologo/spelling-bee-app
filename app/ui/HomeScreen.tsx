@@ -2,6 +2,7 @@
 
 import React, {useCallback, useState, Suspense } from 'react';
 import { useRouter, useSearchParams } from 'next/navigation';
+import OptionGroup, { OptionProps } from '../bee/ui/OptionGroup';
 
 export type UserSettings = {
   totalWords: number
@@ -10,26 +11,40 @@ export type UserSettings = {
   totalSeconds: number
 }
 
+const levelOptions: OptionProps[] = [
+  {
+      label: "junior",
+  },{
+      label: "senior",
+  },{
+    label: "expert",
+  }
+  
+];
+
 const StartScreenComponent = () => {
   const searchParams = useSearchParams()!;
   const router = useRouter();
   const [playerName, setPlayerName] = useState('');
+  const [level, setLevel] = useState('junior');
 
 
   const onSubmit = useCallback(
     () => {
       const params = new URLSearchParams(searchParams);
       params.set('playerName', playerName);
+      params.set('level', level);
       
       router.push('/bee' + '?' + params.toString());  
     },
-    [playerName, router, searchParams],
+    [level, playerName, router, searchParams],
   );
 
   const handleKeyDown = (event: any) => {
     if (event.keyCode === 13) {
       onSubmit();
     }
+
 };
 
   return (<div className="flex flex-col justify-center"> 
@@ -47,6 +62,17 @@ const StartScreenComponent = () => {
           >
             Submit
         </button>
+      </div>
+      <div className="flex mt-2 justify-center flex-col md:flex-row mx-6">
+          <OptionGroup 
+            className="self-center"
+            label="Level"
+            options={levelOptions}
+            onChange={(value: string) => {
+              setLevel(value);
+            }}
+            selected={level}
+          />
       </div>
       
   </div>);
