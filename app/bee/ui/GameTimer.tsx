@@ -36,7 +36,7 @@ function GameTimer(props: GameTimerProps) {
       type: 'setCurrentTime',
       payload: seconds,
     })
-  }, [seconds])
+  }, [seconds, dispatch])
 
   useEffect(() => {
     const intervalId = setInterval(() => {

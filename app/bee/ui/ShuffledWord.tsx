@@ -12,6 +12,7 @@ const ShuffleWord = ({ word = '' }: { word: string }) => {
               width: blockWidth,
               maxWidth: 70,
             }}
+            key={index}
             className="p-4 border-solid border-2 border-orange-500 mx-0 md:mx-1 bg-white shadow-lg rounded-md flex justify-center items-center"
           >
             <h1 className="text-3xl font-bold text-orange-500">
