@@ -268,6 +268,9 @@ const SpellingBeeComponent = (props: SpellingBeeProps) => {
 
   const isReady = words.length && !!speechSynth
   const wordToSpeak = currentWord?.word
+  const stopTimer = ['game-over', 'skip-word', 'answer-correct'].includes(
+    gameStatus
+  )
 
   return (
     <Suspense>
@@ -279,6 +282,7 @@ const SpellingBeeComponent = (props: SpellingBeeProps) => {
           restartTimer={restartTimer}
           enableTimer={gameSelection.enableTimer === 'On'}
           totalSeconds={gameSelection.totalSeconds}
+          stopTimer={stopTimer}
           level={level}
         />
 

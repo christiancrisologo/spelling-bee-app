@@ -35,7 +35,7 @@ const GameResult = (props: GameResultProps) => {
     totalWords,
     totalTime,
   } = props
-  const rating = correctAnswers / totalWords
+  const rating = (correctAnswers / totalWords) * 100
 
   return (
     <div className="md:w-1/2 self-center mt-2">
