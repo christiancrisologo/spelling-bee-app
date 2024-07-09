@@ -57,7 +57,7 @@
     "word": "futon",
     "definition": "a padded mattress that can be folded to make a seat or bed",
     "difficulty": "easy",
-    "level": "juinior",
+    "level": "junior",
     "category": "thing",
     "synonyms": ["mattress", "sofa bed"],
     "antonyms": ["chair", "stool"]
@@ -66,7 +66,7 @@
     "word": "hazel",
     "definition": "a reddish-brown or greenish-brown color, often used to describe eye color",
     "difficulty": "easy",
-    "level": "juinior",
+    "level": "junior",
     "category": "other",
     "synonyms": ["brownish", "greenish"],
     "antonyms": ["blue", "black"]
@@ -246,7 +246,7 @@
     "word": "coupon",
     "definition": "a voucher entitling the holder to a discount for a particular product",
     "difficulty": "easy",
-    "level": "juinior",
+    "level": "junior",
     "category": "thing",
     "synonyms": ["voucher", "ticket"],
     "antonyms": ["penalty", "surcharge"]
@@ -264,7 +264,7 @@
     "word": "earnest",
     "definition": "showing sincere and intense conviction",
     "difficulty": "medium",
-    "level": "juinior",
+    "level": "junior",
     "category": "emotion",
     "synonyms": ["serious", "sincere"],
     "antonyms": ["frivolous", "insincere"]
@@ -273,7 +273,7 @@
     "word": "forehand",
     "definition": "a stroke in sports such as tennis where the palm of the hand faces the direction of the stroke",
     "difficulty": "medium",
-    "level": "juinior",
+    "level": "junior",
     "category": "sports",
     "synonyms": ["stroke", "shot"],
     "antonyms": ["backhand", "reversal"]
@@ -282,7 +282,7 @@
     "word": "grammar",
     "definition": "the system and structure of a language",
     "difficulty": "medium",
-    "level": "juinior",
+    "level": "junior",
     "category": "other",
     "synonyms": ["syntax", "linguistics"],
     "antonyms": ["slang", "informality"]
@@ -291,7 +291,7 @@
     "word": "innings",
     "definition": "each of two or four divisions of a game during which one side has a turn to bat",
     "difficulty": "medium",
-    "level": "juinior",
+    "level": "junior",
     "category": "sports",
     "synonyms": ["turn", "round"],
     "antonyms": ["break", "rest"]
@@ -300,7 +300,7 @@
     "word": "kiln",
     "definition": "a furnace or oven for burning, baking, or drying, especially one for calcining lime or firing pottery",
     "difficulty": "medium",
-    "level": "juinior",
+    "level": "junior",
     "category": "thing",
     "synonyms": ["oven", "furnace"],
     "antonyms": ["freezer", "cooler"]
@@ -309,7 +309,7 @@
     "word": "mangrove",
     "definition": "a tree or shrub that grows in coastal saline or brackish water",
     "difficulty": "medium",
-    "level": "juinior",
+    "level": "junior",
     "category": "place",
     "synonyms": ["coastal tree", "wetland tree"],
     "antonyms": ["desert plant", "mountain plant"]
@@ -318,7 +318,7 @@
     "word": "newton",
     "definition": "a unit of force",
     "difficulty": "medium",
-    "level": "juinior",
+    "level": "junior",
     "category": "other",
     "synonyms": ["force unit", "measurement"],
     "antonyms": ["energy unit", "power unit"]
@@ -327,7 +327,7 @@
     "word": "predict",
     "definition": "to say or estimate that a specified thing will happen in the future",
     "difficulty": "easy",
-    "level": "juinior",
+    "level": "junior",
     "category": "action",
     "synonyms": ["forecast", "foretell"],
     "antonyms": ["recall", "remember"]
@@ -336,7 +336,7 @@
     "word": "Samoa",
     "definition": "a country comprising the westernmost group of the Samoan Islands",
     "difficulty": "easy",
-    "level": "juinior",
+    "level": "junior",
     "category": "place",
     "synonyms": ["island nation", "Pacific country"],
     "antonyms": ["mainland", "continent"]
@@ -354,7 +354,7 @@
     "word": "strength",
     "definition": "the quality or state of being physically strong",
     "difficulty": "easy",
-    "level": "juinior",
+    "level": "junior",
     "category": "other",
     "synonyms": ["power", "might"],
     "antonyms": ["weakness", "frailty"]
@@ -417,7 +417,7 @@
     "word": "whiskers",
     "definition": "long projecting hairs or bristles growing near the mouth of an animal",
     "difficulty": "easy",
-    "level": "juinior",
+    "level": "junior",
     "category": "animals",
     "synonyms": ["vibrissae", "bristles"],
     "antonyms": ["bald", "hairless"]
@@ -444,7 +444,7 @@
     "word": "bionic",
     "definition": "having artificial body parts, especially electromechanical ones",
     "difficulty": "medium",
-    "level": "juinior",
+    "level": "junior",
     "category": "other",
     "synonyms": ["robotic", "mechanical"],
     "antonyms": ["natural", "organic"]
@@ -453,7 +453,7 @@
     "word": "buffoon",
     "definition": "a ridiculous but amusing person; a clown",
     "difficulty": "medium",
-    "level": "juinior",
+    "level": "junior",
     "category": "people",
     "synonyms": ["clown", "fool"],
     "antonyms": ["genius", "sage"]
@@ -462,7 +462,7 @@
     "word": "cashew",
     "definition": "a type of nut produced by the cashew tree",
     "difficulty": "easy",
-    "level": "juinior",
+    "level": "junior",
     "category": "food",
     "synonyms": ["nut", "seed"],
     "antonyms": ["fruit", "vegetable"]
@@ -507,7 +507,7 @@
     "word": "handsome",
     "definition": "good-looking, typically used to describe a man",
     "difficulty": "easy",
-    "level": "juinior",
+    "level": "junior",
     "category": "people",
     "synonyms": ["attractive", "good-looking"],
     "antonyms": ["ugly", "unattractive"]
@@ -516,7 +516,7 @@
     "word": "jockey",
     "definition": "a person who rides in horse races",
     "difficulty": "medium",
-    "level": "juinior",
+    "level": "junior",
     "category": "people",
     "synonyms": ["rider", "horseman"],
     "antonyms": ["spectator", "observer"]
@@ -525,7 +525,7 @@
     "word": "Lebanon",
     "definition": "a country in the Middle East",
     "difficulty": "medium",
-    "level": "juinior",
+    "level": "junior",
     "category": "place",
     "synonyms": ["Middle Eastern country", "nation"],
     "antonyms": ["continent", "ocean"]
@@ -534,7 +534,7 @@
     "word": "massive",
     "definition": "large and heavy or solid",
     "difficulty": "medium",
-    "level": "juinior",
+    "level": "junior",
     "category": "other",
     "synonyms": ["huge", "enormous"],
     "antonyms": ["tiny", "small"]
@@ -552,7 +552,7 @@
     "word": "presto",
     "definition": "a term indicating a fast tempo, often used in music",
     "difficulty": "medium",
-    "level": "juinior",
+    "level": "junior",
     "category": "other",
     "synonyms": ["quickly", "rapidly"],
     "antonyms": ["slowly", "gradually"]
@@ -561,7 +561,7 @@
     "word": "source",
     "definition": "a place, person, or thing from which something originates or can be obtained",
     "difficulty": "easy",
-    "level": "juinior",
+    "level": "junior",
     "category": "other",
     "synonyms": ["origin", "beginning"],
     "antonyms": ["result", "consequence"]
@@ -570,7 +570,7 @@
     "word": "starboard",
     "definition": "the right side of a ship or aircraft when facing forward",
     "difficulty": "medium",
-    "level": "juinior",
+    "level": "junior",
     "category": "other",
     "synonyms": ["right", "right-hand side"],
     "antonyms": ["port", "left"]
@@ -588,7 +588,7 @@
     "word": "thirsty",
     "definition": "feeling a need to drink something",
     "difficulty": "easy",
-    "level": "juinior",
+    "level": "junior",
     "category": "emotion",
     "synonyms": ["parched", "dry"],
     "antonyms": ["hydrated", "quenched"]
@@ -597,7 +597,7 @@
     "word": "toothpaste",
     "definition": "a paste used for cleaning teeth",
     "difficulty": "easy",
-    "level": "juinior",
+    "level": "junior",
     "category": "thing",
     "synonyms": ["dental cream", "dentifrice"],
     "antonyms": ["food", "beverage"]
@@ -606,7 +606,7 @@
     "word": "trickle",
     "definition": "to flow in a small stream",
     "difficulty": "medium",
-    "level": "juinior",
+    "level": "junior",
     "category": "action",
     "synonyms": ["drip", "dribble"],
     "antonyms": ["pour", "flood"]
@@ -615,7 +615,7 @@
     "word": "tweezers",
     "definition": "small pincers for picking up small objects",
     "difficulty": "medium",
-    "level": "juinior",
+    "level": "junior",
     "category": "thing",
     "synonyms": ["pincers", "forceps"],
     "antonyms": ["hands", "fingers"]
@@ -642,7 +642,7 @@
     "word": "wicket",
     "definition": "a small gate or door, especially one beside or in a larger one",
     "difficulty": "medium",
-    "level": "juinior",
+    "level": "junior",
     "category": "thing",
     "synonyms": ["gate", "door"],
     "antonyms": ["wall", "barrier"]
@@ -651,7 +651,7 @@
     "word": "wrist",
     "definition": "the joint connecting the hand with the forearm",
     "difficulty": "easy",
-    "level": "juinior",
+    "level": "junior",
     "category": "other",
     "synonyms": ["joint", "carpus"],
     "antonyms": ["ankle", "heel"]
@@ -660,7 +660,7 @@
     "word": "angle",
     "definition": "the space between two intersecting lines or surfaces at or close to the point where they meet",
     "difficulty": "easy",
-    "level": "juinior",
+    "level": "junior",
     "category": "other",
     "synonyms": ["corner", "intersection"],
     "antonyms": ["curve", "arc"]
@@ -669,7 +669,7 @@
     "word": "bisect",
     "definition": "to divide into two parts",
     "difficulty": "medium",
-    "level": "juinior",
+    "level": "junior",
     "category": "action",
     "synonyms": ["split", "divide"],
     "antonyms": ["merge", "unify"]
@@ -696,7 +696,7 @@
     "word": "curry",
     "definition": "a dish of meat, vegetables, etc., cooked in an Indian-style sauce of strong spices and typically served with rice",
     "difficulty": "easy",
-    "level": "juinior",
+    "level": "junior",
     "category": "food",
     "synonyms": ["stew", "sauce"],
     "antonyms": ["dessert", "sweets"]
@@ -705,7 +705,7 @@
     "word": "dispute",
     "definition": "a disagreement, argument, or debate",
     "difficulty": "easy",
-    "level": "juinior",
+    "level": "junior",
     "category": "emotion",
     "synonyms": ["argument", "conflict"],
     "antonyms": ["agreement", "harmony"]
@@ -714,7 +714,7 @@
     "word": "fresco",
     "definition": "a painting done on fresh plaster with water-based paints",
     "difficulty": "medium",
-    "level": "juinior",
+    "level": "junior",
     "category": "art",
     "synonyms": ["mural", "painting"],
     "antonyms": ["etching", "engraving"]
@@ -723,7 +723,7 @@
     "word": "harmony",
     "definition": "agreement or concord",
     "difficulty": "easy",
-    "level": "juinior",
+    "level": "junior",
     "category": "emotion",
     "synonyms": ["concord", "peace"],
     "antonyms": ["discord", "conflict"]
@@ -732,7 +732,7 @@
     "word": "judge",
     "definition": "a public officer appointed to decide cases in a court of law",
     "difficulty": "easy",
-    "level": "juinior",
+    "level": "junior",
     "category": "people",
     "synonyms": ["magistrate", "justice"],
     "antonyms": ["criminal", "offender"]
@@ -741,7 +741,7 @@
     "word": "livestock",
     "definition": "farm animals regarded as an asset",
     "difficulty": "easy",
-    "level": "juinior",
+    "level": "junior",
     "category": "animals",
     "synonyms": ["cattle", "animals"],
     "antonyms": ["wildlife", "game"]
@@ -768,7 +768,7 @@
     "word": "quota",
     "definition": "a limited or fixed number or amount of people or things",
     "difficulty": "easy",
-    "level": "juinior",
+    "level": "junior",
     "category": "other",
     "synonyms": ["allocation", "share"],
     "antonyms": ["limitless", "unrestricted"]
@@ -786,7 +786,7 @@
     "word": "steak",
     "definition": "a slice of meat, typically beef, cooked by broiling, frying, or grilling",
     "difficulty": "easy",
-    "level": "juinior",
+    "level": "junior",
     "category": "food",
     "synonyms": ["beefsteak", "cutlet"],
     "antonyms": ["vegetable", "tofu"]
@@ -795,7 +795,7 @@
     "word": "tantrum",
     "definition": "an uncontrolled outburst of anger and frustration, typically in a young child",
     "difficulty": "easy",
-    "level": "juinior",
+    "level": "junior",
     "category": "emotion",
     "synonyms": ["outburst", "fit"],
     "antonyms": ["calmness", "composure"]
@@ -822,7 +822,7 @@
     "word": "trinket",
     "definition": "a small ornament or item of jewelry that is of little value",
     "difficulty": "medium",
-    "level": "juinior",
+    "level": "junior",
     "category": "thing",
     "synonyms": ["bauble", "knickknack"],
     "antonyms": ["treasure", "heirloom"]
@@ -840,7 +840,7 @@
     "word": "vermin",
     "definition": "wild animals that are believed to be harmful to crops, farm animals, or game, or that carry disease",
     "difficulty": "easy",
-    "level": "juinior",
+    "level": "junior",
     "category": "animals",
     "synonyms": ["pests", "rodents"],
     "antonyms": ["pets", "domesticated animals"]
@@ -849,7 +849,7 @@
     "word": "voucher",
     "definition": "a piece of evidence or a written statement that confirms the truth of something",
     "difficulty": "easy",
-    "level": "juinior",
+    "level": "junior",
     "category": "other",
     "synonyms": ["certificate", "coupon"],
     "antonyms": ["denial", "refutation"]
@@ -858,7 +858,7 @@
     "word": "windscreen",
     "definition": "the window at the front of a vehicle",
     "difficulty": "medium",
-    "level": "juinior",
+    "level": "junior",
     "category": "thing",
     "synonyms": ["windshield", "glass"],
     "antonyms": ["window", "side mirror"]
@@ -867,7 +867,7 @@
     "word": "yesterday",
     "definition": "the day before today",
     "difficulty": "easy",
-    "level": "juinior",
+    "level": "junior",
     "category": "time",
     "synonyms": ["past", "previous day"],
     "antonyms": ["tomorrow", "future"]
@@ -876,7 +876,7 @@
     "word": "anthem",
     "definition": "a solemn or rousing song identified with a particular group, body, or cause",
     "difficulty": "easy",
-    "level": "juinior",
+    "level": "junior",
     "category": "music",
     "synonyms": ["hymn", "song"],
     "antonyms": ["silence", "quiet"]
@@ -885,7 +885,7 @@
     "word": "brandish",
     "definition": "wave or flourish (something, especially a weapon) as a threat or in anger or excitement",
     "difficulty": "medium",
-    "level": "juinior",
+    "level": "junior",
     "category": "action",
     "synonyms": ["flourish", "display"],
     "antonyms": ["conceal", "hide"]
@@ -894,7 +894,7 @@
     "word": "canoe",
     "definition": "a narrow, keelless boat, pointed at both ends, propelled by paddles",
     "difficulty": "easy",
-    "level": "juinior",
+    "level": "junior",
     "category": "sports",
     "synonyms": ["kayak", "boat"],
     "antonyms": ["motorboat", "yacht"]
@@ -912,7 +912,7 @@
     "word": "cutlery",
     "definition": "knives, forks, and spoons used for eating or serving food",
     "difficulty": "easy",
-    "level": "juinior",
+    "level": "junior",
     "category": "thing",
     "synonyms": ["silverware", "utensils"],
     "antonyms": ["finger food", "hands"]
@@ -921,7 +921,7 @@
     "word": "Dublin",
     "definition": "the capital and largest city of Ireland",
     "difficulty": "easy",
-    "level": "juinior",
+    "level": "junior",
     "category": "place",
     "synonyms": ["Irish capital", "city"],
     "antonyms": ["countryside", "rural area"]
@@ -930,7 +930,7 @@
     "word": "feature",
     "definition": "a distinctive attribute or aspect of something",
     "difficulty": "easy",
-    "level": "juinior",
+    "level": "junior",
     "category": "other",
     "synonyms": ["characteristic", "trait"],
     "antonyms": ["defect", "flaw"]
@@ -939,7 +939,7 @@
     "word": "fungus",
     "definition": "a group of spore-producing organisms feeding on organic matter",
     "difficulty": "easy",
-    "level": "juinior",
+    "level": "junior",
     "category": "nature",
     "synonyms": ["mold", "mushroom"],
     "antonyms": ["bacteria", "microbe"]
@@ -966,7 +966,7 @@
     "word": "loose",
     "definition": "not firmly or tightly fixed in place",
     "difficulty": "easy",
-    "level": "juinior",
+    "level": "junior",
     "category": "other",
     "synonyms": ["unfastened", "free"],
     "antonyms": ["tight", "secure"]
@@ -975,7 +975,7 @@
     "word": "modem",
     "definition": "a device that enables computers to transmit data over telephone lines",
     "difficulty": "medium",
-    "level": "juinior",
+    "level": "junior",
     "category": "technology",
     "synonyms": ["router", "device"],
     "antonyms": ["offline", "disconnected"]
@@ -984,7 +984,7 @@
     "word": "parboil",
     "definition": "to partially cook food in boiling water or steam",
     "difficulty": "medium",
-    "level": "juinior",
+    "level": "junior",
     "category": "food",
     "synonyms": ["pre-cook", "blanch"],
     "antonyms": ["raw", "uncooked"]
@@ -1020,7 +1020,7 @@
     "word": "tassel",
     "definition": "a tuft of loosely hanging threads or cords tied together at one end",
     "difficulty": "easy",
-    "level": "juinior",
+    "level": "junior",
     "category": "thing",
     "synonyms": ["fringe", "pompom"],
     "antonyms": ["smooth", "even"]
@@ -1029,7 +1029,7 @@
     "word": "thought",
     "definition": "the process of considering or reasoning about something",
     "difficulty": "easy",
-    "level": "juinior",
+    "level": "junior",
     "category": "emotion",
     "synonyms": ["thinking", "reflection"],
     "antonyms": ["action", "movement"]
@@ -1038,7 +1038,7 @@
     "word": "trance",
     "definition": "a half-conscious state characterized by an absence of response to external stimuli",
     "difficulty": "medium",
-    "level": "juinior",
+    "level": "junior",
     "category": "emotion",
     "synonyms": ["daze", "stupor"],
     "antonyms": ["alertness", "awareness"]
@@ -1047,7 +1047,7 @@
     "word": "trousers",
     "definition": "an outer garment covering the body from the waist to the ankles, with a separate part for each leg",
     "difficulty": "easy",
-    "level": "juinior",
+    "level": "junior",
     "category": "clothing",
     "synonyms": ["pants", "slacks"],
     "antonyms": ["skirt", "dress"]
@@ -1056,7 +1056,7 @@
     "word": "udder",
     "definition": "the mammary gland of female cattle, sheep, goats, or certain other mammals",
     "difficulty": "easy",
-    "level": "juinior",
+    "level": "junior",
     "category": "animals",
     "synonyms": ["mammary gland", "teat"],
     "antonyms": ["bull", "male"]
@@ -1065,7 +1065,7 @@
     "word": "viable",
     "definition": "capable of working successfully; feasible",
     "difficulty": "easy",
-    "level": "juinior",
+    "level": "junior",
     "category": "other",
     "synonyms": ["feasible", "workable"],
     "antonyms": ["unfeasible", "impractical"]
@@ -1074,7 +1074,7 @@
     "word": "Warne",
     "definition": "referring to Shane Warne, a former Australian cricketer",
     "difficulty": "medium",
-    "level": "juinior",
+    "level": "junior",
     "category": "people",
     "synonyms": ["cricketer", "athlete"],
     "antonyms": ["non-athlete", "non-player"]
@@ -1083,7 +1083,7 @@
     "word": "withdraw",
     "definition": "to remove or take away something",
     "difficulty": "easy",
-    "level": "juinior",
+    "level": "junior",
     "category": "action",
     "synonyms": ["remove", "extract"],
     "antonyms": ["deposit", "add"]
@@ -1092,7 +1092,7 @@
     "word": "almighty",
     "definition": "having absolute power; omnipotent",
     "difficulty": "easy",
-    "level": "juinior",
+    "level": "junior",
     "category": "other",
     "synonyms": ["omnipotent", "divine"],
     "antonyms": ["powerless", "weak"]
@@ -1101,7 +1101,7 @@
     "word": "antique",
     "definition": "a collectible object such as a piece of furniture or work of art that has a high value because of its age and quality",
     "difficulty": "easy",
-    "level": "juinior",
+    "level": "junior",
     "category": "thing",
     "synonyms": ["vintage", "ancient"],
     "antonyms": ["modern", "new"]
@@ -1119,7 +1119,7 @@
     "word": "athletics",
     "definition": "sports, games, or exercises that require physical activity",
     "difficulty": "easy",
-    "level": "juinior",
+    "level": "junior",
     "category": "sports",
     "synonyms": ["sports", "track and field"],
     "antonyms": ["sedentary", "inactive"]
@@ -1128,7 +1128,7 @@
     "word": "badminton",
     "definition": "a game played with rackets in which a shuttlecock is volleyed over a net",
     "difficulty": "easy",
-    "level": "juinior",
+    "level": "junior",
     "category": "sports",
     "synonyms": ["shuttlecock", "racket sport"],
     "antonyms": ["football", "soccer"]
@@ -1137,7 +1137,7 @@
     "word": "batik",
     "definition": "a method of dyeing fabric by covering certain sections with wax",
     "difficulty": "medium",
-    "level": "juinior",
+    "level": "junior",
     "category": "art",
     "synonyms": ["dyeing", "textile art"],
     "antonyms": ["undyed", "plain fabric"]
@@ -1146,7 +1146,7 @@
     "word": "biceps",
     "definition": "a large muscle in the upper arm that flexes the forearm",
     "difficulty": "easy",
-    "level": "juinior",
+    "level": "junior",
     "category": "anatomy",
     "synonyms": ["muscle", "arm muscle"],
     "antonyms": ["triceps", "leg muscle"]
@@ -1155,7 +1155,7 @@
     "word": "boulder",
     "definition": "a large rock, typically one that has been worn smooth by erosion",
     "difficulty": "easy",
-    "level": "juinior",
+    "level": "junior",
     "category": "nature",
     "synonyms": ["rock", "stone"],
     "antonyms": ["pebble", "gravel"]
@@ -1164,7 +1164,7 @@
     "word": "buffalo",
     "definition": "a large, heavily built wild ox with large horns, found in Africa and South Asia",
     "difficulty": "easy",
-    "level": "juinior",
+    "level": "junior",
     "category": "animals",
     "synonyms": ["bison", "ox"],
     "antonyms": ["domesticated", "tame"]
@@ -1173,7 +1173,7 @@
     "word": "camisole",
     "definition": "a woman's loose-fitting undergarment for the upper body, typically held up by shoulder straps",
     "difficulty": "medium",
-    "level": "juinior",
+    "level": "junior",
     "category": "clothing",
     "synonyms": ["chemise", "undershirt"],
     "antonyms": ["jacket", "coat"]
@@ -1182,7 +1182,7 @@
     "word": "centipede",
     "definition": "a predatory arthropod with many legs, found chiefly in tropical climates",
     "difficulty": "easy",
-    "level": "juinior",
+    "level": "junior",
     "category": "animals",
     "synonyms": ["arthropod", "insect"],
     "antonyms": ["vertebrate", "mammal"]
@@ -1191,7 +1191,7 @@
     "word": "Columbus",
     "definition": "referring to Christopher Columbus, an Italian explorer who discovered America",
     "difficulty": "medium",
-    "level": "juinior",
+    "level": "junior",
     "category": "people",
     "synonyms": ["explorer", "navigator"],
     "antonyms": ["settler", "native"]
@@ -1200,7 +1200,7 @@
     "word": "coriander",
     "definition": "an aromatic Mediterranean plant of the parsley family, the leaves and seeds of which are used as culinary herbs",
     "difficulty": "medium",
-    "level": "juinior",
+    "level": "junior",
     "category": "food",
     "synonyms": ["cilantro", "herb"],
     "antonyms": ["bland", "flavorless"]
@@ -1209,7 +1209,7 @@
     "word": "Cyprus",
     "definition": "an island country in the eastern Mediterranean Sea",
     "difficulty": "easy",
-    "level": "juinior",
+    "level": "junior",
     "category": "places",
     "synonyms": ["island", "nation"],
     "antonyms": ["mainland", "continent"]
@@ -1236,7 +1236,7 @@
     "word": "harmonica",
     "definition": "a small rectangular wind instrument with a row of metal reeds along its length, played by exhaling and inhaling",
     "difficulty": "medium",
-    "level": "juinior",
+    "level": "junior",
     "category": "music",
     "synonyms": ["mouth organ", "blues harp"],
     "antonyms": ["percussion", "string instrument"]
@@ -1245,7 +1245,7 @@
     "word": "impediment",
     "definition": "a hindrance or obstruction in doing something",
     "difficulty": "medium",
-    "level": "juinior",
+    "level": "junior",
     "category": "other",
     "synonyms": ["obstacle", "barrier"],
     "antonyms": ["aid", "facilitation"]
@@ -1290,7 +1290,7 @@
     "word": "nutrient",
     "definition": "a substance that provides nourishment essential for growth and the maintenance of life",
     "difficulty": "easy",
-    "level": "juinior",
+    "level": "junior",
     "category": "food",
     "synonyms": ["nourishment", "food"],
     "antonyms": ["toxin", "poison"]
@@ -1299,7 +1299,7 @@
     "word": "operative",
     "definition": "functioning or having effect; in force or operation",
     "difficulty": "medium",
-    "level": "juinior",
+    "level": "junior",
     "category": "other",
     "synonyms": ["effective", "functional"],
     "antonyms": ["inactive", "ineffective"]
@@ -1317,7 +1317,7 @@
     "word": "paramedic",
     "definition": "a healthcare professional trained to respond to emergency situations",
     "difficulty": "easy",
-    "level": "juinior",
+    "level": "junior",
     "category": "people",
     "synonyms": ["EMT", "medic"],
     "antonyms": ["patient", "civilian"]
@@ -1326,7 +1326,7 @@
     "word": "percentage",
     "definition": "a rate, number, or amount in each hundred",
     "difficulty": "easy",
-    "level": "juinior",
+    "level": "junior",
     "category": "math",
     "synonyms": ["fraction", "proportion"],
     "antonyms": ["total", "whole"]
@@ -1353,7 +1353,7 @@
     "word": "alternate",
     "definition": "occurring by turns; succeeding each other continuously",
     "difficulty": "easy",
-    "level": "juinior",
+    "level": "junior",
     "category": "other",
     "synonyms": ["alternative", "substitute"],
     "antonyms": ["constant", "unchanging"]
@@ -1362,7 +1362,7 @@
     "word": "apartment",
     "definition": "a set of rooms forming an individual residence, typically on one floor and within a larger building",
     "difficulty": "easy",
-    "level": "juinior",
+    "level": "junior",
     "category": "places",
     "synonyms": ["flat", "unit"],
     "antonyms": ["house", "villa"]
@@ -1371,7 +1371,7 @@
     "word": "archery",
     "definition": "the sport or practice of shooting with a bow and arrows",
     "difficulty": "easy",
-    "level": "juinior",
+    "level": "junior",
     "category": "sports",
     "synonyms": ["bow and arrow", "marksmanship"],
     "antonyms": ["swordplay", "fencing"]
@@ -1389,7 +1389,7 @@
     "word": "bankrupt",
     "definition": "declared in law unable to pay outstanding debts",
     "difficulty": "medium",
-    "level": "juinior",
+    "level": "junior",
     "category": "other",
     "synonyms": ["insolvent", "broke"],
     "antonyms": ["solvent", "wealthy"]
@@ -1425,7 +1425,7 @@
     "word": "butcher",
     "definition": "a person whose trade is cutting up and selling meat in a shop",
     "difficulty": "easy",
-    "level": "juinior",
+    "level": "junior",
     "category": "people",
     "synonyms": ["meat cutter", "slaughterer"],
     "antonyms": ["vegetarian", "herbivore"]
@@ -1443,7 +1443,7 @@
     "word": "charades",
     "definition": "a game in which players guess a word or phrase from pantomimed clues",
     "difficulty": "medium",
-    "level": "juinior",
+    "level": "junior",
     "category": "game",
     "synonyms": ["pantomime", "acting"],
     "antonyms": ["direct", "verbal"]
@@ -1452,7 +1452,7 @@
     "word": "compere",
     "definition": "a person who introduces and links items or parts of a performance, especially on television or radio",
     "difficulty": "medium",
-    "level": "juinior",
+    "level": "junior",
     "category": "people",
     "synonyms": ["host", "emcee"],
     "antonyms": ["audience", "spectator"]
@@ -1479,7 +1479,7 @@
     "word": "Egypt",
     "definition": "a country in northeastern Africa known for its ancient civilization and historical monuments",
     "difficulty": "easy",
-    "level": "juinior",
+    "level": "junior",
     "category": "places",
     "synonyms": ["land of the pharaohs", "Nile country"],
     "antonyms": ["foreign", "non-Egyptian"]
@@ -1497,7 +1497,7 @@
     "word": "havoc",
     "definition": "widespread destruction; chaos",
     "difficulty": "medium",
-    "level": "juinior",
+    "level": "junior",
     "category": "emotion",
     "synonyms": ["destruction", "mayhem"],
     "antonyms": ["order", "peace"]
@@ -1515,7 +1515,7 @@
     "word": "Manila",
     "definition": "the capital city of the Philippines",
     "difficulty": "easy",
-    "level": "juinior",
+    "level": "junior",
     "category": "places",
     "synonyms": ["Philippine capital", "Metro Manila"],
     "antonyms": ["non-capital", "provincial"]
@@ -1524,7 +1524,7 @@
     "word": "momentum",
     "definition": "the quantity of motion of a moving body, measured as a product of its mass and velocity",
     "difficulty": "easy",
-    "level": "juinior",
+    "level": "junior",
     "category": "science",
     "synonyms": ["impulse", "thrust"],
     "antonyms": ["stagnation", "immobility"]
@@ -1533,7 +1533,7 @@
     "word": "mosque",
     "definition": "a Muslim place of worship",
     "difficulty": "easy",
-    "level": "juinior",
+    "level": "junior",
     "category": "places",
     "synonyms": ["Islamic center", "prayer hall"],
     "antonyms": ["church", "synagogue"]
@@ -1542,7 +1542,7 @@
     "word": "nocturnal",
     "definition": "done, occurring, or active at night",
     "difficulty": "easy",
-    "level": "juinior",
+    "level": "junior",
     "category": "nature",
     "synonyms": ["nightly", "nocturne"],
     "antonyms": ["diurnal", "daytime"]
@@ -1560,7 +1560,7 @@
     "word": "opponent",
     "definition": "a person who competes against or opposes another in a contest, game, or argument",
     "difficulty": "easy",
-    "level": "juinior",
+    "level": "junior",
     "category": "people",
     "synonyms": ["rival", "adversary"],
     "antonyms": ["ally", "supporter"]
@@ -1578,7 +1578,7 @@
     "word": "passenger",
     "definition": "a person who is traveling in a vehicle but is not operating it, especially one being carried in a car, boat, or airplane",
     "difficulty": "easy",
-    "level": "juinior",
+    "level": "junior",
     "category": "people",
     "synonyms": ["traveler", "commuter"],
     "antonyms": ["driver", "pilot"]
@@ -1605,7 +1605,7 @@
     "word": "altitude",
     "definition": "height above sea level",
     "difficulty": "easy",
-    "level": "juinior",
+    "level": "junior",
     "category": "places",
     "synonyms": ["elevation", "height"],
     "antonyms": ["depth", "sea level"]
@@ -1614,7 +1614,7 @@
     "word": "appetite",
     "definition": "a natural desire to satisfy a bodily need, especially for food",
     "difficulty": "easy",
-    "level": "juinior",
+    "level": "junior",
     "category": "food",
     "synonyms": ["hunger", "craving"],
     "antonyms": ["satiety", "disinterest"]
@@ -1704,7 +1704,7 @@
     "word": "concept",
     "definition": "an abstract idea; a general notion",
     "difficulty": "easy",
-    "level": "juinior",
+    "level": "junior",
     "category": "other",
     "synonyms": ["idea", "notion"],
     "antonyms": ["concrete", "specific"]
@@ -1722,7 +1722,7 @@
     "word": "discern",
     "definition": "to perceive or recognize something",
     "difficulty": "medium",
-    "level": "juinior",
+    "level": "junior",
     "category": "action",
     "synonyms": ["detect", "identify"],
     "antonyms": ["miss", "overlook"]
@@ -1731,7 +1731,7 @@
     "word": "erosion",
     "definition": "the process of wearing away or gradual destruction by natural elements",
     "difficulty": "easy",
-    "level": "juinior",
+    "level": "junior",
     "category": "science",
     "synonyms": ["wear", "deterioration"],
     "antonyms": ["construction", "building"]
@@ -1749,7 +1749,7 @@
     "word": "hertz",
     "definition": "a unit of frequency equal to one cycle per second",
     "difficulty": "medium",
-    "level": "juinior",
+    "level": "junior",
     "category": "science",
     "synonyms": ["frequency", "cycles per second"],
     "antonyms": ["silence", "quietness"]
@@ -1758,7 +1758,7 @@
     "word": "Istanbul",
     "definition": "a major city in Turkey that straddles Europe and Asia across the Bosphorus Strait",
     "difficulty": "easy",
-    "level": "juinior",
+    "level": "junior",
     "category": "places",
     "synonyms": ["Constantinople", "Turkish city"],
     "antonyms": ["rural area", "countryside"]
@@ -1785,7 +1785,7 @@
     "word": "murmur",
     "definition": "a soft, indistinct sound made by a person or group of people speaking quietly or at a distance",
     "difficulty": "medium",
-    "level": "juinior",
+    "level": "junior",
     "category": "emotion",
     "synonyms": ["mumble", "whisper"],
     "antonyms": ["shout", "yell"]
@@ -1794,7 +1794,7 @@
     "word": "nominal",
     "definition": "existing in name only; not real or actual",
     "difficulty": "medium",
-    "level": "juinior",
+    "level": "junior",
     "category": "other",
     "synonyms": ["symbolic", "token"],
     "antonyms": ["substantial", "real"]
@@ -1803,7 +1803,7 @@
     "word": "obliging",
     "definition": "willing to do a service or kindness; helpful",
     "difficulty": "medium",
-    "level": "juinior",
+    "level": "junior",
     "category": "people",
     "synonyms": ["helpful", "accommodating"],
     "antonyms": ["unhelpful", "inconsiderate"]
@@ -1812,7 +1812,7 @@
     "word": "opportune",
     "definition": "suitable or right for a particular situation",
     "difficulty": "medium",
-    "level": "juinior",
+    "level": "junior",
     "category": "other",
     "synonyms": ["timely", "favorable"],
     "antonyms": ["inopportune", "untimely"]
@@ -1839,7 +1839,7 @@
     "word": "perverse",
     "definition": "showing a deliberate and obstinate desire to behave in a way that is unreasonable or unacceptable",
     "difficulty": "medium",
-    "level": "juinior",
+    "level": "junior",
     "category": "emotion",
     "synonyms": ["contrary", "wayward"],
     "antonyms": ["reasonable", "compliant"]
@@ -1848,7 +1848,7 @@
     "word": "advisory",
     "definition": "having the power or authority to make suggestions or recommendations",
     "difficulty": "medium",
-    "level": "juinior",
+    "level": "junior",
     "category": "other",
     "synonyms": ["consultative", "guiding"],
     "antonyms": ["mandatory", "compulsory"]
@@ -1875,7 +1875,7 @@
     "word": "aromatic",
     "definition": "having a pleasant and distinctive smell",
     "difficulty": "easy",
-    "level": "juinior",
+    "level": "junior",
     "category": "other",
     "synonyms": ["fragrant", "perfumed"],
     "antonyms": ["odorless", "unscented"]
@@ -1884,7 +1884,7 @@
     "word": "auburn",
     "definition": "a reddish-brown color, especially of hair",
     "difficulty": "easy",
-    "level": "juinior",
+    "level": "junior",
     "category": "other",
     "synonyms": ["reddish-brown", "chestnut"],
     "antonyms": ["blonde", "brunette"]
@@ -1893,7 +1893,7 @@
     "word": "barista",
     "definition": "a person who makes and serves coffee (especially espresso) drinks for customers",
     "difficulty": "medium",
-    "level": "juinior",
+    "level": "junior",
     "category": "people",
     "synonyms": ["coffee maker", "barkeeper"],
     "antonyms": ["customer", "patron"]
@@ -1911,7 +1911,7 @@
     "word": "bonanza",
     "definition": "a situation or event that creates a sudden increase in wealth or good fortune",
     "difficulty": "medium",
-    "level": "juinior",
+    "level": "junior",
     "category": "other",
     "synonyms": ["windfall", "jackpot"],
     "antonyms": ["loss", "misfortune"]
@@ -1920,7 +1920,7 @@
     "word": "breathe",
     "definition": "to take air into the lungs and then expel it, especially as a regular physiological process",
     "difficulty": "easy",
-    "level": "juinior",
+    "level": "junior",
     "category": "action",
     "synonyms": ["inhale", "exhale"],
     "antonyms": ["suffocate", "choke"]
@@ -1929,7 +1929,7 @@
     "word": "calculation",
     "definition": "the process or result of mathematical calculation",
     "difficulty": "easy",
-    "level": "juinior",
+    "level": "junior",
     "category": "other",
     "synonyms": ["computation", "estimation"],
     "antonyms": ["guesswork", "approximation"]
@@ -1965,7 +1965,7 @@
     "word": "curator",
     "definition": "a person in charge of a museum, library, or other collection",
     "difficulty": "medium",
-    "level": "juinior",
+    "level": "junior",
     "category": "people",
     "synonyms": ["custodian", "archivist"],
     "antonyms": ["visitor", "tourist"]
@@ -1992,7 +1992,7 @@
     "word": "Gould",
     "definition": "referring to Glenn Gould, a Canadian pianist known for his performances of Bach",
     "difficulty": "medium",
-    "level": "juinior",
+    "level": "junior",
     "category": "people",
     "synonyms": ["musician", "pianist"],
     "antonyms": ["audience", "listener"]
@@ -2019,7 +2019,7 @@
     "word": "maverick",
     "definition": "an independent-minded person who refuses to conform to the accepted norms or rules",
     "difficulty": "medium",
-    "level": "juinior",
+    "level": "junior",
     "category": "people",
     "synonyms": ["nonconformist", "rebel"],
     "antonyms": ["conformist", "follower"]
@@ -2046,7 +2046,7 @@
     "word": "novella",
     "definition": "a short novel or long short story",
     "difficulty": "medium",
-    "level": "juinior",
+    "level": "junior",
     "category": "other",
     "synonyms": ["short novel", "novelette"],
     "antonyms": ["epic"]
@@ -2091,7 +2091,7 @@
     "word": "phantom",
     "definition": "a ghost; something that is not real and exists only in a person's mind",
     "difficulty": "medium",
-    "level": "juinior",
+    "level": "junior",
     "category": "emotion",
     "synonyms": ["apparition", "specter"],
     "antonyms": ["real", "substantial"]
@@ -2100,7 +2100,7 @@
     "word": "absolute",
     "definition": "complete; not limited by restrictions or conditions",
     "difficulty": "easy",
-    "level": "juinior",
+    "level": "junior",
     "category": "other",
     "synonyms": ["total", "unconditional"],
     "antonyms": ["partial", "limited"]
@@ -2109,7 +2109,7 @@
     "word": "algae",
     "definition": "simple non-flowering plants that include seaweeds and many single-celled forms",
     "difficulty": "easy",
-    "level": "juinior",
+    "level": "junior",
     "category": "animals",
     "synonyms": ["seaweed", "pond scum"],
     "antonyms": ["animal", "mammal"]
@@ -2118,7 +2118,7 @@
     "word": "antipasto",
     "definition": "an Italian appetizer typically consisting of olives, anchovies, cheeses, and meats",
     "difficulty": "medium",
-    "level": "juinior",
+    "level": "junior",
     "category": "food",
     "synonyms": ["appetizer", "starter"],
     "antonyms": ["main course", "dessert"]
@@ -2163,7 +2163,7 @@
     "word": "betrayal",
     "definition": "the action of betraying one's country, a group, or a person; treachery",
     "difficulty": "easy",
-    "level": "juinior",
+    "level": "junior",
     "category": "emotion",
     "synonyms": ["treachery", "disloyalty"],
     "antonyms": ["loyalty", "faithfulness"]
@@ -2172,7 +2172,7 @@
     "word": "bonsai",
     "definition": "the art of growing miniature trees in containers",
     "difficulty": "medium",
-    "level": "juinior",
+    "level": "junior",
     "category": "action",
     "synonyms": ["miniature tree", "dwarf tree"],
     "antonyms": ["giant tree", "full-sized tree"]
@@ -2181,7 +2181,7 @@
     "word": "brochure",
     "definition": "a small book or magazine containing pictures and information about a product or service",
     "difficulty": "easy",
-    "level": "juinior",
+    "level": "junior",
     "category": "other",
     "synonyms": ["leaflet", "pamphlet"],
     "antonyms": ["digital", "online"]
@@ -2190,7 +2190,7 @@
     "word": "callous",
     "definition": "showing or having an insensitive and cruel disregard for others",
     "difficulty": "medium",
-    "level": "juinior",
+    "level": "junior",
     "category": "emotion",
     "synonyms": ["heartless", "insensitive"],
     "antonyms": ["kind", "compassionate"]
@@ -2199,7 +2199,7 @@
     "word": "centimetre",
     "definition": "a metric unit of length equal to one hundredth of a meter",
     "difficulty": "easy",
-    "level": "juinior",
+    "level": "junior",
     "category": "other",
     "synonyms": ["cm", "metric unit"],
     "antonyms": ["kilometer", "mile"]
@@ -2208,7 +2208,7 @@
     "word": "coleslaw",
     "definition": "a salad of finely shredded raw cabbage, typically dressed with mayonnaise",
     "difficulty": "easy",
-    "level": "juinior",
+    "level": "junior",
     "category": "food",
     "synonyms": ["cabbage salad", "slaw"],
     "antonyms": ["stir-fry", "grilled vegetables"]
@@ -2217,7 +2217,7 @@
     "word": "consultant",
     "definition": "a person who provides senior advice professionally",
     "difficulty": "easy",
-    "level": "juinior",
+    "level": "junior",
     "category": "people",
     "synonyms": ["adviser", "senior"],
     "antonyms": ["novice", "amateur"]
@@ -2226,7 +2226,7 @@
     "word": "Curie",
     "definition": "referring to Marie Curie, a Polish physicist and chemist known for her pioneering research on radioactivity",
     "difficulty": "medium",
-    "level": "juinior",
+    "level": "junior",
     "category": "people",
     "synonyms": ["scientist", "researcher"],
     "antonyms": ["layperson", "non-scientist"]
@@ -2235,7 +2235,7 @@
     "word": "dumbbell",
     "definition": "a short bar with a weight at each end, used typically in pairs for exercise",
     "difficulty": "easy",
-    "level": "juinior",
+    "level": "junior",
     "category": "sports",
     "synonyms": ["weights", "barbell"],
     "antonyms": ["bodyweight", "cardio"]
@@ -2253,7 +2253,7 @@
     "word": "habitat",
     "definition": "the natural home or environment of an animal, plant, or other organism",
     "difficulty": "easy",
-    "level": "juinior",
+    "level": "junior",
     "category": "animals",
     "synonyms": ["environment", "dwelling"],
     "antonyms": ["unnatural", "alien"]
@@ -2262,7 +2262,7 @@
     "word": "horsepower",
     "definition": "a unit of power equal to 550 foot-pounds per second (745.7 watts)",
     "difficulty": "medium",
-    "level": "juinior",
+    "level": "junior",
     "category": "science",
     "synonyms": ["power", "strength"],
     "antonyms": ["weakness", "inertia"]
@@ -2271,7 +2271,7 @@
     "word": "laudable",
     "definition": "deserving praise and commendation",
     "difficulty": "medium",
-    "level": "juinior",
+    "level": "junior",
     "category": "emotion",
     "synonyms": ["praiseworthy", "commendable"],
     "antonyms": ["blameworthy", "criticizable"]
@@ -2280,7 +2280,7 @@
     "word": "meagre",
     "definition": "lacking in quantity or quality; insufficient",
     "difficulty": "easy",
-    "level": "juinior",
+    "level": "junior",
     "category": "other",
     "synonyms": ["sparse", "scant"],
     "antonyms": ["plentiful", "abundant"]
@@ -2289,7 +2289,7 @@
     "word": "monogram",
     "definition": "a motif of two or more letters, typically a person's initials, usually interwoven or otherwise combined in a decorative design, used as a logo or to identify a personal possession",
     "difficulty": "medium",
-    "level": "juinior",
+    "level": "junior",
     "category": "other",
     "synonyms": ["cipher", "emblem"],
     "antonyms": ["plain", "unembellished"]
@@ -2298,7 +2298,7 @@
     "word": "mystify",
     "definition": "utterly bewilder or perplex (someone)",
     "difficulty": "medium",
-    "level": "juinior",
+    "level": "junior",
     "category": "emotion",
     "synonyms": ["baffle", "confound"],
     "antonyms": ["explain", "clarify"]
@@ -2307,7 +2307,7 @@
     "word": "nuclear",
     "definition": "relating to the nucleus of an atom or to nuclei generally",
     "difficulty": "medium",
-    "level": "juinior",
+    "level": "junior",
     "category": "science",
     "synonyms": ["atomic", "thermonuclear"],
     "antonyms": ["non-nuclear", "conventional"]
@@ -2316,7 +2316,7 @@
     "word": "omission",
     "definition": "someone or something that has been left out or excluded",
     "difficulty": "medium",
-    "level": "juinior",
+    "level": "junior",
     "category": "other",
     "synonyms": ["exclusion", "neglect"],
     "antonyms": ["inclusion", "addition"]
@@ -2325,7 +2325,7 @@
     "word": "ostrich",
     "definition": "a large flightless fast-running African bird with long legs and a long neck",
     "difficulty": "easy",
-    "level": "juinior",
+    "level": "junior",
     "category": "animals",
     "synonyms": ["bird", "emu"],
     "antonyms": ["flighted bird", "hawk"]
@@ -2352,7 +2352,7 @@
     "word": "pianist",
     "definition": "a person who plays the piano, especially professionally",
     "difficulty": "easy",
-    "level": "juinior",
+    "level": "junior",
     "category": "people",
     "synonyms": ["keyboardist", "musician"],
     "antonyms": ["listener", "spectator"]
@@ -2361,7 +2361,7 @@
     "word": "prevalent",
     "definition": "widespread in a particular area at a particular time; common",
     "difficulty": "medium",
-    "level": "juinior",
+    "level": "junior",
     "category": "other",
     "synonyms": ["common", "widespread"],
     "antonyms": ["rare", "uncommon"]
@@ -2370,7 +2370,7 @@
     "word": "prolific",
     "definition": "producing much fruit or foliage or many offspring",
     "difficulty": "medium",
-    "level": "juinior",
+    "level": "junior",
     "category": "other",
     "synonyms": ["productive", "fertile"],
     "antonyms": ["barren", "infertile"]
@@ -2388,7 +2388,7 @@
     "word": "referee",
     "definition": "an official who watches a game or match closely to ensure that the rules are adhered to and arbitrate on matters arising from the play",
     "difficulty": "easy",
-    "level": "juinior",
+    "level": "junior",
     "category": "sports",
     "synonyms": ["umpire", "official"],
     "antonyms": ["player", "spectator"]
@@ -2424,7 +2424,7 @@
     "word": "scenery",
     "definition": "the natural features of a landscape considered in terms of their appearance, especially when picturesque",
     "difficulty": "easy",
-    "level": "juinior",
+    "level": "junior",
     "category": "places",
     "synonyms": ["landscape", "view"],
     "antonyms": ["indoors", "cityscape"]
@@ -2433,7 +2433,7 @@
     "word": "sediment",
     "definition": "matter that settles to the bottom of a liquid; dregs",
     "difficulty": "medium",
-    "level": "juinior",
+    "level": "junior",
     "category": "other",
     "synonyms": ["debris", "deposit"],
     "antonyms": ["clear water", "filtered"]
@@ -2469,7 +2469,7 @@
     "word": "squalor",
     "definition": "the state of being extremely dirty and unpleasant, especially as a result of poverty or neglect",
     "difficulty": "medium",
-    "level": "juinior",
+    "level": "junior",
     "category": "emotion",
     "synonyms": ["filth", "destitution"],
     "antonyms": ["cleanliness", "luxury"]
@@ -2478,7 +2478,7 @@
     "word": "studio",
     "definition": "a room where an artist, photographer, sculptor, etc., works",
     "difficulty": "easy",
-    "level": "juinior",
+    "level": "junior",
     "category": "places",
     "synonyms": ["workshop", "atelier"],
     "antonyms": ["outdoors", "wilderness"]
@@ -2505,7 +2505,7 @@
     "word": "treasury",
     "definition": "a place where money or valuables are stored; the funds or revenue of a state, institution, or society",
     "difficulty": "medium",
-    "level": "juinior",
+    "level": "junior",
     "category": "places",
     "synonyms": ["vault", "exchequer"],
     "antonyms": ["debt", "deficit"]
@@ -2514,7 +2514,7 @@
     "word": "utensil",
     "definition": "a tool, container, or other article, especially for household use",
     "difficulty": "easy",
-    "level": "juinior",
+    "level": "junior",
     "category": "thing",
     "synonyms": ["implement", "tool"],
     "antonyms": ["finger", "hand"]
@@ -2523,7 +2523,7 @@
     "word": "vitality",
     "definition": "the state of being strong and active; energy",
     "difficulty": "medium",
-    "level": "juinior",
+    "level": "junior",
     "category": "emotion",
     "synonyms": ["energy", "vigor"],
     "antonyms": ["lethargy", "weakness"]
@@ -2532,7 +2532,7 @@
     "word": "voltage",
     "definition": "an electromotive force or potential difference expressed in volts",
     "difficulty": "medium",
-    "level": "juinior",
+    "level": "junior",
     "category": "science",
     "synonyms": ["electrical potential", "electromotive force"],
     "antonyms": ["current", "resistance"]
@@ -2541,7 +2541,7 @@
     "word": "wilderness",
     "definition": "an uncultivated, uninhabited, and inhospitable region",
     "difficulty": "easy",
-    "level": "juinior",
+    "level": "junior",
     "category": "places",
     "synonyms": ["wilds", "desert"],
     "antonyms": ["civilization", "urban area"]
@@ -2559,7 +2559,7 @@
     "word": "politics",
     "definition": "the activities associated with the governance of a country or area, especially the debate or conflict among individuals or parties having or hoping to achieve power",
     "difficulty": "medium",
-    "level": "juinior",
+    "level": "junior",
     "category": "other",
     "synonyms": ["government", "policy"],
     "antonyms": ["apolitical", "nonpartisan"]
@@ -2568,7 +2568,7 @@
     "word": "probable",
     "definition": "likely to be the case or to happen",
     "difficulty": "easy",
-    "level": "juinior",
+    "level": "junior",
     "category": "other",
     "synonyms": ["likely", "expected"],
     "antonyms": ["unlikely", "improbable"]
@@ -2577,7 +2577,7 @@
     "word": "prudence",
     "definition": "the quality of being cautious and sensible",
     "difficulty": "medium",
-    "level": "juinior",
+    "level": "junior",
     "category": "emotion",
     "synonyms": ["caution", "wisdom"],
     "antonyms": ["recklessness", "carelessness"]
@@ -2586,7 +2586,7 @@
     "word": "quotient",
     "definition": "the result of division",
     "difficulty": "medium",
-    "level": "juinior",
+    "level": "junior",
     "category": "math",
     "synonyms": ["result", "answer"],
     "antonyms": ["dividend", "numerator"]
@@ -2595,7 +2595,7 @@
     "word": "reference",
     "definition": "the action of mentioning or alluding to something",
     "difficulty": "easy",
-    "level": "juinior",
+    "level": "junior",
     "category": "other",
     "synonyms": ["mention", "citation"],
     "antonyms": ["omission", "ignorance"]
@@ -2604,7 +2604,7 @@
     "word": "reticent",
     "definition": "not revealing one's thoughts or feelings readily",
     "difficulty": "medium",
-    "level": "juinior",
+    "level": "junior",
     "category": "emotion",
     "synonyms": ["reserved", "guarded"],
     "antonyms": ["talkative", "open"]
@@ -2613,7 +2613,7 @@
     "word": "rudiments",
     "definition": "the first principles of a subject",
     "difficulty": "medium",
-    "level": "juinior",
+    "level": "junior",
     "category": "other",
     "synonyms": ["basics", "fundamentals"],
     "antonyms": ["advanced", "complex"]
@@ -2622,7 +2622,7 @@
     "word": "salvation",
     "definition": "preservation or deliverance from harm, ruin, or loss",
     "difficulty": "medium",
-    "level": "juinior",
+    "level": "junior",
     "category": "emotion",
     "synonyms": ["redemption", "rescue"],
     "antonyms": ["damnation", "ruin"]
@@ -2631,7 +2631,7 @@
     "word": "schedule",
     "definition": "a plan for carrying out a process or procedure, giving lists of intended events and times",
     "difficulty": "easy",
-    "level": "juinior",
+    "level": "junior",
     "category": "other",
     "synonyms": ["timetable", "agenda"],
     "antonyms": ["random", "unscheduled"]
@@ -2658,7 +2658,7 @@
     "word": "Singapore",
     "definition": "a sovereign city-state and island country in Southeast Asia",
     "difficulty": "easy",
-    "level": "juinior",
+    "level": "junior",
     "category": "places",
     "synonyms": ["city-state", "nation"],
     "antonyms": ["rural area", "countryside"]
@@ -2667,7 +2667,7 @@
     "word": "species",
     "definition": "a group of living organisms consisting of similar individuals capable of exchanging genes or interbreeding",
     "difficulty": "easy",
-    "level": "juinior",
+    "level": "junior",
     "category": "animals",
     "synonyms": ["type", "kind"],
     "antonyms": ["individual", "variant"]
@@ -2694,7 +2694,7 @@
     "word": "tactile",
     "definition": "of or connected with the sense of touch",
     "difficulty": "medium",
-    "level": "juinior",
+    "level": "junior",
     "category": "science",
     "synonyms": ["tangible", "palpable"],
     "antonyms": ["intangible", "abstract"]
@@ -2712,7 +2712,7 @@
     "word": "triathlon",
     "definition": "an athletic contest consisting of three different events, typically swimming, cycling, and long-distance running",
     "difficulty": "medium",
-    "level": "juinior",
+    "level": "junior",
     "category": "sports",
     "synonyms": ["competition", "event"],
     "antonyms": ["relay", "duathlon"]
@@ -2739,7 +2739,7 @@
     "word": "waive",
     "definition": "refrain from insisting on or using (a right or claim)",
     "difficulty": "medium",
-    "level": "juinior",
+    "level": "junior",
     "category": "action",
     "synonyms": ["forgo", "surrender"],
     "antonyms": ["claim", "insist"]
@@ -2748,7 +2748,7 @@
     "word": "yearling",
     "definition": "an animal that is a year old, or in its second year",
     "difficulty": "medium",
-    "level": "juinior",
+    "level": "junior",
     "category": "animals",
     "synonyms": ["young animal", "juvenile"],
     "antonyms": ["adult", "mature"]
@@ -2766,7 +2766,7 @@
     "word": "pragmatic",
     "definition": "dealing with things sensibly and realistically in a way that is based on practical rather than theoretical considerations",
     "difficulty": "medium",
-    "level": "juinior",
+    "level": "junior",
     "category": "emotion",
     "synonyms": ["practical", "realistic"],
     "antonyms": ["idealistic", "impractical"]
@@ -2775,7 +2775,7 @@
     "word": "probiotic",
     "definition": "relating to or containing live bacteria and yeasts that are good for health, especially for the digestive system",
     "difficulty": "medium",
-    "level": "juinior",
+    "level": "junior",
     "category": "food",
     "synonyms": ["beneficial bacteria", "microorganism"],
     "antonyms": ["harmful bacteria", "pathogen"]
@@ -2793,7 +2793,7 @@
     "word": "radiology",
     "definition": "the science dealing with X-rays and other high-energy radiation, especially the use of such radiation for the diagnosis and treatment of disease",
     "difficulty": "medium",
-    "level": "juinior",
+    "level": "junior",
     "category": "science",
     "synonyms": ["X-ray technology", "medical imaging"],
     "antonyms": ["non-radiation", "analog"]
@@ -2802,7 +2802,7 @@
     "word": "refinery",
     "definition": "an industrial plant for purifying a crude substance, such as oil or sugar",
     "difficulty": "medium",
-    "level": "juinior",
+    "level": "junior",
     "category": "places",
     "synonyms": ["processing plant", "factory"],
     "antonyms": ["raw material", "unrefined"]
@@ -2811,7 +2811,7 @@
     "word": "retriever",
     "definition": "a type of gun dog used to find and retrieve shot game",
     "difficulty": "medium",
-    "level": "juinior",
+    "level": "junior",
     "category": "animals",
     "synonyms": ["gun dog", "hunter"],
     "antonyms": ["non-hunting dog", "lap dog"]
@@ -2820,7 +2820,7 @@
     "word": "rupture",
     "definition": "the breaking or bursting of a bodily structure or organ",
     "difficulty": "medium",
-    "level": "juinior",
+    "level": "junior",
     "category": "medical",
     "synonyms": ["break", "tear"],
     "antonyms": ["heal", "repair"]
@@ -2838,7 +2838,7 @@
     "word": "scorpion",
     "definition": "a predatory arachnid with lobster-like pincers and a poisonous sting at the end of its jointed tail",
     "difficulty": "medium",
-    "level": "juinior",
+    "level": "junior",
     "category": "animals",
     "synonyms": ["arachnid", "venomous creature"],
     "antonyms": ["insect", "non-venomous"]
@@ -2847,7 +2847,7 @@
     "word": "separate",
     "definition": "to set or keep apart; divide into parts",
     "difficulty": "easy",
-    "level": "juinior",
+    "level": "junior",
     "category": "action",
     "synonyms": ["divide", "detach"],
     "antonyms": ["join", "unite"]
@@ -2883,7 +2883,7 @@
     "word": "stability",
     "definition": "the state of being stable; firmness in position",
     "difficulty": "easy",
-    "level": "juinior",
+    "level": "junior",
     "category": "emotion",
     "synonyms": ["steadiness", "balance"],
     "antonyms": ["instability", "unsteadiness"]
@@ -2919,7 +2919,7 @@
     "word": "triceps",
     "definition": "a large muscle on the back of the upper limb of many vertebrates, extending from the shoulder to the elbow",
     "difficulty": "medium",
-    "level": "juinior",
+    "level": "junior",
     "category": "anatomy",
     "synonyms": ["muscle", "tricep"],
     "antonyms": ["bicep", "forearm"]
@@ -2928,7 +2928,7 @@
     "word": "vertical",
     "definition": "at right angles to a horizontal plane; in a direction, or having an alignment, such that the top is directly above the bottom",
     "difficulty": "easy",
-    "level": "juinior",
+    "level": "junior",
     "category": "other",
     "synonyms": ["upright", "perpendicular"],
     "antonyms": ["horizontal", "flat"]
@@ -2937,7 +2937,7 @@
     "word": "vocalist",
     "definition": "a singer, typically one who performs with a band",
     "difficulty": "medium",
-    "level": "juinior",
+    "level": "junior",
     "category": "people",
     "synonyms": ["singer", "vocal artist"],
     "antonyms": ["instrumentalist", "non-singer"]
@@ -2964,7 +2964,7 @@
     "word": "pioneer",
     "definition": "a person who is among the first to explore or settle a new country or area",
     "difficulty": "medium",
-    "level": "juinior",
+    "level": "junior",
     "category": "people",
     "synonyms": ["trailblazer", "explorer"],
     "antonyms": ["follower", "traditionalist"]
@@ -2973,7 +2973,7 @@
     "word": "precision",
     "definition": "the quality, condition, or fact of being exact and accurate",
     "difficulty": "medium",
-    "level": "juinior",
+    "level": "junior",
     "category": "other",
     "synonyms": ["accuracy", "exactness"],
     "antonyms": ["inaccuracy", "imprecision"]
@@ -2982,7 +2982,7 @@
     "word": "procedure",
     "definition": "an established or official way of doing something",
     "difficulty": "easy",
-    "level": "juinior",
+    "level": "junior",
     "category": "other",
     "synonyms": ["process", "method"],
     "antonyms": ["disorder", "chaos"]
@@ -2991,7 +2991,7 @@
     "word": "qualified",
     "definition": "officially recognized as being trained to perform a particular job; certified",
     "difficulty": "easy",
-    "level": "juinior",
+    "level": "junior",
     "category": "other",
     "synonyms": ["certified", "skilled"],
     "antonyms": ["unqualified", "inexperienced"]
@@ -3045,7 +3045,7 @@
     "word": "secretary",
     "definition": "a person employed by an individual or in an office to assist with correspondence, keep records, make appointments, and carry out similar tasks",
     "difficulty": "easy",
-    "level": "juinior",
+    "level": "junior",
     "category": "people",
     "synonyms": ["assistant", "clerk"],
     "antonyms": ["boss", "supervisor"]
@@ -3072,7 +3072,7 @@
     "word": "skydiving",
     "definition": "the sport or activity of jumping from an aircraft and performing acrobatic maneuvers in free fall before landing by parachute",
     "difficulty": "medium",
-    "level": "juinior",
+    "level": "junior",
     "category": "sports",
     "synonyms": ["parachuting", "freefall"],
     "antonyms": ["grounded", "non-jumping"]
@@ -3081,7 +3081,7 @@
     "word": "spouse",
     "definition": "a husband or wife, considered in relation to their partner",
     "difficulty": "easy",
-    "level": "juinior",
+    "level": "junior",
     "category": "people",
     "synonyms": ["partner", "mate"],
     "antonyms": ["single", "unmarried"]
@@ -3090,7 +3090,7 @@
     "word": "stirrup",
     "definition": "a pair of curved pieces of metal, wood, or plastic attached to either side of a horse's saddle and used to support the rider's feet",
     "difficulty": "medium",
-    "level": "juinior",
+    "level": "junior",
     "category": "sports",
     "synonyms": ["footrest", "foot iron"],
     "antonyms": ["saddle", "reins"]
@@ -3108,7 +3108,7 @@
     "word": "tedious",
     "definition": "too long, slow, or dull; tiresome or monotonous",
     "difficulty": "easy",
-    "level": "juinior",
+    "level": "junior",
     "category": "emotion",
     "synonyms": ["boring", "dreary"],
     "antonyms": ["interesting", "exciting"]
@@ -3117,7 +3117,7 @@
     "word": "tragedy",
     "definition": "an event causing great suffering, destruction, and distress, such as a serious accident, crime, or natural catastrophe",
     "difficulty": "easy",
-    "level": "juinior",
+    "level": "junior",
     "category": "emotion",
     "synonyms": ["disaster", "calamity"],
     "antonyms": ["comedy", "joy"]
@@ -3189,7 +3189,7 @@
     "word": "redemption",
     "definition": "the action of saving or being saved from sin, error, or evil.",
     "difficulty": "medium",
-    "level": "juinior",
+    "level": "junior",
     "category": "emotion",
     "synonyms": ["salvation", "deliverance"],
     "antonyms": ["condemnation", "damnation"]
@@ -3198,7 +3198,7 @@
     "word": "removalist",
     "definition": "a person or company employed to move furniture and other items from one location to another.",
     "difficulty": "medium",
-    "level": "juinior",
+    "level": "junior",
     "category": "people",
     "synonyms": ["mover", "relocator"],
     "antonyms": ["settler", "stayer"]
@@ -3225,7 +3225,7 @@
     "word": "saunter",
     "definition": "walk in a slow, relaxed manner, without hurry or effort.",
     "difficulty": "easy",
-    "level": "juinior",
+    "level": "junior",
     "category": "action",
     "synonyms": ["stroll", "amble"],
     "antonyms": ["hurry", "rush"]
@@ -3234,7 +3234,7 @@
     "word": "sedentary",
     "definition": "tending to spend much time seated; somewhat inactive.",
     "difficulty": "easy",
-    "level": "juinior",
+    "level": "junior",
     "category": "action",
     "synonyms": ["inactive", "stationary"],
     "antonyms": ["active", "mobile"]
@@ -3243,7 +3243,7 @@
     "word": "serenade",
     "definition": "a piece of music sung or played in the open air, typically by a man at night under the window of his beloved.",
     "difficulty": "medium",
-    "level": "juinior",
+    "level": "junior",
     "category": "action",
     "synonyms": ["song", "ballad"],
     "antonyms": ["cacophony", "discord"]
@@ -3252,7 +3252,7 @@
     "word": "signature",
     "definition": "a person's name written in a distinctive way as a form of identification in authorizing a check or document or concluding a letter.",
     "difficulty": "easy",
-    "level": "juinior",
+    "level": "junior",
     "category": "other",
     "synonyms": ["autograph", "mark"],
     "antonyms": ["anonymous", "unidentified"]
@@ -3288,7 +3288,7 @@
     "word": "suppress",
     "definition": "forcibly put an end to.",
     "difficulty": "medium",
-    "level": "juinior",
+    "level": "junior",
     "category": "action",
     "synonyms": ["restrain", "quash"],
     "antonyms": ["encourage", "promote"]
@@ -3297,7 +3297,7 @@
     "word": "telegraph",
     "definition": "a system for transmitting messages from a distance along a wire, especially one creating signals by making and breaking an electrical connection.",
     "difficulty": "medium",
-    "level": "juinior",
+    "level": "junior",
     "category": "technology",
     "synonyms": ["wire", "communicate"],
     "antonyms": ["phone", "email"]
@@ -3315,7 +3315,7 @@
     "word": "unbecoming",
     "definition": "not flattering; not appropriate or suitable.",
     "difficulty": "medium",
-    "level": "juinior",
+    "level": "junior",
     "category": "other",
     "synonyms": ["unfitting", "indecorous"],
     "antonyms": ["appropriate", "suitable"]
@@ -3324,7 +3324,7 @@
     "word": "vibrato",
     "definition": "a musical effect consisting of regular, pulsating change of pitch slightly above and below the nominal pitch.",
     "difficulty": "medium",
-    "level": "juinior",
+    "level": "junior",
     "category": "music",
     "synonyms": ["tremolo", "modulation"],
     "antonyms": ["flat", "monotone"]

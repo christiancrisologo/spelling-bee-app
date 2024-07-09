@@ -174,18 +174,8 @@ const SpellingBeeComponent = (props: SpellingBeeProps) => {
   }
 
   const gameStart = () => {
-    const newGameWords = words
-      .filter((item) => item.level === level)
-      .filter((item) => {
-        if (level === 'junior') {
-          return item.word.length <= 6
-        }
-        if (difficulty !== 'Easy') {
-          return item.word.length >= 7
-        }
-
-        return item
-      })
+    const newGameWords = words.filter((item) => item.level === level)
+    console.log(newGameWords)
     dispatch({ type: 'setGameWords', payload: newGameWords })
     dispatch({ type: 'setGameStatus', payload: 'start' })
     dispatch({ type: 'setGameAction', payload: 'start' })
