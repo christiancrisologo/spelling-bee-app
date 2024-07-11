@@ -1,6 +1,6 @@
 'use client'
 
-import React, { ReactNode, Suspense, useEffect } from 'react'
+import React, { ReactNode, Suspense, useEffect, useRef } from 'react'
 import { Word as WordType } from '../../lib/definitions'
 import TopBar from './TopBar'
 import { getRandomItem, getRandomInt, shuffleArray } from '../../lib/utils'
@@ -43,21 +43,23 @@ const timerOutResponses = [
 ]
 
 const correctResponses = [
-  'You are definitely Correct!',
-  'Awesome! to the next one.',
+  'You are Correct!',
+  'Awesome!',
   "That's correct",
-  'Too easy, try the next one',
+  'Too easy',
+  'You are right!',
   'Piece of cake!',
-  'Correct, No way you will get that wrong',
+  'Correct, you are amazing',
 ]
 
 const wrongResponses = [
-  'Oops not this time. Try again',
+  'Oops! not this time. Try again',
   "That's incorrect",
   'No luck, try again',
   'Sorry, try again',
+  'Wrong, try again',
   'Maybe stop guessing, try again',
-  "Hmmm... I dont think that's right",
+  "I dont think that's right",
 ]
 
 const getHints = (currentWord: WordType): string[] => {
@@ -81,6 +83,7 @@ const getHints = (currentWord: WordType): string[] => {
 
 const SpellingBeeComponent = (props: SpellingBeeProps) => {
   const { words } = props
+  const inputRef = useRef<HTMLInputElement>(null)
   const searchParams = useSearchParams()!
   const {
     state: {
@@ -221,6 +224,11 @@ const SpellingBeeComponent = (props: SpellingBeeProps) => {
         dispatch({ type: 'setRestartTimer', payload: true })
         dispatch({ type: 'setRoundCount', payload: roundCount + 1 })
         dispatch({ type: 'setGameAction', payload: '' })
+        setTimeout(() => {
+          if (inputRef.current) {
+            inputRef.current.focus()
+          }
+        }, 500)
         createNewWord()
       }, 2500)
     }
@@ -261,6 +269,7 @@ const SpellingBeeComponent = (props: SpellingBeeProps) => {
   const stopTimer = ['game-over', 'skip-word', 'answer-correct'].includes(
     gameStatus
   )
+  const isTimeOutWarning = currentTime <= (totalSeconds / 2 || 4)
 
   return (
     <Suspense>
@@ -291,7 +300,7 @@ const SpellingBeeComponent = (props: SpellingBeeProps) => {
                   </h1>
                 </div>
               )}
-              {gameStatus === 'playing' && (
+              {gameStatus === 'playing' && isTimeOutWarning && (
                 <button
                   className="bg-orange-100 p-4 mb-4 rounded-xl text-xl font-bold hover:bg-orange-200 border"
                   onClick={() => {
@@ -303,18 +312,18 @@ const SpellingBeeComponent = (props: SpellingBeeProps) => {
               )}
 
               {gameStatus === 'timeout' && (
-                <div className="px-5 py-2 rounded-xl text-4xl font-bold text-center">
+                <div className="px-5 py-4 rounded-xl text-4xl font-bold text-center">
                   TimeOut!
                 </div>
               )}
               {(gameStatus === 'skip-word' || gameStatus === 'timeout') && (
-                <div className=" px-5 py-3 rounded-xl text-2xl font-bold text-center">
+                <div className=" px-5 py-4 rounded-xl text-2xl font-bold text-center">
                   The correct answer is{' '}
                   <span className="text-red-500">{currentWord?.word}</span>
                 </div>
               )}
               {gameStatus === 'answer-correct' && (
-                <div className=" px-5 py-3 rounded-xl text-2xl font-bold text-center">
+                <div className=" px-5 py-4 rounded-xl text-2xl font-bold text-center">
                   You are correct!
                 </div>
               )}
@@ -340,6 +349,7 @@ const SpellingBeeComponent = (props: SpellingBeeProps) => {
                         disabled={!currentWord?.word}
                         autoComplete="off"
                         spellCheck="false"
+                        ref={inputRef}
                       />
                       <button
                         className="mt-1 p-4 bg-blue-500 text-white hover:bg-blue-700 focus:outline-none text-2xl font-bold rounded-xl disabled:bg-gray-400"
@@ -368,7 +378,7 @@ const SpellingBeeComponent = (props: SpellingBeeProps) => {
                     </OptButton>
                     <OptButton onClick={hint}> Give me a hint?</OptButton>
                   </div>
-                  {difficulty === 'Easy' && currentTime <= totalSeconds / 2 && (
+                  {difficulty === 'Easy' && isTimeOutWarning && (
                     <ShuffleWord word={shuffledWord} />
                   )}
                 </div>

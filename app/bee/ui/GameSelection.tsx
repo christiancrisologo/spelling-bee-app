@@ -35,13 +35,16 @@ const enableTimerOptions: OptionProps[] = [
   },
 ]
 
+const minTotalSeconds = 10
+const minTotalWords = 5
+
 export function GameSelection(props: GameSelectionProps) {
   const { onStart } = props
   const { state, dispatch } = useStateContext()
   const [gameSelection, setGameSelection] = useState<SelectedGameOptionType>({
     difficulty: 'Easy',
     enableTimer: 'On',
-    totalSeconds: 120,
+    totalSeconds: 45,
     totalWords: 10,
   })
 
@@ -103,7 +106,7 @@ export function GameSelection(props: GameSelectionProps) {
             onChange={(e) => {
               setGameSelection({
                 ...gameSelection,
-                totalSeconds: parseInt(e.target.value),
+                totalSeconds: parseInt(e.target.value) || minTotalSeconds,
               })
             }}
             disabled={gameSelection.enableTimer !== 'On'}
@@ -125,7 +128,7 @@ export function GameSelection(props: GameSelectionProps) {
             onChange={(e) => {
               setGameSelection({
                 ...gameSelection,
-                totalWords: parseInt(e.target.value),
+                totalWords: parseInt(e.target.value) || minTotalWords,
               })
             }}
           />
