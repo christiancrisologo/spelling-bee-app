@@ -12,6 +12,7 @@ import { useSpeechSynthesis } from '@/app/lib/useSpeechSynthesis'
 import { StateProvider, useStateContext } from '../context'
 import GameResult from './GameResults'
 import ShuffleWord from './ShuffledWord'
+import { insert } from '@/app/api/gameplay/route'
 
 export type SpellingBeeProps = {
   words: WordType[]
@@ -178,7 +179,6 @@ const SpellingBeeComponent = (props: SpellingBeeProps) => {
 
   const gameStart = () => {
     const newGameWords = words.filter((item) => item.level === level)
-    console.log(newGameWords)
     dispatch({ type: 'setGameWords', payload: newGameWords })
     dispatch({ type: 'setGameStatus', payload: 'start' })
     dispatch({ type: 'setGameAction', payload: 'start' })
@@ -270,6 +270,25 @@ const SpellingBeeComponent = (props: SpellingBeeProps) => {
     gameStatus
   )
   const isTimeOutWarning = currentTime <= (totalSeconds / 2 || 4)
+
+  useEffect(() => {
+    ;(async () => {
+      if (gameStatus === 'game-over') {
+        console.log("saving the game's data")
+        const response = await insert({
+          playerName,
+          totalSeconds,
+          wrongAnswers,
+          correctAnswers,
+          rating: 0,
+          level,
+          difficulty,
+        })
+
+        console.log(response)
+      }
+    })()
+  }, [gameStatus])
 
   return (
     <Suspense>

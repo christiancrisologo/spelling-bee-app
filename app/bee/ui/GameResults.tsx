@@ -26,6 +26,19 @@ const RowItem = ({
   )
 }
 
+const getStar = (index: number, rating: number) => {
+  const startType = index < Math.ceil(rating * 5) ? 'fill' : 'empty'
+
+  return (
+    <Image
+      src={`/star-${startType}.png`}
+      alt="empty star"
+      width="32"
+      height="32"
+    />
+  )
+}
+
 const GameResult = (props: GameResultProps) => {
   const {
     playerName,
@@ -55,21 +68,7 @@ const GameResult = (props: GameResultProps) => {
 
           <div className="p-2 flex flex-row">
             {[...Array(5)].map((_, index) => {
-              return index < Math.ceil(rating * 5) ? (
-                <Image
-                  src="/star-fill.png"
-                  alt="fill star"
-                  width="32"
-                  height="32"
-                />
-              ) : (
-                <Image
-                  src="/star-empty.png"
-                  alt="empty star"
-                  width="32"
-                  height="32"
-                />
-              )
+              return <div key={index}>{getStar(index, rating)}</div>
             })}
           </div>
         </div>
