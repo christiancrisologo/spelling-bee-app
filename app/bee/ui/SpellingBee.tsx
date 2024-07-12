@@ -12,7 +12,7 @@ import { useSpeechSynthesis } from '@/app/lib/useSpeechSynthesis'
 import { StateProvider, useStateContext } from '../context'
 import GameResult from './GameResults'
 import ShuffleWord from './ShuffledWord'
-import { insert } from '@/app/api/gameplay/route'
+import { insertGameplay } from '@/app/api/gameplay/data'
 
 export type SpellingBeeProps = {
   words: WordType[]
@@ -275,7 +275,7 @@ const SpellingBeeComponent = (props: SpellingBeeProps) => {
     ;(async () => {
       if (gameStatus === 'game-over') {
         console.log("saving the game's data")
-        const response = await insert({
+        const response = await insertGameplay({
           playerName,
           totalSeconds,
           wrongAnswers,

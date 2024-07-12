@@ -2,7 +2,7 @@
 
 import { sql } from '@vercel/postgres'
 
-export async function insert(data: any) {
+export async function insertGameplay(data: any) {
   const {
     playerName,
     totalSeconds,
