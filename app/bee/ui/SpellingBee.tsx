@@ -275,12 +275,14 @@ const SpellingBeeComponent = (props: SpellingBeeProps) => {
     ;(async () => {
       if (gameStatus === 'game-over') {
         console.log("saving the game's data")
+        const rating = (correctAnswers / totalWords) * 100
+
         const response = await insertGameplay({
           playerName,
           totalSeconds,
           wrongAnswers,
           correctAnswers,
-          rating: 0,
+          rating,
           level,
           difficulty,
         })
