@@ -199,7 +199,7 @@ const SpellingBeeComponent = (props: SpellingBeeProps) => {
     speakRandomResponse(timerOutResponses)
     dispatch({ type: 'setRestartTimer', payload: false })
     if (validateIsGameOver()) {
-      dispatch({ type: 'setGameStatus', payload: 'game-over' })
+      dispatch({ type: 'setGameAction', payload: 'game-over' })
     } else {
       nextWord()
     }
@@ -215,7 +215,7 @@ const SpellingBeeComponent = (props: SpellingBeeProps) => {
     }
     if (gameAction === 'next-word') {
       if (validateIsGameOver()) {
-        dispatch({ type: 'setGameStatus', payload: 'game-over' })
+        dispatch({ type: 'setGameAction', payload: 'game-over' })
         return
       }
       timeoutId = setTimeout(() => {
@@ -235,11 +235,16 @@ const SpellingBeeComponent = (props: SpellingBeeProps) => {
     if (gameAction === 'skip-word') {
       timeoutId = setTimeout(() => {
         if (validateIsGameOver()) {
-          dispatch({ type: 'setGameStatus', payload: 'game-over' })
+          dispatch({ type: 'setGameAction', payload: 'game-over' })
         } else {
           nextWord()
         }
       }, 1000)
+    }
+    if (gameAction === 'game-over') {
+      timeoutId = setTimeout(() => {
+        dispatch({ type: 'setGameStatus', payload: 'game-over' })
+      }, 1500)
     }
     return () => {
       if (timeoutId) {
