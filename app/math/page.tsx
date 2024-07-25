@@ -1,15 +1,15 @@
 import React from 'react'
-import Spinner from '../ui/Spinner'
+import Spinner from '@/app/ui/Spinner'
 import data from '../data.json'
-import SpellingBee from './ui/SpellingBee'
+import MathQuiz from './ui/MathQuiz'
 
 export default async function Page() {
-  const words = data
+  const quiz = data
 
   return (
     <div className="flex flex-col h-screen bg-gray-200 w-full">
-      {!words.length && <Spinner />}
-      {words.length && <SpellingBee words={words} />}
+      {!quiz.length && <Spinner />}
+      {quiz.length && <MathQuiz quizes={quiz} />}
     </div>
   )
 }

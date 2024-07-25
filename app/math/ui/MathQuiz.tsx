@@ -1,39 +1,18 @@
 'use client'
 
-import React, { ReactNode, Suspense, useEffect, useRef } from 'react'
-import { Word as WordType } from '../../lib/definitions'
+import React, { Suspense, useEffect, useRef } from 'react'
+import TopBar from '@/app/game/ui/TopBar'
 import { getRandomItem, getRandomInt, shuffleArray } from '../../lib/utils'
 import BottomBar from './BottomBar'
 import Spinner from '@/app/ui/Spinner'
 import { useSearchParams } from 'next/navigation'
 import { GameSelection } from './GameSelection'
-import { useSpeechSynthesis } from '@/app/lib/useSpeechSynthesis'
 import { StateProvider, useStateContext } from '../context'
 import GameResult from './GameResults'
-import ShuffleWord from './ShuffledWord'
 import { insertGameplay } from '@/app/api/gameplay/data'
-import TopBar from '@/app/game/ui/TopBar'
 
-export type SpellingBeeProps = {
-  words: WordType[]
-}
-
-type OptButtonType = {
-  onClick: () => void
-  children: ReactNode
-}
-
-const OptButton = (props: OptButtonType) => {
-  const { onClick, children } = props
-
-  return (
-    <button
-      className="flex grow bg-white p-4 m-1 border-gray-500 hover:border-blue-500 hover:text-blue-500 border-gray-40 border-4 rounded-xl text-lg font-bold text-center"
-      onClick={onClick}
-    >
-      {children}
-    </button>
-  )
+export type MathQuizProps = {
+  quizes: any[]
 }
 
 const timerOutResponses = [
@@ -63,27 +42,8 @@ const wrongResponses = [
   "I dont think that's right",
 ]
 
-const getHints = (currentWord: WordType): string[] => {
-  const hints: string[] = [
-    'this word have ' + currentWord?.word.length! + ' letters',
-    'It starts with the letter ' + currentWord?.word[0],
-    'It ends with the letter ' +
-      currentWord?.word[currentWord?.word.length - 1],
-  ]
-  if (currentWord?.synonyms?.length) {
-    hints.push('This is with a synonym of ' + currentWord?.synonyms.toString())
-  }
-  if (currentWord?.antonyms?.length) {
-    hints.push('This is with an antonym of ' + currentWord?.antonyms.toString())
-  }
-  if (currentWord?.category && currentWord?.category !== 'other') {
-    hints.push('This is categorized as a ' + currentWord?.category)
-  }
-  return hints
-}
-
-const SpellingBeeComponent = (props: SpellingBeeProps) => {
-  const { words } = props
+const MathQuizComponent = (props: MathQuizProps) => {
+  const { quizes } = props
   const inputRef = useRef<HTMLInputElement>(null)
   const searchParams = useSearchParams()!
   const {
@@ -106,29 +66,21 @@ const SpellingBeeComponent = (props: SpellingBeeProps) => {
     },
     dispatch,
   } = useStateContext()
-  const { speak, speechSynth } = useSpeechSynthesis()
 
   // params
   const playerName = searchParams.get('playerName') || 'no-name'
   const level = searchParams.get('level') || 'expert/senior'
-
-  // eslint-disable-next-line react-hooks/exhaustive-deps
-  const speakWord = (wordToSpeak: string) => {
-    speak(wordToSpeak, { pitch: 1.5, rate: 0.8 })
-  }
 
   const speakRandomResponse = (
     responses: string[],
     defaulWord: string = ''
   ) => {
     const pickedResponse = getRandomInt(0, responses.length - 1)
-    speakWord(responses[pickedResponse] || defaulWord)
   }
 
   const createNewWord = () => {
     const newWord = getRandomItem(gameWords)
     dispatch({ type: 'setCurrentWord', payload: newWord })
-    speakWord(newWord.word)
     // filter with levels , remove the word from the words collection
     const removeNewWord = gameWords.filter((item) => {
       return item.word != currentWord?.word
@@ -178,15 +130,10 @@ const SpellingBeeComponent = (props: SpellingBeeProps) => {
   }
 
   const gameStart = () => {
-    const newGameWords = words.filter((item) => item.level === level)
+    const newGameWords = quizes.filter((item) => item.level === level)
     dispatch({ type: 'setGameWords', payload: newGameWords })
     dispatch({ type: 'setGameStatus', payload: 'start' })
     dispatch({ type: 'setGameAction', payload: 'start' })
-  }
-
-  const hint = () => {
-    const hints = getHints(currentWord!)
-    speakRandomResponse(hints)
   }
 
   const onQuit = () => {
@@ -269,8 +216,7 @@ const SpellingBeeComponent = (props: SpellingBeeProps) => {
     }
   }
 
-  const isReady = words.length && !!speechSynth
-  const wordToSpeak = currentWord?.word
+  const isReady = quizes.length
   const stopTimer = ['game-over', 'skip-word', 'answer-correct'].includes(
     gameStatus
   )
@@ -279,7 +225,6 @@ const SpellingBeeComponent = (props: SpellingBeeProps) => {
   useEffect(() => {
     ;(async () => {
       if (gameStatus === 'game-over') {
-        console.log("saving the game's data")
         const rating = (correctAnswers / totalWords) * 100
 
         const response = await insertGameplay({
@@ -387,26 +332,6 @@ const SpellingBeeComponent = (props: SpellingBeeProps) => {
                       </button>
                     </div>
                   </div>
-                  <div className="flex flex-col md:flex-row justify-between mt-2">
-                    <OptButton
-                      onClick={() => {
-                        speakWord(wordToSpeak!)
-                      }}
-                    >
-                      Say it again?
-                    </OptButton>
-                    <OptButton
-                      onClick={() => {
-                        speakWord('this word means ' + currentWord?.definition!)
-                      }}
-                    >
-                      Define the word?
-                    </OptButton>
-                    <OptButton onClick={hint}> Give me a hint?</OptButton>
-                  </div>
-                  {difficulty === 'Easy' && isTimeOutWarning && (
-                    <ShuffleWord word={shuffledWord} />
-                  )}
                 </div>
               )}
 
@@ -436,13 +361,13 @@ const SpellingBeeComponent = (props: SpellingBeeProps) => {
   )
 }
 
-export default function SpellingBee(props: SpellingBeeProps) {
-  const { words } = props
+export default function MathQuiz(props: MathQuizProps) {
+  const { quizes } = props
 
   return (
     <StateProvider>
       <Suspense>
-        <SpellingBeeComponent words={words} />
+        <MathQuizComponent quizes={quizes} />
       </Suspense>
     </StateProvider>
   )

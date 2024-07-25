@@ -1,7 +1,7 @@
 'use client'
 
 import React, { useState, useEffect } from 'react'
-import { useStateContext } from '../context'
+import { useStateContext } from '../../math/context'
 
 type GameTimerProps = {
   startTime: number
