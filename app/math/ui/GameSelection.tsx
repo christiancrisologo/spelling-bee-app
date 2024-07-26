@@ -13,7 +13,7 @@ export type Difficulty = 'Easy' | 'Hard'
 export type SelectedGameOptionType = {
   difficulty: Difficulty
   enableTimer: string
-  totalWords: number
+  totalQuizes: number
   totalSeconds: number
 }
 
@@ -36,7 +36,7 @@ const enableTimerOptions: OptionProps[] = [
 ]
 
 const minTotalSeconds = 10
-const minTotalWords = 5
+const minTotalQuizes = 5
 
 export function GameSelection(props: GameSelectionProps) {
   const { onStart } = props
@@ -45,7 +45,7 @@ export function GameSelection(props: GameSelectionProps) {
     difficulty: 'Easy',
     enableTimer: 'On',
     totalSeconds: 45,
-    totalWords: 10,
+    totalQuizes: 10,
   })
 
   const onStartHandler = () => {
@@ -123,12 +123,12 @@ export function GameSelection(props: GameSelectionProps) {
             id="total-quiz-number"
             type="number"
             className="p-2 w-20 text-black text-lg font-semibold bg-gray-100 border-gray-300  focus:ring-blue-500 rounded-lg"
-            value={gameSelection.totalWords}
+            value={gameSelection.totalQuizes}
             placeholder="Total quiz"
             onChange={(e) => {
               setGameSelection({
                 ...gameSelection,
-                totalWords: parseInt(e.target.value) || minTotalWords,
+                totalQuizes: parseInt(e.target.value) || minTotalQuizes,
               })
             }}
           />

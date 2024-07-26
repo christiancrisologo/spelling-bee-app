@@ -1,6 +1,6 @@
 import React from 'react'
 import Spinner from '../ui/Spinner'
-import data from '../data.json'
+import data from '../bee.json'
 import SpellingBee from './ui/SpellingBee'
 
 export default async function Page() {

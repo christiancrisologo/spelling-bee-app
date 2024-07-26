@@ -1,6 +1,6 @@
 import React from 'react'
 import Spinner from '@/app/ui/Spinner'
-import data from '../data.json'
+import data from '../bee.json'
 import MathQuiz from './ui/MathQuiz'
 
 export default async function Page() {

@@ -4,8 +4,8 @@ export type GameResultProps = {
   playerName: string
   correctAnswers: number
   wrongAnswers: number
-  skippedWords: number
-  totalWords: number
+  skippedQuizes: number
+  totalQuizes: number
   totalTime: number
 }
 
@@ -44,11 +44,11 @@ const GameResult = (props: GameResultProps) => {
     playerName,
     correctAnswers,
     wrongAnswers,
-    skippedWords,
-    totalWords,
+    skippedQuizes,
+    totalQuizes,
     totalTime,
   } = props
-  const rating = correctAnswers / totalWords
+  const rating = correctAnswers / totalQuizes
 
   return (
     <div className="md:w-1/2 self-center mt-2">
@@ -63,7 +63,7 @@ const GameResult = (props: GameResultProps) => {
           <RowItem label="Total Seconds" value={totalTime.toString()} />
           <RowItem label="Correct Answers" value={playerName} />
           <RowItem label="Wrong Answers" value={wrongAnswers.toString()} />
-          <RowItem label="Skipped Words" value={skippedWords.toString()} />
+          <RowItem label="Skipped Quizes" value={skippedQuizes.toString()} />
           <RowItem label="Total Rating" value={`${rating.toFixed(0)}%`} />
 
           <div className="p-2 flex flex-row">

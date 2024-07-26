@@ -1,19 +1,19 @@
 import React, { useReducer, ReactNode, createContext, useContext } from 'react'
-import { SelectedGameOptionType } from '../game/GameSelection'
+import { SelectedGameOptionType } from './ui/GameSelection'
 import { Word as WordType } from '../lib/definitions'
 
 // Define the shape of your state
 export interface State {
   // other global state types
   userAnswerInput: string
-  gameWords: WordType[]
+  gameQuizes: WordType[]
   currentWord: WordType | undefined
   shuffledWord: string
   level: number
   correctAnswers: number
   wrongAnswers: number
   roundCount: number
-  skippedWords: number
+  skippedQuizes: number
   gameStatus: string
   gameAction: string
   restartTimer: boolean
@@ -24,13 +24,13 @@ export interface State {
 
 export const initialState: State = {
   userAnswerInput: '',
-  gameWords: [],
+  gameQuizes: [],
   level: 0,
   currentWord: undefined,
   correctAnswers: 0,
   wrongAnswers: 0,
   roundCount: 0,
-  skippedWords: 0,
+  skippedQuizes: 0,
   gameStatus: 'selection',
   gameAction: '',
   restartTimer: false,
@@ -39,7 +39,7 @@ export const initialState: State = {
   shuffledWord: '',
   gameSelection: {
     totalSeconds: 0,
-    totalWords: 0,
+    totalQuizes: 0,
     difficulty: 'Easy',
     enableTimer: 'Off',
   },
@@ -51,11 +51,11 @@ interface StateProviderProps {
 
 // Define the actions
 export type Action =
-  | { type: 'setGameWords'; payload: WordType[] }
+  | { type: 'setGameQuizes'; payload: WordType[] }
   | { type: 'setGameLevel'; payload: number }
   | { type: 'setGameSelections'; payload: SelectedGameOptionType }
   | { type: 'setCurrentWord'; payload: WordType }
-  | { type: 'setGameWords'; payload: WordType[] }
+  | { type: 'setGameQuizes'; payload: WordType[] }
   | { type: 'setGameLevel'; payload: number }
   | { type: 'setGameSelections'; payload: any } // Specify the correct type instead of any
   | { type: 'setCurrentWord'; payload: WordType | undefined }
@@ -63,7 +63,7 @@ export type Action =
   | { type: 'setCorrectAnswers'; payload: number }
   | { type: 'setWrongAnswers'; payload: number }
   | { type: 'setRoundCount'; payload: number }
-  | { type: 'setSkippedWords'; payload: number }
+  | { type: 'setSkippedQuizes'; payload: number }
   | { type: 'setGameStatus'; payload: string }
   | { type: 'setGameAction'; payload: string }
   | { type: 'setRestartTimer'; payload: boolean }
@@ -76,8 +76,8 @@ export type ActionType = Action['type']
 
 function reducer(state: State, action: Action): State {
   switch (action.type) {
-    case 'setGameWords':
-      return { ...state, gameWords: action.payload }
+    case 'setGameQuizes':
+      return { ...state, gameQuizes: action.payload }
     case 'setGameLevel':
       return { ...state, level: action.payload }
     case 'setGameSelections':
@@ -88,8 +88,8 @@ function reducer(state: State, action: Action): State {
       return { ...state, currentWord: action.payload }
     case 'setUserAnswerInput':
       return { ...state, userAnswerInput: action.payload }
-    case 'setGameWords':
-      return { ...state, gameWords: action.payload }
+    case 'setGameQuizes':
+      return { ...state, gameQuizes: action.payload }
     case 'setCurrentWord':
       return { ...state, currentWord: action.payload }
     case 'setCorrectAnswers':
@@ -98,8 +98,8 @@ function reducer(state: State, action: Action): State {
       return { ...state, wrongAnswers: action.payload }
     case 'setRoundCount':
       return { ...state, roundCount: action.payload }
-    case 'setSkippedWords':
-      return { ...state, skippedWords: action.payload }
+    case 'setSkippedQuizes':
+      return { ...state, skippedQuizes: action.payload }
     case 'setGameStatus':
       return { ...state, gameStatus: action.payload }
     case 'setGameAction':

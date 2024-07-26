@@ -1,0 +1,34 @@
+[
+  {
+    "question": "Adding by {{num}}?",
+    "type": "addition",
+    "formula": "{{random_num}} + {{num}}",
+    "answer": "{{random_num}} + {{num}}",
+    "level": "elementary",
+    "difficulty": 1
+  },
+  {
+    "question": "Subtricting by {{num}}?",
+    "type": "subtraction",
+    "formula": "{{random_num}} - {{num}}",
+    "answer": "{{random_num}} - {{num}}",
+    "level": "elementary",
+    "difficulty": 1
+  },
+  {
+    "question": "Multiplying by {{num}}?",
+    "type": "multiplication",
+    "formula": "{{random_num}} * {{num}}",
+    "answer": "{{random_num}} * {{num}}",
+    "level": "elementary",
+    "difficulty": 1
+  },
+  {
+    "question": "Dividing by {{num}}?",
+    "type": "division",
+    "formula": "{{random_num}} / {{num}}",
+    "answer": "{{random_num}} / {{num}}",
+    "level": "elementary",
+    "difficulty": 1
+  }
+]

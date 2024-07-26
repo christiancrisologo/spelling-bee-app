@@ -10,6 +10,7 @@ import { GameSelection } from './GameSelection'
 import { StateProvider, useStateContext } from '../context'
 import GameResult from './GameResults'
 import { insertGameplay } from '@/app/api/gameplay/data'
+import math from 'mathjs'
 
 export type MathQuizProps = {
   quizes: any[]
@@ -48,15 +49,15 @@ const MathQuizComponent = (props: MathQuizProps) => {
   const searchParams = useSearchParams()!
   const {
     state: {
-      gameWords,
-      gameSelection: { totalWords, difficulty, totalSeconds },
+      gameQuizes,
+      gameSelection: { totalQuizes, difficulty, totalSeconds },
       userAnswerInput,
       currentWord,
       shuffledWord,
       correctAnswers,
       wrongAnswers,
       roundCount,
-      skippedWords,
+      skippedQuizes,
       gameStatus,
       gameAction,
       restartTimer,
@@ -79,17 +80,17 @@ const MathQuizComponent = (props: MathQuizProps) => {
   }
 
   const createNewWord = () => {
-    const newWord = getRandomItem(gameWords)
+    const newWord = getRandomItem(gameQuizes)
     dispatch({ type: 'setCurrentWord', payload: newWord })
-    // filter with levels , remove the word from the words collection
-    const removeNewWord = gameWords.filter((item) => {
+    // filter with levels , remove the word from the Quizes collection
+    const removeNewWord = gameQuizes.filter((item) => {
       return item.word != currentWord?.word
     })
     dispatch({
       type: 'setShuffledWord',
       payload: shuffleArray(newWord.word.split('')).join(''),
     })
-    dispatch({ type: 'setGameWords', payload: removeNewWord })
+    dispatch({ type: 'setGameQuizes', payload: removeNewWord })
   }
 
   const answerIsCorrect = () => {
@@ -112,7 +113,7 @@ const MathQuizComponent = (props: MathQuizProps) => {
   }
 
   const validateIsGameOver = () => {
-    if (roundCount >= totalWords) {
+    if (roundCount >= totalQuizes) {
       return true
     }
     return false
@@ -122,16 +123,35 @@ const MathQuizComponent = (props: MathQuizProps) => {
     dispatch({ type: 'setGameAction', payload: 'next-word' })
   }
 
+  const evaluateExpression = (template: string, values: any) => {
+    // Replace placeholders with actual values
+    const expression = template
+      .replace(/{{random_num}}/g, values?.random_num)
+      .replace(/{{num}}/g, values?.num)
+
+    // Use mathjs to evaluate the expression
+    const result = math.evaluate(expression)
+
+    return result
+  }
+
+  // Example usage
+  const template = '{{random_num}} + {{num}}'
+  const values = {
+    random_num: 5,
+    num: 10,
+  }
+
   const skipWord = () => {
     dispatch({ type: 'setGameStatus', payload: 'skip-word' })
-    dispatch({ type: 'setSkippedWords', payload: skippedWords + 1 })
+    dispatch({ type: 'setSkippedQuizes', payload: skippedQuizes + 1 })
     dispatch({ type: 'setRestartTimer', payload: false })
     dispatch({ type: 'setGameAction', payload: 'skip-word' })
   }
 
   const gameStart = () => {
-    const newGameWords = quizes.filter((item) => item.level === level)
-    dispatch({ type: 'setGameWords', payload: newGameWords })
+    const newGameQuizes = quizes.filter((item) => item.level === level)
+    dispatch({ type: 'setGameQuizes', payload: newGameQuizes })
     dispatch({ type: 'setGameStatus', payload: 'start' })
     dispatch({ type: 'setGameAction', payload: 'start' })
   }
@@ -201,18 +221,18 @@ const MathQuizComponent = (props: MathQuizProps) => {
   }, [
     gameAction,
     gameSelection,
-    gameWords,
+    gameQuizes,
     roundCount,
-    gameSelection.totalWords,
+    gameSelection.totalQuizes,
   ])
 
-  const onWordSubmit = () => {
+  const onQuizesubmit = () => {
     validateAnswer()
   }
 
   const handleKeyDown = (event: any) => {
     if (event.keyCode === 13) {
-      onWordSubmit()
+      onQuizesubmit()
     }
   }
 
@@ -225,7 +245,7 @@ const MathQuizComponent = (props: MathQuizProps) => {
   useEffect(() => {
     ;(async () => {
       if (gameStatus === 'game-over') {
-        const rating = (correctAnswers / totalWords) * 100
+        const rating = (correctAnswers / totalQuizes) * 100
 
         const response = await insertGameplay({
           playerName,
@@ -324,7 +344,7 @@ const MathQuizComponent = (props: MathQuizProps) => {
                       />
                       <button
                         className="mt-1 p-4 bg-blue-500 text-white hover:bg-blue-700 focus:outline-none text-2xl font-bold rounded-xl disabled:bg-gray-400"
-                        onClick={onWordSubmit}
+                        onClick={onQuizesubmit}
                         disabled={!userAnswerInput.length}
                         onKeyDown={handleKeyDown}
                       >
@@ -338,10 +358,10 @@ const MathQuizComponent = (props: MathQuizProps) => {
               {gameStatus === 'game-over' && (
                 <GameResult
                   correctAnswers={correctAnswers}
-                  totalWords={totalWords}
+                  totalQuizes={totalQuizes}
                   playerName={playerName}
                   wrongAnswers={wrongAnswers}
-                  skippedWords={skippedWords}
+                  skippedQuizes={skippedQuizes}
                   totalTime={totalTime}
                 />
               )}
@@ -351,9 +371,9 @@ const MathQuizComponent = (props: MathQuizProps) => {
 
         <BottomBar
           roundCount={roundCount}
-          skippedWords={skippedWords}
+          skippedQuizes={skippedQuizes}
           wrongAnswers={wrongAnswers}
-          totalWords={totalWords}
+          totalQuizes={totalQuizes}
           onQuit={onQuit}
         />
       </div>
