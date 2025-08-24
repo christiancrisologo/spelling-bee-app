@@ -1,6 +1,6 @@
-'use client'
+"use client"
 
-import React, { ReactNode, Suspense, useEffect, useRef } from 'react'
+import React, { ReactNode, Suspense, useEffect, useRef, useCallback } from "react"
 import { Word as WordType } from '../../lib/definitions'
 import TopBar from './TopBar'
 import { getRandomItem, getRandomInt, shuffleArray } from '../../lib/utils'
@@ -68,7 +68,7 @@ const getHints = (currentWord: WordType): string[] => {
     'this word have ' + currentWord?.word.length! + ' letters',
     'It starts with the letter ' + currentWord?.word[0],
     'It ends with the letter ' +
-      currentWord?.word[currentWord?.word.length - 1],
+    currentWord?.word[currentWord?.word.length - 1],
   ]
   if (currentWord?.synonyms?.length) {
     hints.push('This is with a synonym of ' + currentWord?.synonyms.toString())
@@ -125,7 +125,7 @@ const SpellingBeeComponent = (props: SpellingBeeProps) => {
     speakWord(responses[pickedResponse] || defaulWord)
   }
 
-  const createNewWord = () => {
+  const createNewWord = useCallback(() => {
     const newWord = getRandomItem(gameWords)
     dispatch({ type: 'setCurrentWord', payload: newWord })
     speakWord(newWord.word)
@@ -138,7 +138,7 @@ const SpellingBeeComponent = (props: SpellingBeeProps) => {
       payload: shuffleArray(newWord.word.split('')).join(''),
     })
     dispatch({ type: 'setGameWords', payload: removeNewWord })
-  }
+  }, [gameWords, dispatch, speakWord, currentWord])
 
   const answerIsCorrect = () => {
     dispatch({ type: 'setGameStatus', payload: 'answer-correct' })
@@ -159,16 +159,16 @@ const SpellingBeeComponent = (props: SpellingBeeProps) => {
     }
   }
 
-  const validateIsGameOver = () => {
+  const validateIsGameOver = useCallback(() => {
     if (roundCount >= totalWords) {
       return true
     }
     return false
-  }
+  }, [roundCount, totalWords])
 
-  const nextWord = async () => {
+  const nextWord = useCallback(async () => {
     dispatch({ type: 'setGameAction', payload: 'next-word' })
-  }
+  }, [dispatch])
 
   const skipWord = () => {
     dispatch({ type: 'setGameStatus', payload: 'skip-word' })
@@ -257,6 +257,10 @@ const SpellingBeeComponent = (props: SpellingBeeProps) => {
     gameWords,
     roundCount,
     gameSelection.totalWords,
+    createNewWord,
+    dispatch,
+    nextWord,
+    validateIsGameOver
   ])
 
   const onWordSubmit = () => {
@@ -277,7 +281,7 @@ const SpellingBeeComponent = (props: SpellingBeeProps) => {
   const isTimeOutWarning = currentTime <= (totalSeconds / 2 || 4)
 
   useEffect(() => {
-    ;(async () => {
+    ; (async () => {
       if (gameStatus === 'game-over') {
         console.log("saving the game's data")
         const rating = (correctAnswers / totalWords) * 100
@@ -295,7 +299,7 @@ const SpellingBeeComponent = (props: SpellingBeeProps) => {
         console.log(response)
       }
     })()
-  }, [gameStatus])
+  }, [gameStatus, correctAnswers, totalWords, playerName, totalSeconds, wrongAnswers, level, difficulty])
 
   return (
     <Suspense>
