@@ -66,7 +66,7 @@ export const useSpeechSynthesis = (): SpeechSynthType => {
           }
     
         }
-      },[]);
+  },[speechSynth]);
       
     return {
         speak,
